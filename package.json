@@ -1,0 +1,26 @@
+{
+  "name": "yakasawa-esp32s3-ga700",
+  "version": "1.0.0",
+  "description": "ESP32-S3 RS-485 Modbus Controller for Yaskawa GA700 VFD",
+  "main": "main/main.c",
+  "scripts": {
+    "set-target": "idf.py set-target esp32s3",
+    "build": "cmd /C \"set CMAKE_BUILD_PARALLEL_LEVEL=2&& idf.py build\"",
+    "flash": "cmd /C \"set CMAKE_BUILD_PARALLEL_LEVEL=2&& idf.py flash monitor\"",
+    "flash:port": "cmd /C \"set CMAKE_BUILD_PARALLEL_LEVEL=2&& idf.py flash monitor -p\"",
+    "monitor": "idf.py monitor",
+    "clean": "powershell -Command \"Remove-Item -Recurse -Force build -ErrorAction SilentlyContinue\"",
+    "fullclean": "idf.py fullclean"
+  },
+  "keywords": [
+    "esp-idf",
+    "esp32-s3",
+    "yaskawa",
+    "ga700",
+    "rs485",
+    "modbus-rtu",
+    "vfd"
+  ],
+  "author": "",
+  "license": "MIT"
+}
