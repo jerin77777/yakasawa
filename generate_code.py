@@ -20,7 +20,11 @@ from typing import Dict, List, Any
 
 def load_params_json(file_path: str) -> Dict[str, Any]:
     if not os.path.exists(file_path):
-        raise FileNotFoundError(f"Params file not found: {file_path}")
+        fallback_params = os.path.join("params", file_path)
+        if os.path.exists(fallback_params):
+            file_path = fallback_params
+        else:
+            raise FileNotFoundError(f"Params file not found: {file_path}")
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
     return data

@@ -30,6 +30,7 @@ def find_default_pdf() -> Optional[str]:
     candidates = [
         "manual.pdf",
         os.path.join(os.path.dirname(__file__), "manual.pdf"),
+        os.path.join(os.path.dirname(__file__), "..", "manual.pdf"),
         os.path.join(os.getcwd(), "manual.pdf"),
     ]
     for c in candidates:
