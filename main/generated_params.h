@@ -28,19 +28,8 @@ typedef struct {
 
 extern const ga700_param_meta_t g_ga700_params[GA700_PARAM_COUNT];
 
-/**
- * @brief Find parameter metadata by 16-bit register address (Binary search O(log N))
- */
 const ga700_param_meta_t* ga700_find_param_by_addr(uint16_t addr);
-
-/**
- * @brief Find parameter metadata by code (e.g. "b1-01")
- */
 const ga700_param_meta_t* ga700_find_param_by_code(const char *code);
-
-/**
- * @brief Check if a register address exists in GA700 parameter database
- */
 bool ga700_is_valid_param_addr(uint16_t addr);
 
 #ifdef __cplusplus

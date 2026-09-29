@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "esp32_ga700_rs485",
-    "project_version":    "b72f61a-dirty",
+    "project_version":    "1b7ac2c-dirty",
     "project_path":       "C:/Users/jerin/Music/yakasawa",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.5.5",
     "build_dir":          "C:/Users/jerin/Music/yakasawa/build",
@@ -1240,7 +1240,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/jerin/Music/yakasawa/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/jerin/Music/yakasawa/main/main.c", "C:/Users/jerin/Music/yakasawa/main/ga700_modbus.c" ],
+            "sources": [ "C:/Users/jerin/Music/yakasawa/main/main.c", "C:/Users/jerin/Music/yakasawa/main/ga700_modbus.c", "C:/Users/jerin/Music/yakasawa/main/generated_params.c", "C:/Users/jerin/Music/yakasawa/main/param_handlers.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

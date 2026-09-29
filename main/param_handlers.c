@@ -1,8 +1,3 @@
-/**
- * @file param_handlers.c
- * @brief REST API Handlers for Reading and Writing Yaskawa GA700 Parameters
- */
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -31,9 +26,6 @@ static esp_err_t param_options_handler(httpd_req_t *req)
     return ESP_OK;
 }
 
-/**
- * Helper to parse target address from query string or JSON
- */
 static bool parse_param_address(httpd_req_t *req, uint16_t *out_addr, const ga700_param_meta_t **out_meta)
 {
     if (out_addr == NULL) return false;
@@ -46,7 +38,6 @@ static bool parse_param_address(httpd_req_t *req, uint16_t *out_addr, const ga70
         if (qry != NULL) {
             if (httpd_req_get_url_query_str(req, qry, qry_len + 1) == ESP_OK) {
                 char val_str[64];
-                // Check 'addr' or 'address'
                 if (httpd_query_key_value(qry, "addr", val_str, sizeof(val_str)) == ESP_OK ||
                     httpd_query_key_value(qry, "address", val_str, sizeof(val_str)) == ESP_OK) {
                     if (strncmp(val_str, "0x", 2) == 0 || strncmp(val_str, "0X", 2) == 0) {
@@ -58,7 +49,6 @@ static bool parse_param_address(httpd_req_t *req, uint16_t *out_addr, const ga70
                     free(qry);
                     return true;
                 }
-                // Check 'param' or 'code' (e.g. A1-00)
                 if (httpd_query_key_value(qry, "param", val_str, sizeof(val_str)) == ESP_OK ||
                     httpd_query_key_value(qry, "code", val_str, sizeof(val_str)) == ESP_OK) {
                     const ga700_param_meta_t *meta = ga700_find_param_by_code(val_str);
@@ -76,9 +66,6 @@ static bool parse_param_address(httpd_req_t *req, uint16_t *out_addr, const ga70
     return false;
 }
 
-/**
- * GET /api/param?addr=0x0100 (or ?code=A1-00)
- */
 static esp_err_t api_get_param_handler(httpd_req_t *req)
 {
     set_cors_headers(req);
@@ -114,11 +101,6 @@ static esp_err_t api_get_param_handler(httpd_req_t *req)
     }
 }
 
-/**
- * POST /api/param
- * Supports JSON: {"address":"0x0100", "value": 1}
- * or Query: ?addr=0x0100&val=1
- */
 static esp_err_t api_post_param_handler(httpd_req_t *req)
 {
     set_cors_headers(req);
@@ -129,7 +111,6 @@ static esp_err_t api_post_param_handler(httpd_req_t *req)
     bool has_addr = false;
     bool has_val = false;
 
-    // 1. Try URL Query
     size_t qry_len = httpd_req_get_url_query_len(req);
     if (qry_len > 0) {
         char *qry = malloc(qry_len + 1);
@@ -153,7 +134,6 @@ static esp_err_t api_post_param_handler(httpd_req_t *req)
         }
     }
 
-    // 2. Try JSON Body if not found in query
     if (!has_addr || !has_val) {
         int total_len = req->content_len;
         if (total_len > 0 && total_len < 1024) {
@@ -226,7 +206,6 @@ esp_err_t register_param_api_endpoints(httpd_handle_t server)
 {
     if (server == NULL) return ESP_ERR_INVALID_ARG;
 
-    // OPTIONS /api/param
     httpd_uri_t uri_opt = {
         .uri      = "/api/param",
         .method   = HTTP_OPTIONS,
@@ -235,7 +214,6 @@ esp_err_t register_param_api_endpoints(httpd_handle_t server)
     };
     httpd_register_uri_handler(server, &uri_opt);
 
-    // GET /api/param
     httpd_uri_t uri_get = {
         .uri      = "/api/param",
         .method   = HTTP_GET,
@@ -244,7 +222,6 @@ esp_err_t register_param_api_endpoints(httpd_handle_t server)
     };
     httpd_register_uri_handler(server, &uri_get);
 
-    // POST /api/param
     httpd_uri_t uri_post = {
         .uri      = "/api/param",
         .method   = HTTP_POST,

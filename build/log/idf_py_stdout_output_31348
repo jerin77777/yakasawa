@@ -1,0 +1,230 @@
+Command: C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.5.5\tools/idf_monitor.py -p COM7 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 C:\Users\jerin\Music\yakasawa\build\esp32_ga700_rs485.elf C:\Users\jerin\Music\yakasawa\build\bootloader\bootloader.elf --force-color -m 'C:\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Espressif\frameworks\esp-idf-v5.5.5\tools\idf.py'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037a0c6
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xd24
+load:0x403cb700,len:0x2eec
+entry 0x403c8924
+[0;32mI (24) boot: ESP-IDF v5.5.5 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Sep 29 2026 16:28:34[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (27) boot: efuse block revision: v1.4[0m
+[0;32mI (31) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (35) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=2c0e0h (180448) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=0003c108 vaddr=3fc9b700 size=03f10h ( 16144) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=00040020 vaddr=42000020 size=91ca8h (597160) map[0m
+[0;32mI (232) esp_image: segment 3: paddr=000d1cd0 vaddr=3fc9f610 size=00f54h (  3924) load[0m
+[0;32mI (234) esp_image: segment 4: paddr=000d2c2c vaddr=40374000 size=1765ch ( 95836) load[0m
+[0;32mI (258) esp_image: segment 5: paddr=000ea290 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (268) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (268) boot: Disabling RNG early entropy source...[0m
+[0;32mI (278) cpu_start: Multicore app[0m
+[0;32mI (286) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (287) cpu_start: Pro cpu start user code[0m
+[0;32mI (287) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (289) app_init: Application information:[0m
+[0;32mI (292) app_init: Project name:     esp32_ga700_rs485[0m
+[0;32mI (297) app_init: App version:      1b7ac2c-dirty[0m
+[0;32mI (302) app_init: Compile time:     Sep 29 2026 16:27:59[0m
+[0;32mI (307) app_init: ELF file SHA256:  cf8fdfbfa...[0m
+[0;32mI (311) app_init: ESP-IDF:          v5.5.5[0m
+[0;32mI (315) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (319) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (323) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (327) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (333) heap_init: At 3FCA42B0 len 00045460 (277 KiB): RAM[0m
+[0;32mI (338) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (343) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (348) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (355) spi_flash: detected chip: generic[0m
+[0;32mI (357) spi_flash: flash io: dio[0m
+[0;33mW (360) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (373) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (379) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (386) main_task: Started on CPU0[0m
+[0;32mI (389) main_task: Calling app_main()[0m
+[0;32mI (409) GA700_APP: ==================================================[0m
+[0;32mI (410) GA700_APP:  Yaskawa GA700 RS-485 & Wi-Fi Controller Program[0m
+[0;32mI (411) GA700_APP: ==================================================[0m
+[0;32mI (417) GA700_MODBUS: Initializing RS-485 UART2 [TX:17, RX:18, RTS/DE:21] Baud:9600 Parity:0 SlaveID:31[0m
+[0;32mI (427) GA700_MODBUS: RS-485 driver successfully initialized for Yaskawa GA700[0m
+[0;32mI (433) GA700_APP: RS-485 Driver successfully initialized.[0m
+[0;32mI (440) pp: pp rom version: e7ae62f[0m
+[0;32mI (442) net80211: net80211 rom version: e7ae62f[0m
+[0;32mI (447) wifi:wifi driver task: 3fcedc20, prio:23, stack:6656, core=0[0m
+[0;32mI (460) wifi:wifi firmware version: b9f67df[0m
+[0;32mI (460) wifi:wifi certification version: v7.0[0m
+[0;32mI (460) wifi:config NVS flash: enabled[0m
+[0;32mI (463) wifi:config nano formatting: disabled[0m
+[0;32mI (467) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (472) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (476) wifi:Init management short buffer num: 32[0m
+[0;32mI (481) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (485) wifi:Init static tx FG buffer num: 2[0m
+[0;32mI (489) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (493) wifi:Init static rx buffer num: 10[0m
+[0;32mI (496) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (501) wifi_init: rx ba win: 6[0m
+[0;32mI (503) wifi_init: accept mbox: 6[0m
+[0;32mI (506) wifi_init: tcpip mbox: 32[0m
+[0;32mI (509) wifi_init: udp mbox: 6[0m
+[0;32mI (512) wifi_init: tcp mbox: 6[0m
+[0;32mI (515) wifi_init: tcp tx win: 5760[0m
+[0;32mI (518) wifi_init: tcp rx win: 5760[0m
+[0;32mI (521) wifi_init: tcp mss: 1440[0m
+[0;32mI (524) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (528) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (537) phy_init: phy_version 712,87e8c20e,Apr 13 2026,18:51:10[0m
+[0;32mI (579) wifi:mode : softAP (28:84:85:55:0e:31)[0m
+[0;32mI (582) wifi:Total power save buffer number: 16[0m
+[0;32mI (583) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (584) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (586) GA700_APP: Wi-Fi initialization finished.[0m
+[0;32mI (587) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+[0;32mI (598) GA700_APP: ==================================================================[0m
+[0;32mI (605) GA700_APP:              >>> ESP32-S3 WI-FI COMMUNICATION READY <<<           [0m
+[0;32mI (613) GA700_APP: ==================================================================[0m
+[0;32mI (620) GA700_APP:   * SoftAP Network SSID  : ESP32-GA700[0m
+[0;32mI (625) GA700_APP:   * SoftAP Password      : 12345678[0m
+[0;32mI (630) GA700_APP:   * SoftAP IP Address    : 192.168.4.1[0m
+[0;32mI (635) GA700_APP:   * Station Mode         : Standalone SoftAP mode active[0m
+[0;32mI (642) GA700_APP: ------------------------------------------------------------------[0m
+[0;32mI (650) GA700_APP:   FLUTTER CONNECTIVITY INSTRUCTIONS:[0m
+[0;32mI (655) GA700_APP:   1. Connect your PC / Phone to Wi-Fi: 'ESP32-GA700' (Pass: 12345678)[0m
+[0;32mI (663) GA700_APP:      OR use Station IP if on the same local network.[0m
+[0;32mI (669) GA700_APP:   2. In your Flutter app, enter IP: 192.168.4.1 (or 192.168.4.1)[0m
+[0;32mI (676) GA700_APP: ------------------------------------------------------------------[0m
+[0;32mI (684) GA700_APP:   REST API ENDPOINTS:[0m
+[0;32mI (687) GA700_APP:   - GET  /api/frequency       -> Read U1-01 (0x0040) Freq Monitor[0m
+[0;32mI (695) GA700_APP:   - POST /api/frequency       -> Write Active Reference (0x0002)[0m
+[0;32mI (702) GA700_APP:   - POST /api/run             -> RUN Drive (Forward)[0m
+[0;32mI (709) GA700_APP:   - POST /api/stop            -> STOP Drive[0m
+[0;32mI (714) GA700_APP:   - GET  /api/status          -> Full Telemetry & Drive State[0m
+[0;32mI (721) GA700_APP:   - GET  /api/param?addr=0x.. -> Read ANY Register Address/Code[0m
+[0;32mI (729) GA700_APP:   - POST /api/param           -> Write ANY Register Address/Value[0m
+[0;32mI (736) GA700_APP: ==================================================================[0m
+[0;32mI (744) GA700_APP: Starting HTTP Server on port: 80[0m
+[0;32mI (751) PARAM_API: Parameter REST API Endpoints registered (/api/param GET/POST/OPTIONS)[0m
+[0;32mI (5756) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (5785) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (5785) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (5814) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (5814) GA700_APP: [Poll #1] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (10816) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (10844) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (10845) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (10874) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (10874) GA700_APP: [Poll #2] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (15876) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (15905) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (15905) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (15934) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (15934) GA700_APP: [Poll #3] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (15980) wifi:new:<1,0>, old:<1,1>, ap:<1,1>, sta:<255,255>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (15982) wifi:station: e2:8e:f2:af:6b:96 join, AID=1, bgn, 20[0m
+[0;32mI (16031) GA700_APP: Client connected to SoftAP: MAC=e2:8e:f2:af:6b:96 AID=1[0m
+[0;32mI (16107) wifi:<ba-add>idx:2 (ifx:1, e2:8e:f2:af:6b:96), tid:0, ssn:0, winSize:64[0m
+[0;32mI (16127) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (2687865) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2687894) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2687894) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2687923) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2687923) GA700_APP: [Poll #531] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2692926) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2692955) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2692955) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2692984) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2692984) GA700_APP: [Poll #532] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2697987) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2698015) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2698016) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2698045) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2698045) GA700_APP: [Poll #533] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2703048) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2703077) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2703077) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2703106) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2703106) GA700_APP: [Poll #534] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2743530) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2743558) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2743559) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2743588) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2743588) GA700_APP: [Poll #542] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2748591) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2748619) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2748620) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2748648) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2748649) GA700_APP: [Poll #543] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2753652) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2753681) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2753681) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2753710) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2753710) GA700_APP: [Poll #544] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2754135) GA700_MODBUS: 1f 03 01 00 00 01 86 48[0m
+[0;32mI (2754164) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2758713) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2758742) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2758742) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2758771) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2758771) GA700_APP: [Poll #545] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2763774) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2763802) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2763803) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2763831) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2763832) GA700_APP: [Poll #546] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2768835) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2768864) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2768864) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2768893) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2768893) GA700_APP: [Poll #547] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2773896) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2773925) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2773925) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2773954) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2773954) GA700_APP: [Poll #548] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2778957) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2778985) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2778986) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2779015) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2779015) GA700_APP: [Poll #549] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2784018) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2784047) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2784047) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2784076) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2784076) GA700_APP: [Poll #550] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2789079) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2789108) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2789108) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2789137) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2789137) GA700_APP: [Poll #551] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2794140) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2794168) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2794169) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2794198) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2794198) GA700_APP: [Poll #552] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2799201) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2799230) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2799230) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2799259) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2799259) GA700_APP: [Poll #553] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2804262) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;32mI (2804291) GA700_MODBUS: 1f 03 02 0f a0 15 ce[0m
+[0;32mI (2804291) GA700_MODBUS: 1f 03 00 42 00 01 27 a0[0m
+[0;32mI (2804320) GA700_MODBUS: 1f 03 02 00 00 10 46[0m
+[0;32mI (2804320) GA700_APP: [Poll #554] U1-01 Freq: 40.00 Hz (Raw: 0x0FA0) | U1-03 Current: 0.00 A | IP: 192.168.4.1[0m
+[0;32mI (2809323) GA700_MODBUS: 1f 03 00 40 00 01 86 60[0m
+[0;

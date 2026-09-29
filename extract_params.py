@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """
-pdf_to_json.py / extract_params.py
------------------------------------
+extract_params.py
+-----------------
 Extracts the Yaskawa GA700 parameter information (including the valid setting range)
 from `params.pdf` and saves a structured JSON file `params.json` with keys:
 'param', 'name', 'address', 'adddress', 'hex', 'dec', 'page', and 'range'.
+
+Usage:
+    python extract_params.py
+    python extract_params.py --input params.pdf --output params.json
 """
 
 import os
@@ -239,6 +243,13 @@ def main():
 
     out_size_kb = os.path.getsize(args.output) / 1024
     print(f"Successfully saved {args.output} ({out_size_kb:.1f} KB)")
+    print("-" * 66)
+    print("Verification of Requested Key Parameters with Range:")
+    test_keys = ["A1-00", "A1-01", "A1-02", "b1-01", "b1-02", "C1-01", "d1-01", "H5-01"]
+    for p in params_list:
+        if p["param"] in test_keys:
+            print(f"  * {p['param']:7} -> Address: {p['address']:6} | Range: {p.get('range', ''):18} | Name: {p['name']}")
+    print("=" * 66)
 
 
 if __name__ == "__main__":
