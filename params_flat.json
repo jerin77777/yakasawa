@@ -1,0 +1,9029 @@
+[
+  {
+    "param": "A1-00",
+    "name": "Language Selection",
+    "address": "0x0100",
+    "adddress": "0x0100",
+    "hex": "0100",
+    "dec": 256,
+    "page": 8
+  },
+  {
+    "param": "A1-01",
+    "name": "Access Level Selection",
+    "address": "0x0101",
+    "adddress": "0x0101",
+    "hex": "0101",
+    "dec": 257,
+    "page": 8
+  },
+  {
+    "param": "A1-02",
+    "name": "Control Method Selection",
+    "address": "0x0102",
+    "adddress": "0x0102",
+    "hex": "0102",
+    "dec": 258,
+    "page": 8
+  },
+  {
+    "param": "A1-03",
+    "name": "Initialize Parameters",
+    "address": "0x0103",
+    "adddress": "0x0103",
+    "hex": "0103",
+    "dec": 259,
+    "page": 8
+  },
+  {
+    "param": "A1-04",
+    "name": "Password",
+    "address": "0x0104",
+    "adddress": "0x0104",
+    "hex": "0104",
+    "dec": 260,
+    "page": 8
+  },
+  {
+    "param": "A1-05",
+    "name": "Password Setting",
+    "address": "0x0105",
+    "adddress": "0x0105",
+    "hex": "0105",
+    "dec": 261,
+    "page": 9
+  },
+  {
+    "param": "A1-06",
+    "name": "Application Preset",
+    "address": "0x0127",
+    "adddress": "0x0127",
+    "hex": "0127",
+    "dec": 295,
+    "page": 9
+  },
+  {
+    "param": "A1-07",
+    "name": "Drive Works EZ",
+    "address": "0x0128",
+    "adddress": "0x0128",
+    "hex": "0128",
+    "dec": 296,
+    "page": 9
+  },
+  {
+    "param": "A1-11",
+    "name": "Firmwareupdate lock",
+    "address": "0x111D",
+    "adddress": "0x111D",
+    "hex": "111D",
+    "dec": 4381,
+    "page": 9
+  },
+  {
+    "param": "A2-33",
+    "name": "User Parameter Auto Selection",
+    "address": "0x0126",
+    "adddress": "0x0126",
+    "hex": "0126",
+    "dec": 294,
+    "page": 9
+  },
+  {
+    "param": "b1-01",
+    "name": "Frequency Reference Selection 1",
+    "address": "0x0180",
+    "adddress": "0x0180",
+    "hex": "0180",
+    "dec": 384,
+    "page": 10
+  },
+  {
+    "param": "b1-02",
+    "name": "Run Command Selection 1",
+    "address": "0x0181",
+    "adddress": "0x0181",
+    "hex": "0181",
+    "dec": 385,
+    "page": 10
+  },
+  {
+    "param": "b1-03",
+    "name": "Stopping Method Selection",
+    "address": "0x0182",
+    "adddress": "0x0182",
+    "hex": "0182",
+    "dec": 386,
+    "page": 10
+  },
+  {
+    "param": "b1-04",
+    "name": "Reverse Operation Selection",
+    "address": "0x0183",
+    "adddress": "0x0183",
+    "hex": "0183",
+    "dec": 387,
+    "page": 10
+  },
+  {
+    "param": "b1-05",
+    "name": "Operation Below Minimum Freq",
+    "address": "0x0184",
+    "adddress": "0x0184",
+    "hex": "0184",
+    "dec": 388,
+    "page": 10
+  },
+  {
+    "param": "b1-06",
+    "name": "Digital Input Reading",
+    "address": "0x0158",
+    "adddress": "0x0158",
+    "hex": "0158",
+    "dec": 344,
+    "page": 10
+  },
+  {
+    "param": "b1-07",
+    "name": "LOCAL/REMOTE Run Selection",
+    "address": "0x0186",
+    "adddress": "0x0186",
+    "hex": "0186",
+    "dec": 390,
+    "page": 10
+  },
+  {
+    "param": "b1-08",
+    "name": "Run Command Selectin PRG Mode",
+    "address": "0x0187",
+    "adddress": "0x0187",
+    "hex": "0187",
+    "dec": 391,
+    "page": 11
+  },
+  {
+    "param": "b1-14",
+    "name": "Phase Order Selection",
+    "address": "0x01C3",
+    "adddress": "0x01C3",
+    "hex": "01C3",
+    "dec": 451,
+    "page": 11
+  },
+  {
+    "param": "b1-15",
+    "name": "Frequency Reference Selection 2",
+    "address": "0x01C4",
+    "adddress": "0x01C4",
+    "hex": "01C4",
+    "dec": 452,
+    "page": 11
+  },
+  {
+    "param": "b1-16",
+    "name": "Run Command Selection 2",
+    "address": "0x01C5",
+    "adddress": "0x01C5",
+    "hex": "01C5",
+    "dec": 453,
+    "page": 11
+  },
+  {
+    "param": "b1-17",
+    "name": "Run Commandat Power Up",
+    "address": "0x01C6",
+    "adddress": "0x01C6",
+    "hex": "01C6",
+    "dec": 454,
+    "page": 11
+  },
+  {
+    "param": "b1-21",
+    "name": "CLVStart Selection",
+    "address": "0x0748",
+    "adddress": "0x0748",
+    "hex": "0748",
+    "dec": 1864,
+    "page": 11
+  },
+  {
+    "param": "b1-35",
+    "name": "Multi-",
+    "address": "0x1117",
+    "adddress": "0x1117",
+    "hex": "1117",
+    "dec": 4375,
+    "page": 11
+  },
+  {
+    "param": "b2-01",
+    "name": "DCInjection/Zero Speed Threshold",
+    "address": "0x0189",
+    "adddress": "0x0189",
+    "hex": "0189",
+    "dec": 393,
+    "page": 11
+  },
+  {
+    "param": "b2-02",
+    "name": "DCInjection Braking Current",
+    "address": "0x018A",
+    "adddress": "0x018A",
+    "hex": "018A",
+    "dec": 394,
+    "page": 11
+  },
+  {
+    "param": "b2-03",
+    "name": "DCInject Braking Timeat Start",
+    "address": "0x018B",
+    "adddress": "0x018B",
+    "hex": "018B",
+    "dec": 395,
+    "page": 12
+  },
+  {
+    "param": "b2-04",
+    "name": "DCInject Braking Timeat Stop",
+    "address": "0x018C",
+    "adddress": "0x018C",
+    "hex": "018C",
+    "dec": 396,
+    "page": 12
+  },
+  {
+    "param": "b2-08",
+    "name": "Magnetic Flux Compensation Value",
+    "address": "0x0190",
+    "adddress": "0x0190",
+    "hex": "0190",
+    "dec": 400,
+    "page": 12
+  },
+  {
+    "param": "b2-12",
+    "name": "Short Circuit Brake Time@Start",
+    "address": "0x01BA",
+    "adddress": "0x01BA",
+    "hex": "01BA",
+    "dec": 442,
+    "page": 12
+  },
+  {
+    "param": "b2-13",
+    "name": "Short Circuit Brake Time@Start",
+    "address": "0x01BB",
+    "adddress": "0x01BB",
+    "hex": "01BB",
+    "dec": 443,
+    "page": 12
+  },
+  {
+    "param": "b2-18",
+    "name": "Short Circuit Braking Current",
+    "address": "0x0177",
+    "adddress": "0x0177",
+    "hex": "0177",
+    "dec": 375,
+    "page": 12
+  },
+  {
+    "param": "b3-01",
+    "name": "Speed Search Selectionat Start",
+    "address": "0x0191",
+    "adddress": "0x0191",
+    "hex": "0191",
+    "dec": 401,
+    "page": 12
+  },
+  {
+    "param": "b3-02",
+    "name": "Speed Search Deactivation Current",
+    "address": "0x0192",
+    "adddress": "0x0192",
+    "hex": "0192",
+    "dec": 402,
+    "page": 12
+  },
+  {
+    "param": "b3-03",
+    "name": "Speed Search Deceleration Time",
+    "address": "0x0193",
+    "adddress": "0x0193",
+    "hex": "0193",
+    "dec": 403,
+    "page": 12
+  },
+  {
+    "param": "b3-04",
+    "name": "V/f Gainduring Speed Search",
+    "address": "0x0194",
+    "adddress": "0x0194",
+    "hex": "0194",
+    "dec": 404,
+    "page": 12
+  },
+  {
+    "param": "b3-05",
+    "name": "Speed Search Delay Time Ifamagneticcontactorisinstalledbetween",
+    "address": "0x0195",
+    "adddress": "0x0195",
+    "hex": "0195",
+    "dec": 405,
+    "page": 12
+  },
+  {
+    "param": "b3-06",
+    "name": "Speed Estimation Current Level 1 Configure",
+    "address": "0x0196",
+    "adddress": "0x0196",
+    "hex": "0196",
+    "dec": 406,
+    "page": 12
+  },
+  {
+    "param": "b3-07",
+    "name": "Speed Estimation Current Level 2",
+    "address": "0x0197",
+    "adddress": "0x0197",
+    "hex": "0197",
+    "dec": 407,
+    "page": 12
+  },
+  {
+    "param": "b3-08",
+    "name": "Speed Estimation ACRPGain",
+    "address": "0x0198",
+    "adddress": "0x0198",
+    "hex": "0198",
+    "dec": 408,
+    "page": 13
+  },
+  {
+    "param": "b3-09",
+    "name": "Speed Estimation ACRITime",
+    "address": "0x0199",
+    "adddress": "0x0199",
+    "hex": "0199",
+    "dec": 409,
+    "page": 13
+  },
+  {
+    "param": "b3-10",
+    "name": "Speed Estimation Detection Gain",
+    "address": "0x019A",
+    "adddress": "0x019A",
+    "hex": "019A",
+    "dec": 410,
+    "page": 13
+  },
+  {
+    "param": "b3-14",
+    "name": "Bi-Direction Speed Search Select",
+    "address": "0x019E",
+    "adddress": "0x019E",
+    "hex": "019E",
+    "dec": 414,
+    "page": 13
+  },
+  {
+    "param": "b3-17",
+    "name": "Speed Est.Retry Current Level",
+    "address": "0x01F0",
+    "adddress": "0x01F0",
+    "hex": "01F0",
+    "dec": 496,
+    "page": 13
+  },
+  {
+    "param": "b3-18",
+    "name": "Speed Est.Retry Detection Time",
+    "address": "0x01F1",
+    "adddress": "0x01F1",
+    "hex": "01F1",
+    "dec": 497,
+    "page": 13
+  },
+  {
+    "param": "b3-19",
+    "name": "Numberof Speed Search Re",
+    "address": "0x01F2",
+    "adddress": "0x01F2",
+    "hex": "01F2",
+    "dec": 498,
+    "page": 13
+  },
+  {
+    "param": "b3-24",
+    "name": "Speed Search Method Selection",
+    "address": "0x01C0",
+    "adddress": "0x01C0",
+    "hex": "01C0",
+    "dec": 448,
+    "page": 13
+  },
+  {
+    "param": "b3-25",
+    "name": "Speed Search Wait Time",
+    "address": "0x01C8",
+    "adddress": "0x01C8",
+    "hex": "01C8",
+    "dec": 456,
+    "page": 13
+  },
+  {
+    "param": "b3-26",
+    "name": "Direction Determining Level",
+    "address": "0x01C7",
+    "adddress": "0x01C7",
+    "hex": "01C7",
+    "dec": 455,
+    "page": 13
+  },
+  {
+    "param": "b3-27",
+    "name": "Parameter b3-27",
+    "address": "0x01C9",
+    "adddress": "0x01C9",
+    "hex": "01C9",
+    "dec": 457,
+    "page": 13
+  },
+  {
+    "param": "b3-29",
+    "name": "Speed Search Back-EMF Threshold",
+    "address": "0x077C",
+    "adddress": "0x077C",
+    "hex": "077C",
+    "dec": 1916,
+    "page": 13
+  },
+  {
+    "param": "b3-31",
+    "name": "Searchcurrent Level 1",
+    "address": "0x0BC0",
+    "adddress": "0x0BC0",
+    "hex": "0BC0",
+    "dec": 3008,
+    "page": 13
+  },
+  {
+    "param": "b3-32",
+    "name": "Searchcurrent Level 2",
+    "address": "0x0BC1",
+    "adddress": "0x0BC1",
+    "hex": "0BC1",
+    "dec": 3009,
+    "page": 13
+  },
+  {
+    "param": "b3-33",
+    "name": "Spd Searchduring UVSelection",
+    "address": "0x0B3F",
+    "adddress": "0x0B3F",
+    "hex": "0B3F",
+    "dec": 2879,
+    "page": 14
+  },
+  {
+    "param": "b3-35",
+    "name": "Voltage Detection Low Level",
+    "address": "0x0BC3",
+    "adddress": "0x0BC3",
+    "hex": "0BC3",
+    "dec": 3011,
+    "page": 14
+  },
+  {
+    "param": "b3-36",
+    "name": "Wait Restart Level",
+    "address": "0x0BC4",
+    "adddress": "0x0BC4",
+    "hex": "0BC4",
+    "dec": 3012,
+    "page": 14
+  },
+  {
+    "param": "b3-54",
+    "name": "Search Time",
+    "address": "0x3123",
+    "adddress": "0x3123",
+    "hex": "3123",
+    "dec": 12579,
+    "page": 14
+  },
+  {
+    "param": "b3-55",
+    "name": "Current Increment Time",
+    "address": "0x3124",
+    "adddress": "0x3124",
+    "hex": "3124",
+    "dec": 12580,
+    "page": 14
+  },
+  {
+    "param": "b4-01",
+    "name": "Timer",
+    "address": "0x01A3",
+    "adddress": "0x01A3",
+    "hex": "01A3",
+    "dec": 419,
+    "page": 14
+  },
+  {
+    "param": "b4-02",
+    "name": "Timer",
+    "address": "0x01A4",
+    "adddress": "0x01A4",
+    "hex": "01A4",
+    "dec": 420,
+    "page": 14
+  },
+  {
+    "param": "b4-03",
+    "name": "H 2-01ONDelay Time",
+    "address": "0x0B30",
+    "adddress": "0x0B30",
+    "hex": "0B30",
+    "dec": 2864,
+    "page": 14
+  },
+  {
+    "param": "b4-04",
+    "name": "H 2-01OFFDelay Time",
+    "address": "0x0B31",
+    "adddress": "0x0B31",
+    "hex": "0B31",
+    "dec": 2865,
+    "page": 14
+  },
+  {
+    "param": "b4-05",
+    "name": "H 2-02ONDelay Time",
+    "address": "0x0B32",
+    "adddress": "0x0B32",
+    "hex": "0B32",
+    "dec": 2866,
+    "page": 14
+  },
+  {
+    "param": "b4-06",
+    "name": "H 2-02OFFDelay Time",
+    "address": "0x0B33",
+    "adddress": "0x0B33",
+    "hex": "0B33",
+    "dec": 2867,
+    "page": 14
+  },
+  {
+    "param": "b4-07",
+    "name": "H 2-03ONDelay Time",
+    "address": "0x0B34",
+    "adddress": "0x0B34",
+    "hex": "0B34",
+    "dec": 2868,
+    "page": 14
+  },
+  {
+    "param": "b4-08",
+    "name": "H 2-03OFFDelay Time",
+    "address": "0x0B35",
+    "adddress": "0x0B35",
+    "hex": "0B35",
+    "dec": 2869,
+    "page": 14
+  },
+  {
+    "param": "b5-01",
+    "name": "PID",
+    "address": "0x01A5",
+    "adddress": "0x01A5",
+    "hex": "01A5",
+    "dec": 421,
+    "page": 15
+  },
+  {
+    "param": "b5-02",
+    "name": "Proportional Gain Setting(P)",
+    "address": "0x01A6",
+    "adddress": "0x01A6",
+    "hex": "01A6",
+    "dec": 422,
+    "page": 15
+  },
+  {
+    "param": "b5-03",
+    "name": "Integral Time Setting(I)",
+    "address": "0x01A7",
+    "adddress": "0x01A7",
+    "hex": "01A7",
+    "dec": 423,
+    "page": 15
+  },
+  {
+    "param": "b5-04",
+    "name": "Integral Limit Setting",
+    "address": "0x01A8",
+    "adddress": "0x01A8",
+    "hex": "01A8",
+    "dec": 424,
+    "page": 15
+  },
+  {
+    "param": "b5-05",
+    "name": "Derivative Time (D)",
+    "address": "0x01A9",
+    "adddress": "0x01A9",
+    "hex": "01A9",
+    "dec": 425,
+    "page": 15
+  },
+  {
+    "param": "b5-06",
+    "name": "PIDOutput Limit",
+    "address": "0x01AA",
+    "adddress": "0x01AA",
+    "hex": "01AA",
+    "dec": 426,
+    "page": 15
+  },
+  {
+    "param": "b5-07",
+    "name": "PIDOffset Adjustment",
+    "address": "0x01AB",
+    "adddress": "0x01AB",
+    "hex": "01AB",
+    "dec": 427,
+    "page": 15
+  },
+  {
+    "param": "b5-08",
+    "name": "PIDPrimary Delay Time Constant",
+    "address": "0x01AC",
+    "adddress": "0x01AC",
+    "hex": "01AC",
+    "dec": 428,
+    "page": 15
+  },
+  {
+    "param": "b5-09",
+    "name": "PIDOutput Level Selection Reverses",
+    "address": "0x01AD",
+    "adddress": "0x01AD",
+    "hex": "01AD",
+    "dec": 429,
+    "page": 15
+  },
+  {
+    "param": "b5-10",
+    "name": "PIDOutput Gain Setting",
+    "address": "0x01AE",
+    "adddress": "0x01AE",
+    "hex": "01AE",
+    "dec": 430,
+    "page": 15
+  },
+  {
+    "param": "b5-11",
+    "name": "PIDOutput Reverse Selection",
+    "address": "0x01AF",
+    "adddress": "0x01AF",
+    "hex": "01AF",
+    "dec": 431,
+    "page": 15
+  },
+  {
+    "param": "b5-12",
+    "name": "Feedback Loss Detection Select",
+    "address": "0x01B0",
+    "adddress": "0x01B0",
+    "hex": "01B0",
+    "dec": 432,
+    "page": 16
+  },
+  {
+    "param": "b5-13",
+    "name": "PIDFeedback Loss Detection Lvl",
+    "address": "0x01B1",
+    "adddress": "0x01B1",
+    "hex": "01B1",
+    "dec": 433,
+    "page": 16
+  },
+  {
+    "param": "b5-14",
+    "name": "PIDFeedback Loss Detection Time",
+    "address": "0x01B2",
+    "adddress": "0x01B2",
+    "hex": "01B2",
+    "dec": 434,
+    "page": 16
+  },
+  {
+    "param": "b5-15",
+    "name": "PIDSleep",
+    "address": "0x01B3",
+    "adddress": "0x01B3",
+    "hex": "01B3",
+    "dec": 435,
+    "page": 16
+  },
+  {
+    "param": "b5-16",
+    "name": "PIDSleep Delay Time",
+    "address": "0x01B4",
+    "adddress": "0x01B4",
+    "hex": "01B4",
+    "dec": 436,
+    "page": 16
+  },
+  {
+    "param": "b5-17",
+    "name": "PIDAccel/Decel Time Raisesorlowers",
+    "address": "0x01B5",
+    "adddress": "0x01B5",
+    "hex": "01B5",
+    "dec": 437,
+    "page": 16
+  },
+  {
+    "param": "b5-18",
+    "name": "PIDSetpoint Selection",
+    "address": "0x01DC",
+    "adddress": "0x01DC",
+    "hex": "01DC",
+    "dec": 476,
+    "page": 16
+  },
+  {
+    "param": "b5-19",
+    "name": "PIDSetpoint Value Thissettingis",
+    "address": "0x01DD",
+    "adddress": "0x01DD",
+    "hex": "01DD",
+    "dec": 477,
+    "page": 16
+  },
+  {
+    "param": "b5-20",
+    "name": "PIDSetpoint Scaling",
+    "address": "0x01E2",
+    "adddress": "0x01E2",
+    "hex": "01E2",
+    "dec": 482,
+    "page": 16
+  },
+  {
+    "param": "b5-34",
+    "name": "PIDOutput Lower Limit",
+    "address": "0x019F",
+    "adddress": "0x019F",
+    "hex": "019F",
+    "dec": 415,
+    "page": 16
+  },
+  {
+    "param": "b5-35",
+    "name": "PIDInput Limit",
+    "address": "0x01A0",
+    "adddress": "0x01A0",
+    "hex": "01A0",
+    "dec": 416,
+    "page": 16
+  },
+  {
+    "param": "b5-36",
+    "name": "PIDFeedback High Detection Lvl",
+    "address": "0x01A1",
+    "adddress": "0x01A1",
+    "hex": "01A1",
+    "dec": 417,
+    "page": 16
+  },
+  {
+    "param": "b5-37",
+    "name": "PIDFeedback High Detection Time",
+    "address": "0x01A2",
+    "adddress": "0x01A2",
+    "hex": "01A2",
+    "dec": 418,
+    "page": 16
+  },
+  {
+    "param": "b5-38",
+    "name": "PIDSetpoint User Display",
+    "address": "0x01FE",
+    "adddress": "0x01FE",
+    "hex": "01FE",
+    "dec": 510,
+    "page": 16
+  },
+  {
+    "param": "b5-39",
+    "name": "PIDSetpoint Display Digits",
+    "address": "0x01FF",
+    "adddress": "0x01FF",
+    "hex": "01FF",
+    "dec": 511,
+    "page": 16
+  },
+  {
+    "param": "b5-40",
+    "name": "Frequency Reference Monitor @PID",
+    "address": "0x017F",
+    "adddress": "0x017F",
+    "hex": "017F",
+    "dec": 383,
+    "page": 17
+  },
+  {
+    "param": "b5-47",
+    "name": "PIDOutput Reverse Selection 2",
+    "address": "0x017D",
+    "adddress": "0x017D",
+    "hex": "017D",
+    "dec": 381,
+    "page": 17
+  },
+  {
+    "param": "b5-53",
+    "name": "Integrator Ramp Limit",
+    "address": "0x0B8F",
+    "adddress": "0x0B8F",
+    "hex": "0B8F",
+    "dec": 2959,
+    "page": 17
+  },
+  {
+    "param": "b5-54",
+    "name": "PIDsoftstarter",
+    "address": "0x0BB7",
+    "adddress": "0x0BB7",
+    "hex": "0BB7",
+    "dec": 2999,
+    "page": 17
+  },
+  {
+    "param": "b5-55",
+    "name": "PIDfeedback",
+    "address": "0x0BE1",
+    "adddress": "0x0BE1",
+    "hex": "0BE1",
+    "dec": 3041,
+    "page": 17
+  },
+  {
+    "param": "b5-56",
+    "name": "PIDfeedback monitorgain",
+    "address": "0x0BE2",
+    "adddress": "0x0BE2",
+    "hex": "0BE2",
+    "dec": 3042,
+    "page": 17
+  },
+  {
+    "param": "b5-57",
+    "name": "PIDFeedback Monitor Bias",
+    "address": "0x11DD",
+    "adddress": "0x11DD",
+    "hex": "11DD",
+    "dec": 4573,
+    "page": 17
+  },
+  {
+    "param": "b5-61",
+    "name": "PIDTrimlower",
+    "address": "0x119A",
+    "adddress": "0x119A",
+    "hex": "119A",
+    "dec": 4506,
+    "page": 17
+  },
+  {
+    "param": "b5-62",
+    "name": "PIDTrimlower limit",
+    "address": "0x119B",
+    "adddress": "0x119B",
+    "hex": "119B",
+    "dec": 4507,
+    "page": 17
+  },
+  {
+    "param": "b5-63",
+    "name": "Differential PID Feedback Select",
+    "address": "0x119C",
+    "adddress": "0x119C",
+    "hex": "119C",
+    "dec": 4508,
+    "page": 17
+  },
+  {
+    "param": "b5-64",
+    "name": "Differential PID Feedback Gain",
+    "address": "0x119D",
+    "adddress": "0x119D",
+    "hex": "119D",
+    "dec": 4509,
+    "page": 17
+  },
+  {
+    "param": "b5-65",
+    "name": "PIDDiff Fdbk Monitor Bias",
+    "address": "0x119F",
+    "adddress": "0x119F",
+    "hex": "119F",
+    "dec": 4511,
+    "page": 17
+  },
+  {
+    "param": "b5-66",
+    "name": "PIDfeedback monitor Lvl",
+    "address": "0x11DE",
+    "adddress": "0x11DE",
+    "hex": "11DE",
+    "dec": 4574,
+    "page": 17
+  },
+  {
+    "param": "b5-67",
+    "name": "PIDDiff Fdbk monitor Lvl",
+    "address": "0x11DF",
+    "adddress": "0x11DF",
+    "hex": "11DF",
+    "dec": 4575,
+    "page": 17
+  },
+  {
+    "param": "b5-89",
+    "name": "Sleep Method Selection",
+    "address": "0x0B89",
+    "adddress": "0x0B89",
+    "hex": "0B89",
+    "dec": 2953,
+    "page": 18
+  },
+  {
+    "param": "b5-90",
+    "name": "EZSleep Unit",
+    "address": "0x0B90",
+    "adddress": "0x0B90",
+    "hex": "0B90",
+    "dec": 2960,
+    "page": 18
+  },
+  {
+    "param": "b5-91",
+    "name": "EZMinimum Speed",
+    "address": "0x0B91",
+    "adddress": "0x0B91",
+    "hex": "0B91",
+    "dec": 2961,
+    "page": 18
+  },
+  {
+    "param": "b5-92",
+    "name": "EZSleep Level",
+    "address": "0x0B92",
+    "adddress": "0x0B92",
+    "hex": "0B92",
+    "dec": 2962,
+    "page": 18
+  },
+  {
+    "param": "b5-93",
+    "name": "EZSleep Time",
+    "address": "0x0B93",
+    "adddress": "0x0B93",
+    "hex": "0B93",
+    "dec": 2963,
+    "page": 18
+  },
+  {
+    "param": "b5-94",
+    "name": "EZWake-up Level",
+    "address": "0x0B94",
+    "adddress": "0x0B94",
+    "hex": "0B94",
+    "dec": 2964,
+    "page": 18
+  },
+  {
+    "param": "b5-95",
+    "name": "EZWake-up Mode",
+    "address": "0x0B95",
+    "adddress": "0x0B95",
+    "hex": "0B95",
+    "dec": 2965,
+    "page": 18
+  },
+  {
+    "param": "b5-96",
+    "name": "EZWake-up Time",
+    "address": "0x0B96",
+    "adddress": "0x0B96",
+    "hex": "0B96",
+    "dec": 2966,
+    "page": 18
+  },
+  {
+    "param": "b6-01",
+    "name": "Dwell Referenceat Start",
+    "address": "0x01B6",
+    "adddress": "0x01B6",
+    "hex": "01B6",
+    "dec": 438,
+    "page": 18
+  },
+  {
+    "param": "b6-02",
+    "name": "Dwell Timeat Start",
+    "address": "0x01B7",
+    "adddress": "0x01B7",
+    "hex": "01B7",
+    "dec": 439,
+    "page": 18
+  },
+  {
+    "param": "b6-03",
+    "name": "Dwell Referenceat Stop",
+    "address": "0x01B8",
+    "adddress": "0x01B8",
+    "hex": "01B8",
+    "dec": 440,
+    "page": 18
+  },
+  {
+    "param": "b6-04",
+    "name": "Dwell Timeat Stop",
+    "address": "0x01B9",
+    "adddress": "0x01B9",
+    "hex": "01B9",
+    "dec": 441,
+    "page": 18
+  },
+  {
+    "param": "b7-01",
+    "name": "Droop Control Gain",
+    "address": "0x01CA",
+    "adddress": "0x01CA",
+    "hex": "01CA",
+    "dec": 458,
+    "page": 19
+  },
+  {
+    "param": "b7-02",
+    "name": "Droop Control Delay Time",
+    "address": "0x01CB",
+    "adddress": "0x01CB",
+    "hex": "01CB",
+    "dec": 459,
+    "page": 19
+  },
+  {
+    "param": "b7-03",
+    "name": "Droop Control",
+    "address": "0x017E",
+    "adddress": "0x017E",
+    "hex": "017E",
+    "dec": 382,
+    "page": 19
+  },
+  {
+    "param": "b8-01",
+    "name": "Energy Saving",
+    "address": "0x01CC",
+    "adddress": "0x01CC",
+    "hex": "01CC",
+    "dec": 460,
+    "page": 19
+  },
+  {
+    "param": "b8-02",
+    "name": "Energy Saving Gain",
+    "address": "0x01CD",
+    "adddress": "0x01CD",
+    "hex": "01CD",
+    "dec": 461,
+    "page": 19
+  },
+  {
+    "param": "b8-03",
+    "name": "Energy Saving Filter Time",
+    "address": "0x01CE",
+    "adddress": "0x01CE",
+    "hex": "01CE",
+    "dec": 462,
+    "page": 19
+  },
+  {
+    "param": "b8-04",
+    "name": "Energy Saving Coefficient Value",
+    "address": "0x01CF",
+    "adddress": "0x01CF",
+    "hex": "01CF",
+    "dec": 463,
+    "page": 19
+  },
+  {
+    "param": "b8-05",
+    "name": "Power Detection Filter Time",
+    "address": "0x01D0",
+    "adddress": "0x01D0",
+    "hex": "01D0",
+    "dec": 464,
+    "page": 19
+  },
+  {
+    "param": "b8-06",
+    "name": "Search Operation Voltage Limit On",
+    "address": "0x01D1",
+    "adddress": "0x01D1",
+    "hex": "01D1",
+    "dec": 465,
+    "page": 19
+  },
+  {
+    "param": "b8-16",
+    "name": "PME-Save Coefficient Ki Thiscoefficientmaintainstorquelinearity.",
+    "address": "0x01F8",
+    "adddress": "0x01F8",
+    "hex": "01F8",
+    "dec": 504,
+    "page": 19
+  },
+  {
+    "param": "b8-17",
+    "name": "PME-Save Coefficient Kt Thiscoefficientmaintainstorquelinearity.",
+    "address": "0x01F9",
+    "adddress": "0x01F9",
+    "hex": "01F9",
+    "dec": 505,
+    "page": 19
+  },
+  {
+    "param": "b8-18",
+    "name": "E-Saved-axis Current Filter Time",
+    "address": "0x01FA",
+    "adddress": "0x01FA",
+    "hex": "01FA",
+    "dec": 506,
+    "page": 19
+  },
+  {
+    "param": "b8-19",
+    "name": "E-Save Search Injection Freq",
+    "address": "0x0B40",
+    "adddress": "0x0B40",
+    "hex": "0B40",
+    "dec": 2880,
+    "page": 19
+  },
+  {
+    "param": "b8-20",
+    "name": "PME-Save Search Width",
+    "address": "0x0B41",
+    "adddress": "0x0B41",
+    "hex": "0B41",
+    "dec": 2881,
+    "page": 19
+  },
+  {
+    "param": "b8-21",
+    "name": "PME-Save Search Gain",
+    "address": "0x0B42",
+    "adddress": "0x0B42",
+    "hex": "0B42",
+    "dec": 2882,
+    "page": 20
+  },
+  {
+    "param": "b8-22",
+    "name": "PME-Save Search LPFCutoff Freq",
+    "address": "0x0B43",
+    "adddress": "0x0B43",
+    "hex": "0B43",
+    "dec": 2883,
+    "page": 20
+  },
+  {
+    "param": "b8-23",
+    "name": "PME-Save Search Limit",
+    "address": "0x0B44",
+    "adddress": "0x0B44",
+    "hex": "0B44",
+    "dec": 2884,
+    "page": 20
+  },
+  {
+    "param": "b8-24",
+    "name": "PME-Save High Freq ACRGain",
+    "address": "0x0B45",
+    "adddress": "0x0B45",
+    "hex": "0B45",
+    "dec": 2885,
+    "page": 20
+  },
+  {
+    "param": "b8-25",
+    "name": "PME-Save Search Startlevel",
+    "address": "0x0B46",
+    "adddress": "0x0B46",
+    "hex": "0B46",
+    "dec": 2886,
+    "page": 20
+  },
+  {
+    "param": "b8-26",
+    "name": "PME-Save Power Setpoint Adjust",
+    "address": "0x0B47",
+    "adddress": "0x0B47",
+    "hex": "0B47",
+    "dec": 2887,
+    "page": 20
+  },
+  {
+    "param": "b8-28",
+    "name": "Save Energy Priority",
+    "address": "0x0B8B",
+    "adddress": "0x0B8B",
+    "hex": "0B8B",
+    "dec": 2955,
+    "page": 20
+  },
+  {
+    "param": "b8-29",
+    "name": "Save Energy Priority",
+    "address": "0x0B8C",
+    "adddress": "0x0B8C",
+    "hex": "0B8C",
+    "dec": 2956,
+    "page": 20
+  },
+  {
+    "param": "b8-50",
+    "name": "Standbymode selection",
+    "address": "0x0B0D",
+    "adddress": "0x0B0D",
+    "hex": "0B0D",
+    "dec": 2829,
+    "page": 20
+  },
+  {
+    "param": "b8-51",
+    "name": "Standbymode waitingtime",
+    "address": "0x0B01",
+    "adddress": "0x0B01",
+    "hex": "0B01",
+    "dec": 2817,
+    "page": 20
+  },
+  {
+    "param": "b9-01",
+    "name": "Zero Servo Gain",
+    "address": "0x01DA",
+    "adddress": "0x01DA",
+    "hex": "01DA",
+    "dec": 474,
+    "page": 20
+  },
+  {
+    "param": "b9-02",
+    "name": "Zero Servo Completion Width",
+    "address": "0x01DB",
+    "adddress": "0x01DB",
+    "hex": "01DB",
+    "dec": 475,
+    "page": 20
+  },
+  {
+    "param": "C1-01",
+    "name": "Acceleration Time 1",
+    "address": "0x0200",
+    "adddress": "0x0200",
+    "hex": "0200",
+    "dec": 512,
+    "page": 21
+  },
+  {
+    "param": "C1-02",
+    "name": "Deceleration Time 1",
+    "address": "0x0201",
+    "adddress": "0x0201",
+    "hex": "0201",
+    "dec": 513,
+    "page": 21
+  },
+  {
+    "param": "C1-03",
+    "name": "Acceleration Time 2",
+    "address": "0x0202",
+    "adddress": "0x0202",
+    "hex": "0202",
+    "dec": 514,
+    "page": 21
+  },
+  {
+    "param": "C1-04",
+    "name": "Deceleration Time 2",
+    "address": "0x0203",
+    "adddress": "0x0203",
+    "hex": "0203",
+    "dec": 515,
+    "page": 21
+  },
+  {
+    "param": "C1-05",
+    "name": "Acceleration Time 3",
+    "address": "0x0204",
+    "adddress": "0x0204",
+    "hex": "0204",
+    "dec": 516,
+    "page": 21
+  },
+  {
+    "param": "C1-06",
+    "name": "Deceleration Time 3",
+    "address": "0x0205",
+    "adddress": "0x0205",
+    "hex": "0205",
+    "dec": 517,
+    "page": 21
+  },
+  {
+    "param": "C1-07",
+    "name": "Acceleration Time 4",
+    "address": "0x0206",
+    "adddress": "0x0206",
+    "hex": "0206",
+    "dec": 518,
+    "page": 21
+  },
+  {
+    "param": "C1-08",
+    "name": "Deceleration Time 4",
+    "address": "0x0207",
+    "adddress": "0x0207",
+    "hex": "0207",
+    "dec": 519,
+    "page": 21
+  },
+  {
+    "param": "C1-09",
+    "name": "Fast Stop Time",
+    "address": "0x0208",
+    "adddress": "0x0208",
+    "hex": "0208",
+    "dec": 520,
+    "page": 21
+  },
+  {
+    "param": "C1-10",
+    "name": "Accel/Decel Time Setting Units",
+    "address": "0x0209",
+    "adddress": "0x0209",
+    "hex": "0209",
+    "dec": 521,
+    "page": 21
+  },
+  {
+    "param": "C1-11",
+    "name": "Accel/Decel Time Switchover Freq",
+    "address": "0x020A",
+    "adddress": "0x020A",
+    "hex": "020A",
+    "dec": 522,
+    "page": 21
+  },
+  {
+    "param": "C2-01",
+    "name": "S-Curve Time@ Startof Accel",
+    "address": "0x020B",
+    "adddress": "0x020B",
+    "hex": "020B",
+    "dec": 523,
+    "page": 21
+  },
+  {
+    "param": "C2-02",
+    "name": "S-Curve Time@ Endof Accel",
+    "address": "0x020C",
+    "adddress": "0x020C",
+    "hex": "020C",
+    "dec": 524,
+    "page": 21
+  },
+  {
+    "param": "C2-03",
+    "name": "S-Curve Time@ Startof Decel",
+    "address": "0x020D",
+    "adddress": "0x020D",
+    "hex": "020D",
+    "dec": 525,
+    "page": 22
+  },
+  {
+    "param": "C2-04",
+    "name": "S-Curve Time@ Endof Decel",
+    "address": "0x020E",
+    "adddress": "0x020E",
+    "hex": "020E",
+    "dec": 526,
+    "page": 22
+  },
+  {
+    "param": "C3-01",
+    "name": "Slip Compensation Gain",
+    "address": "0x020F",
+    "adddress": "0x020F",
+    "hex": "020F",
+    "dec": 527,
+    "page": 22
+  },
+  {
+    "param": "C3-02",
+    "name": "Slip Compensation Delay Time",
+    "address": "0x0210",
+    "adddress": "0x0210",
+    "hex": "0210",
+    "dec": 528,
+    "page": 22
+  },
+  {
+    "param": "C3-03",
+    "name": "Slip Compensation Limit",
+    "address": "0x0211",
+    "adddress": "0x0211",
+    "hex": "0211",
+    "dec": 529,
+    "page": 22
+  },
+  {
+    "param": "C3-04",
+    "name": "Slip Compensation @Regen Select",
+    "address": "0x0212",
+    "adddress": "0x0212",
+    "hex": "0212",
+    "dec": 530,
+    "page": 22
+  },
+  {
+    "param": "C3-05",
+    "name": "Output Voltage",
+    "address": "0x0213",
+    "adddress": "0x0213",
+    "hex": "0213",
+    "dec": 531,
+    "page": 22
+  },
+  {
+    "param": "C3-16",
+    "name": "Vout Modulation",
+    "address": "0x0261",
+    "adddress": "0x0261",
+    "hex": "0261",
+    "dec": 609,
+    "page": 22
+  },
+  {
+    "param": "C3-17",
+    "name": "Maximum Output Voltage Limit Level",
+    "address": "0x0262",
+    "adddress": "0x0262",
+    "hex": "0262",
+    "dec": 610,
+    "page": 22
+  },
+  {
+    "param": "C3-18",
+    "name": "Output Voltage Limit Level",
+    "address": "0x0263",
+    "adddress": "0x0263",
+    "hex": "0263",
+    "dec": 611,
+    "page": 22
+  },
+  {
+    "param": "C3-21",
+    "name": "Motor 2Slip Compensation Gain",
+    "address": "0x033E",
+    "adddress": "0x033E",
+    "hex": "033E",
+    "dec": 830,
+    "page": 22
+  },
+  {
+    "param": "C3-22",
+    "name": "Motor 2Slip Comp Delay Time",
+    "address": "0x0241",
+    "adddress": "0x0241",
+    "hex": "0241",
+    "dec": 577,
+    "page": 23
+  },
+  {
+    "param": "C3-23",
+    "name": "Motor 2Slip Compensation Limit",
+    "address": "0x0242",
+    "adddress": "0x0242",
+    "hex": "0242",
+    "dec": 578,
+    "page": 23
+  },
+  {
+    "param": "C3-24",
+    "name": "Motor 2Slip Comp @Regen Select",
+    "address": "0x0243",
+    "adddress": "0x0243",
+    "hex": "0243",
+    "dec": 579,
+    "page": 23
+  },
+  {
+    "param": "C3-28",
+    "name": "Adaptive Slip Contrl Mode Select",
+    "address": "0x1B5B",
+    "adddress": "0x1B5B",
+    "hex": "1B5B",
+    "dec": 7003,
+    "page": 23
+  },
+  {
+    "param": "C4-01",
+    "name": "Torque Compensation Gain",
+    "address": "0x0215",
+    "adddress": "0x0215",
+    "hex": "0215",
+    "dec": 533,
+    "page": 23
+  },
+  {
+    "param": "C4-02",
+    "name": "Torque Compensation Delay Time",
+    "address": "0x0216",
+    "adddress": "0x0216",
+    "hex": "0216",
+    "dec": 534,
+    "page": 23
+  },
+  {
+    "param": "C4-03",
+    "name": "Torque Compensation@ FWDStart",
+    "address": "0x0217",
+    "adddress": "0x0217",
+    "hex": "0217",
+    "dec": 535,
+    "page": 23
+  },
+  {
+    "param": "C4-04",
+    "name": "Torque Compensation@ REVStart",
+    "address": "0x0218",
+    "adddress": "0x0218",
+    "hex": "0218",
+    "dec": 536,
+    "page": 23
+  },
+  {
+    "param": "C4-05",
+    "name": "Torque Compensation Time",
+    "address": "0x0219",
+    "adddress": "0x0219",
+    "hex": "0219",
+    "dec": 537,
+    "page": 23
+  },
+  {
+    "param": "C4-06",
+    "name": "Motor 2Torque Comp Delay Time",
+    "address": "0x021A",
+    "adddress": "0x021A",
+    "hex": "021A",
+    "dec": 538,
+    "page": 23
+  },
+  {
+    "param": "C4-07",
+    "name": "Motor 2Torque Compensation Gain",
+    "address": "0x0341",
+    "adddress": "0x0341",
+    "hex": "0341",
+    "dec": 833,
+    "page": 23
+  },
+  {
+    "param": "C4-19",
+    "name": "T-ripplesuppress freq Increase",
+    "address": "0x0B8D",
+    "adddress": "0x0B8D",
+    "hex": "0B8D",
+    "dec": 2957,
+    "page": 23
+  },
+  {
+    "param": "C4-20",
+    "name": "volcompensation adjust 1",
+    "address": "0x0BCB",
+    "adddress": "0x0BCB",
+    "hex": "0BCB",
+    "dec": 3019,
+    "page": 23
+  },
+  {
+    "param": "C4-21",
+    "name": "volcompensation adjust 2",
+    "address": "0x0BCC",
+    "adddress": "0x0BCC",
+    "hex": "0BCC",
+    "dec": 3020,
+    "page": 23
+  },
+  {
+    "param": "C5-01",
+    "name": "ASRProportional Gain 1",
+    "address": "0x021B",
+    "adddress": "0x021B",
+    "hex": "021B",
+    "dec": 539,
+    "page": 24
+  },
+  {
+    "param": "C5-02",
+    "name": "ASRIntegral Time 1",
+    "address": "0x021C",
+    "adddress": "0x021C",
+    "hex": "021C",
+    "dec": 540,
+    "page": 24
+  },
+  {
+    "param": "C5-03",
+    "name": "ASRProportional Gain 2",
+    "address": "0x021D",
+    "adddress": "0x021D",
+    "hex": "021D",
+    "dec": 541,
+    "page": 24
+  },
+  {
+    "param": "C5-04",
+    "name": "ASRIntegral Time 2",
+    "address": "0x021E",
+    "adddress": "0x021E",
+    "hex": "021E",
+    "dec": 542,
+    "page": 24
+  },
+  {
+    "param": "C5-05",
+    "name": "ASRLimit",
+    "address": "0x021F",
+    "adddress": "0x021F",
+    "hex": "021F",
+    "dec": 543,
+    "page": 24
+  },
+  {
+    "param": "C5-06",
+    "name": "ASRDelay Time",
+    "address": "0x0220",
+    "adddress": "0x0220",
+    "hex": "0220",
+    "dec": 544,
+    "page": 24
+  },
+  {
+    "param": "C5-07",
+    "name": "ASRGain Switchover Frequency",
+    "address": "0x0221",
+    "adddress": "0x0221",
+    "hex": "0221",
+    "dec": 545,
+    "page": 24
+  },
+  {
+    "param": "C5-08",
+    "name": "ASRIntegral Limit",
+    "address": "0x0222",
+    "adddress": "0x0222",
+    "hex": "0222",
+    "dec": 546,
+    "page": 24
+  },
+  {
+    "param": "C5-12",
+    "name": "Integral Operation @Accel/Decel",
+    "address": "0x0386",
+    "adddress": "0x0386",
+    "hex": "0386",
+    "dec": 902,
+    "page": 24
+  },
+  {
+    "param": "C5-17",
+    "name": "Motorinertia",
+    "address": "0x0276",
+    "adddress": "0x0276",
+    "hex": "0276",
+    "dec": 630,
+    "page": 24
+  },
+  {
+    "param": "C5-18",
+    "name": "Load Inertia Ratio",
+    "address": "0x0277",
+    "adddress": "0x0277",
+    "hex": "0277",
+    "dec": 631,
+    "page": 24
+  },
+  {
+    "param": "C5-21",
+    "name": "Motor 2ASR Proportional Gain 1",
+    "address": "0x0356",
+    "adddress": "0x0356",
+    "hex": "0356",
+    "dec": 854,
+    "page": 24
+  },
+  {
+    "param": "C5-22",
+    "name": "Motor 2ASR Integral Time 1",
+    "address": "0x0357",
+    "adddress": "0x0357",
+    "hex": "0357",
+    "dec": 855,
+    "page": 24
+  },
+  {
+    "param": "C5-23",
+    "name": "Motor 2ASR Proportional Gain 2",
+    "address": "0x0358",
+    "adddress": "0x0358",
+    "hex": "0358",
+    "dec": 856,
+    "page": 24
+  },
+  {
+    "param": "C5-24",
+    "name": "Motor 2ASR Integral Time 2",
+    "address": "0x0359",
+    "adddress": "0x0359",
+    "hex": "0359",
+    "dec": 857,
+    "page": 24
+  },
+  {
+    "param": "C5-25",
+    "name": "Motor 2ASR Limit",
+    "address": "0x035A",
+    "adddress": "0x035A",
+    "hex": "035A",
+    "dec": 858,
+    "page": 25
+  },
+  {
+    "param": "C5-26",
+    "name": "Motor 2ASR Delay Time",
+    "address": "0x035B",
+    "adddress": "0x035B",
+    "hex": "035B",
+    "dec": 859,
+    "page": 25
+  },
+  {
+    "param": "C5-27",
+    "name": "Motor 2ASRGain Switchover Freq",
+    "address": "0x035C",
+    "adddress": "0x035C",
+    "hex": "035C",
+    "dec": 860,
+    "page": 25
+  },
+  {
+    "param": "C5-28",
+    "name": "Motor 2ASR Integral Limit",
+    "address": "0x035D",
+    "adddress": "0x035D",
+    "hex": "035D",
+    "dec": 861,
+    "page": 25
+  },
+  {
+    "param": "C5-29",
+    "name": "Speed Control Response",
+    "address": "0x0B18",
+    "adddress": "0x0B18",
+    "hex": "0B18",
+    "dec": 2840,
+    "page": 25
+  },
+  {
+    "param": "C5-32",
+    "name": "Motor 2Integral Oper@Acc/Dec",
+    "address": "0x0361",
+    "adddress": "0x0361",
+    "hex": "0361",
+    "dec": 865,
+    "page": 25
+  },
+  {
+    "param": "C5-37",
+    "name": "Motor 2Inertia",
+    "address": "0x0278",
+    "adddress": "0x0278",
+    "hex": "0278",
+    "dec": 632,
+    "page": 25
+  },
+  {
+    "param": "C5-38",
+    "name": "Motor 2Load Inertia Ratio",
+    "address": "0x0279",
+    "adddress": "0x0279",
+    "hex": "0279",
+    "dec": 633,
+    "page": 25
+  },
+  {
+    "param": "C5-39",
+    "name": "ASRPrimary Delay Time Const 2",
+    "address": "0x030D",
+    "adddress": "0x030D",
+    "hex": "030D",
+    "dec": 781,
+    "page": 25
+  },
+  {
+    "param": "C5-50",
+    "name": "Notchfilter frequency",
+    "address": "0x0B14",
+    "adddress": "0x0B14",
+    "hex": "0B14",
+    "dec": 2836,
+    "page": 25
+  },
+  {
+    "param": "C5-51",
+    "name": "Notch Filter Bandwidth",
+    "address": "0x0B15",
+    "adddress": "0x0B15",
+    "hex": "0B15",
+    "dec": 2837,
+    "page": 25
+  },
+  {
+    "param": "C6-01",
+    "name": "Normal/Heavy Duty Selection",
+    "address": "0x0223",
+    "adddress": "0x0223",
+    "hex": "0223",
+    "dec": 547,
+    "page": 26
+  },
+  {
+    "param": "C6-02",
+    "name": "Carrier Frequency Selection",
+    "address": "0x0224",
+    "adddress": "0x0224",
+    "hex": "0224",
+    "dec": 548,
+    "page": 26
+  },
+  {
+    "param": "C6-03",
+    "name": "Carrier Frequency Upper Limit",
+    "address": "0x0225",
+    "adddress": "0x0225",
+    "hex": "0225",
+    "dec": 549,
+    "page": 26
+  },
+  {
+    "param": "C6-04",
+    "name": "Carrier Frequency Lower Limit",
+    "address": "0x0226",
+    "adddress": "0x0226",
+    "hex": "0226",
+    "dec": 550,
+    "page": 26
+  },
+  {
+    "param": "C6-05",
+    "name": "Carrier Freq Proportional Gain",
+    "address": "0x0227",
+    "adddress": "0x0227",
+    "hex": "0227",
+    "dec": 551,
+    "page": 26
+  },
+  {
+    "param": "C6-09",
+    "name": "Carrier Frequency @Rotate Tuning",
+    "address": "0x022B",
+    "adddress": "0x022B",
+    "hex": "022B",
+    "dec": 555,
+    "page": 26
+  },
+  {
+    "param": "d1-01",
+    "name": "Reference 1",
+    "address": "0x0280",
+    "adddress": "0x0280",
+    "hex": "0280",
+    "dec": 640,
+    "page": 27
+  },
+  {
+    "param": "d1-02",
+    "name": "Reference 2",
+    "address": "0x0281",
+    "adddress": "0x0281",
+    "hex": "0281",
+    "dec": 641,
+    "page": 27
+  },
+  {
+    "param": "d1-03",
+    "name": "Reference 3",
+    "address": "0x0282",
+    "adddress": "0x0282",
+    "hex": "0282",
+    "dec": 642,
+    "page": 27
+  },
+  {
+    "param": "d1-04",
+    "name": "Reference 4",
+    "address": "0x0283",
+    "adddress": "0x0283",
+    "hex": "0283",
+    "dec": 643,
+    "page": 27
+  },
+  {
+    "param": "d1-05",
+    "name": "Reference 5",
+    "address": "0x0284",
+    "adddress": "0x0284",
+    "hex": "0284",
+    "dec": 644,
+    "page": 27
+  },
+  {
+    "param": "d1-06",
+    "name": "Reference 6",
+    "address": "0x0285",
+    "adddress": "0x0285",
+    "hex": "0285",
+    "dec": 645,
+    "page": 27
+  },
+  {
+    "param": "d1-07",
+    "name": "Reference 7",
+    "address": "0x0286",
+    "adddress": "0x0286",
+    "hex": "0286",
+    "dec": 646,
+    "page": 27
+  },
+  {
+    "param": "d1-08",
+    "name": "Reference 8",
+    "address": "0x0287",
+    "adddress": "0x0287",
+    "hex": "0287",
+    "dec": 647,
+    "page": 27
+  },
+  {
+    "param": "d1-09",
+    "name": "Reference 9",
+    "address": "0x0288",
+    "adddress": "0x0288",
+    "hex": "0288",
+    "dec": 648,
+    "page": 28
+  },
+  {
+    "param": "d1-10",
+    "name": "Reference 10",
+    "address": "0x028B",
+    "adddress": "0x028B",
+    "hex": "028B",
+    "dec": 651,
+    "page": 28
+  },
+  {
+    "param": "d1-11",
+    "name": "Reference 11",
+    "address": "0x028C",
+    "adddress": "0x028C",
+    "hex": "028C",
+    "dec": 652,
+    "page": 28
+  },
+  {
+    "param": "d1-12",
+    "name": "Reference 12",
+    "address": "0x028D",
+    "adddress": "0x028D",
+    "hex": "028D",
+    "dec": 653,
+    "page": 28
+  },
+  {
+    "param": "d1-13",
+    "name": "Reference 13",
+    "address": "0x028E",
+    "adddress": "0x028E",
+    "hex": "028E",
+    "dec": 654,
+    "page": 28
+  },
+  {
+    "param": "d1-14",
+    "name": "Reference 14",
+    "address": "0x028F",
+    "adddress": "0x028F",
+    "hex": "028F",
+    "dec": 655,
+    "page": 28
+  },
+  {
+    "param": "d1-15",
+    "name": "Reference 15",
+    "address": "0x0290",
+    "adddress": "0x0290",
+    "hex": "0290",
+    "dec": 656,
+    "page": 28
+  },
+  {
+    "param": "d1-16",
+    "name": "Reference 16",
+    "address": "0x0291",
+    "adddress": "0x0291",
+    "hex": "0291",
+    "dec": 657,
+    "page": 29
+  },
+  {
+    "param": "d1-17",
+    "name": "Jog Reference",
+    "address": "0x0292",
+    "adddress": "0x0292",
+    "hex": "0292",
+    "dec": 658,
+    "page": 29
+  },
+  {
+    "param": "d2-01",
+    "name": "Frequency Reference Upper Limit",
+    "address": "0x0289",
+    "adddress": "0x0289",
+    "hex": "0289",
+    "dec": 649,
+    "page": 29
+  },
+  {
+    "param": "d2-02",
+    "name": "Frequency Reference Lower Limit",
+    "address": "0x028A",
+    "adddress": "0x028A",
+    "hex": "028A",
+    "dec": 650,
+    "page": 29
+  },
+  {
+    "param": "d2-03",
+    "name": "Analog Speed Reference Low Limit",
+    "address": "0x0293",
+    "adddress": "0x0293",
+    "hex": "0293",
+    "dec": 659,
+    "page": 29
+  },
+  {
+    "param": "d3-01",
+    "name": "Jump Frequency 1",
+    "address": "0x0294",
+    "adddress": "0x0294",
+    "hex": "0294",
+    "dec": 660,
+    "page": 29
+  },
+  {
+    "param": "d3-02",
+    "name": "Jump Frequency 2",
+    "address": "0x0295",
+    "adddress": "0x0295",
+    "hex": "0295",
+    "dec": 661,
+    "page": 29
+  },
+  {
+    "param": "d3-03",
+    "name": "Jump Frequency 3",
+    "address": "0x0296",
+    "adddress": "0x0296",
+    "hex": "0296",
+    "dec": 662,
+    "page": 29
+  },
+  {
+    "param": "d3-04",
+    "name": "Jump Frequency Width",
+    "address": "0x0297",
+    "adddress": "0x0297",
+    "hex": "0297",
+    "dec": 663,
+    "page": 29
+  },
+  {
+    "param": "d4-01",
+    "name": "Freq Reference Retention Select",
+    "address": "0x0298",
+    "adddress": "0x0298",
+    "hex": "0298",
+    "dec": 664,
+    "page": 30
+  },
+  {
+    "param": "d4-03",
+    "name": "Up/Down 2Bias Level",
+    "address": "0x02AA",
+    "adddress": "0x02AA",
+    "hex": "02AA",
+    "dec": 682,
+    "page": 30
+  },
+  {
+    "param": "d4-04",
+    "name": "Up/Down 2Ramp Selection",
+    "address": "0x02AB",
+    "adddress": "0x02AB",
+    "hex": "02AB",
+    "dec": 683,
+    "page": 30
+  },
+  {
+    "param": "d4-05",
+    "name": "Up/Down 2Bias Mode Selection",
+    "address": "0x02AC",
+    "adddress": "0x02AC",
+    "hex": "02AC",
+    "dec": 684,
+    "page": 30
+  },
+  {
+    "param": "d4-06",
+    "name": "Frequency Ref Bias(Up/Down 2) Saves",
+    "address": "0x02AD",
+    "adddress": "0x02AD",
+    "hex": "02AD",
+    "dec": 685,
+    "page": 30
+  },
+  {
+    "param": "d4-07",
+    "name": "Analog Freq Ref Fluctuate Limit If",
+    "address": "0x02AE",
+    "adddress": "0x02AE",
+    "hex": "02AE",
+    "dec": 686,
+    "page": 30
+  },
+  {
+    "param": "d4-08",
+    "name": "Up/Down 2Bias Upper Limit",
+    "address": "0x02AF",
+    "adddress": "0x02AF",
+    "hex": "02AF",
+    "dec": 687,
+    "page": 30
+  },
+  {
+    "param": "d4-09",
+    "name": "Up/Down 2Bias Lowerlimit",
+    "address": "0x02B0",
+    "adddress": "0x02B0",
+    "hex": "02B0",
+    "dec": 688,
+    "page": 30
+  },
+  {
+    "param": "d4-10",
+    "name": "Up/Down Freq Lower",
+    "address": "0x02B6",
+    "adddress": "0x02B6",
+    "hex": "02B6",
+    "dec": 694,
+    "page": 30
+  },
+  {
+    "param": "d4-11",
+    "name": "Bi-Directional",
+    "address": "0x02B7",
+    "adddress": "0x02B7",
+    "hex": "02B7",
+    "dec": 695,
+    "page": 30
+  },
+  {
+    "param": "d4-12",
+    "name": "Stop Position Gain",
+    "address": "0x02B8",
+    "adddress": "0x02B8",
+    "hex": "02B8",
+    "dec": 696,
+    "page": 30
+  },
+  {
+    "param": "d5-01",
+    "name": "Torque Control Selection",
+    "address": "0x029A",
+    "adddress": "0x029A",
+    "hex": "029A",
+    "dec": 666,
+    "page": 31
+  },
+  {
+    "param": "d5-02",
+    "name": "Torque Reference Delay Time",
+    "address": "0x029B",
+    "adddress": "0x029B",
+    "hex": "029B",
+    "dec": 667,
+    "page": 31
+  },
+  {
+    "param": "d5-03",
+    "name": "Speed Limit Selection",
+    "address": "0x029C",
+    "adddress": "0x029C",
+    "hex": "029C",
+    "dec": 668,
+    "page": 31
+  },
+  {
+    "param": "d5-04",
+    "name": "Speed Limit",
+    "address": "0x029D",
+    "adddress": "0x029D",
+    "hex": "029D",
+    "dec": 669,
+    "page": 31
+  },
+  {
+    "param": "d5-05",
+    "name": "Speed Limit Bias",
+    "address": "0x029E",
+    "adddress": "0x029E",
+    "hex": "029E",
+    "dec": 670,
+    "page": 31
+  },
+  {
+    "param": "d5-06",
+    "name": "Speed/Torque Changeover Time",
+    "address": "0x029F",
+    "adddress": "0x029F",
+    "hex": "029F",
+    "dec": 671,
+    "page": 31
+  },
+  {
+    "param": "d5-08",
+    "name": "Unidirectional Speed Limit Bias",
+    "address": "0x02B5",
+    "adddress": "0x02B5",
+    "hex": "02B5",
+    "dec": 693,
+    "page": 31
+  },
+  {
+    "param": "d6-01",
+    "name": "Field Weakening Level",
+    "address": "0x02A0",
+    "adddress": "0x02A0",
+    "hex": "02A0",
+    "dec": 672,
+    "page": 31
+  },
+  {
+    "param": "d6-02",
+    "name": "Field Weakening Frequency Limit",
+    "address": "0x02A1",
+    "adddress": "0x02A1",
+    "hex": "02A1",
+    "dec": 673,
+    "page": 31
+  },
+  {
+    "param": "d6-03",
+    "name": "Field Forcing Selection",
+    "address": "0x02A2",
+    "adddress": "0x02A2",
+    "hex": "02A2",
+    "dec": 674,
+    "page": 31
+  },
+  {
+    "param": "d6-06",
+    "name": "Field Forcing Limit",
+    "address": "0x02A5",
+    "adddress": "0x02A5",
+    "hex": "02A5",
+    "dec": 677,
+    "page": 31
+  },
+  {
+    "param": "d7-01",
+    "name": "Offset Frequency 1 Addsorsubtracts",
+    "address": "0x02B2",
+    "adddress": "0x02B2",
+    "hex": "02B2",
+    "dec": 690,
+    "page": 32
+  },
+  {
+    "param": "d7-02",
+    "name": "Offset Frequency 2 Addsorsubtracts",
+    "address": "0x02B3",
+    "adddress": "0x02B3",
+    "hex": "02B3",
+    "dec": 691,
+    "page": 32
+  },
+  {
+    "param": "d7-03",
+    "name": "Offset Frequency 3 Addsorsubtracts",
+    "address": "0x02B4",
+    "adddress": "0x02B4",
+    "hex": "02B4",
+    "dec": 692,
+    "page": 32
+  },
+  {
+    "param": "E1-01",
+    "name": "Input ACSupply Voltage",
+    "address": "0x0300",
+    "adddress": "0x0300",
+    "hex": "0300",
+    "dec": 768,
+    "page": 33
+  },
+  {
+    "param": "E1-03",
+    "name": "V/f Pattern Selection",
+    "address": "0x0302",
+    "adddress": "0x0302",
+    "hex": "0302",
+    "dec": 770,
+    "page": 33
+  },
+  {
+    "param": "E1-04",
+    "name": "Maximum Output Frequency",
+    "address": "0x0303",
+    "adddress": "0x0303",
+    "hex": "0303",
+    "dec": 771,
+    "page": 33
+  },
+  {
+    "param": "E1-05",
+    "name": "Maximum Output Voltage",
+    "address": "0x0304",
+    "adddress": "0x0304",
+    "hex": "0304",
+    "dec": 772,
+    "page": 33
+  },
+  {
+    "param": "E1-06",
+    "name": "Base Frequency",
+    "address": "0x0305",
+    "adddress": "0x0305",
+    "hex": "0305",
+    "dec": 773,
+    "page": 33
+  },
+  {
+    "param": "E1-07",
+    "name": "Mid Point A Frequency",
+    "address": "0x0306",
+    "adddress": "0x0306",
+    "hex": "0306",
+    "dec": 774,
+    "page": 33
+  },
+  {
+    "param": "E1-08",
+    "name": "Mid Point A Voltage",
+    "address": "0x0307",
+    "adddress": "0x0307",
+    "hex": "0307",
+    "dec": 775,
+    "page": 33
+  },
+  {
+    "param": "E1-09",
+    "name": "Minimum Output Frequency",
+    "address": "0x0308",
+    "adddress": "0x0308",
+    "hex": "0308",
+    "dec": 776,
+    "page": 34
+  },
+  {
+    "param": "E1-10",
+    "name": "Minimum Output Voltage",
+    "address": "0x0309",
+    "adddress": "0x0309",
+    "hex": "0309",
+    "dec": 777,
+    "page": 34
+  },
+  {
+    "param": "E1-11",
+    "name": "Mid Point B Frequency",
+    "address": "0x030A",
+    "adddress": "0x030A",
+    "hex": "030A",
+    "dec": 778,
+    "page": 34
+  },
+  {
+    "param": "E1-12",
+    "name": "Mid Point B Voltage",
+    "address": "0x030B",
+    "adddress": "0x030B",
+    "hex": "030B",
+    "dec": 779,
+    "page": 34
+  },
+  {
+    "param": "E1-13",
+    "name": "Base Voltage",
+    "address": "0x030C",
+    "adddress": "0x030C",
+    "hex": "030C",
+    "dec": 780,
+    "page": 34
+  },
+  {
+    "param": "E2-01",
+    "name": "Motor Rated Current",
+    "address": "0x030E",
+    "adddress": "0x030E",
+    "hex": "030E",
+    "dec": 782,
+    "page": 34
+  },
+  {
+    "param": "E2-02",
+    "name": "Motor Rated Slip",
+    "address": "0x030F",
+    "adddress": "0x030F",
+    "hex": "030F",
+    "dec": 783,
+    "page": 34
+  },
+  {
+    "param": "E2-03",
+    "name": "Motor No-Load Current Set",
+    "address": "0x0310",
+    "adddress": "0x0310",
+    "hex": "0310",
+    "dec": 784,
+    "page": 34
+  },
+  {
+    "param": "E2-04",
+    "name": "Motor Pole Count",
+    "address": "0x0311",
+    "adddress": "0x0311",
+    "hex": "0311",
+    "dec": 785,
+    "page": 34
+  },
+  {
+    "param": "E2-05",
+    "name": "Motor Line-to-Line Resistance",
+    "address": "0x0312",
+    "adddress": "0x0312",
+    "hex": "0312",
+    "dec": 786,
+    "page": 34
+  },
+  {
+    "param": "E2-06",
+    "name": "Motor Leakage Inductance",
+    "address": "0x0313",
+    "adddress": "0x0313",
+    "hex": "0313",
+    "dec": 787,
+    "page": 34
+  },
+  {
+    "param": "E2-07",
+    "name": "Motor Saturation Coefficient 1",
+    "address": "0x0314",
+    "adddress": "0x0314",
+    "hex": "0314",
+    "dec": 788,
+    "page": 34
+  },
+  {
+    "param": "E2-08",
+    "name": "Motor Saturation Coefficient 2",
+    "address": "0x0315",
+    "adddress": "0x0315",
+    "hex": "0315",
+    "dec": 789,
+    "page": 34
+  },
+  {
+    "param": "E2-09",
+    "name": "Motor Mechanical Loss",
+    "address": "0x0316",
+    "adddress": "0x0316",
+    "hex": "0316",
+    "dec": 790,
+    "page": 34
+  },
+  {
+    "param": "E2-10",
+    "name": "Motor Iron Loss",
+    "address": "0x0317",
+    "adddress": "0x0317",
+    "hex": "0317",
+    "dec": 791,
+    "page": 35
+  },
+  {
+    "param": "E2-11",
+    "name": "Motor Rated Power (k W)",
+    "address": "0x0318",
+    "adddress": "0x0318",
+    "hex": "0318",
+    "dec": 792,
+    "page": 35
+  },
+  {
+    "param": "E3-01",
+    "name": "Motor 2Control Mode Selection",
+    "address": "0x0319",
+    "adddress": "0x0319",
+    "hex": "0319",
+    "dec": 793,
+    "page": 35
+  },
+  {
+    "param": "E3-04",
+    "name": "Motor 2Maximum Output Frequency",
+    "address": "0x031A",
+    "adddress": "0x031A",
+    "hex": "031A",
+    "dec": 794,
+    "page": 35
+  },
+  {
+    "param": "E3-05",
+    "name": "Motor 2Maximum Output Voltage",
+    "address": "0x031B",
+    "adddress": "0x031B",
+    "hex": "031B",
+    "dec": 795,
+    "page": 35
+  },
+  {
+    "param": "E3-06",
+    "name": "Motor 2Base Frequency",
+    "address": "0x031C",
+    "adddress": "0x031C",
+    "hex": "031C",
+    "dec": 796,
+    "page": 35
+  },
+  {
+    "param": "E3-07",
+    "name": "Motor 2Mid Point AFrequency",
+    "address": "0x031D",
+    "adddress": "0x031D",
+    "hex": "031D",
+    "dec": 797,
+    "page": 35
+  },
+  {
+    "param": "E3-08",
+    "name": "Motor 2Mid Point AVoltage",
+    "address": "0x031E",
+    "adddress": "0x031E",
+    "hex": "031E",
+    "dec": 798,
+    "page": 35
+  },
+  {
+    "param": "E3-09",
+    "name": "Motor 2Minimum Output Frequency",
+    "address": "0x031F",
+    "adddress": "0x031F",
+    "hex": "031F",
+    "dec": 799,
+    "page": 35
+  },
+  {
+    "param": "E3-10",
+    "name": "Motor 2Minimum Output Voltage",
+    "address": "0x0320",
+    "adddress": "0x0320",
+    "hex": "0320",
+    "dec": 800,
+    "page": 35
+  },
+  {
+    "param": "E3-11",
+    "name": "Motor 2Mid Point BFrequency",
+    "address": "0x0345",
+    "adddress": "0x0345",
+    "hex": "0345",
+    "dec": 837,
+    "page": 35
+  },
+  {
+    "param": "E3-12",
+    "name": "Motor 2Mid Point BVoltage",
+    "address": "0x0346",
+    "adddress": "0x0346",
+    "hex": "0346",
+    "dec": 838,
+    "page": 36
+  },
+  {
+    "param": "E3-13",
+    "name": "Motor 2Base Voltage",
+    "address": "0x0347",
+    "adddress": "0x0347",
+    "hex": "0347",
+    "dec": 839,
+    "page": 36
+  },
+  {
+    "param": "E4-01",
+    "name": "Motor 2Rated Current",
+    "address": "0x0321",
+    "adddress": "0x0321",
+    "hex": "0321",
+    "dec": 801,
+    "page": 36
+  },
+  {
+    "param": "E4-02",
+    "name": "Motor 2Rated Slip",
+    "address": "0x0322",
+    "adddress": "0x0322",
+    "hex": "0322",
+    "dec": 802,
+    "page": 36
+  },
+  {
+    "param": "E4-03",
+    "name": "Motor 2Rated No- Load Current",
+    "address": "0x0323",
+    "adddress": "0x0323",
+    "hex": "0323",
+    "dec": 803,
+    "page": 36
+  },
+  {
+    "param": "E4-04",
+    "name": "Motor 2Motor Poles",
+    "address": "0x0324",
+    "adddress": "0x0324",
+    "hex": "0324",
+    "dec": 804,
+    "page": 36
+  },
+  {
+    "param": "E4-05",
+    "name": "Motor 2Line-to- Line Resistance",
+    "address": "0x0325",
+    "adddress": "0x0325",
+    "hex": "0325",
+    "dec": 805,
+    "page": 36
+  },
+  {
+    "param": "E4-06",
+    "name": "Motor 2Leakage Inductance",
+    "address": "0x0326",
+    "adddress": "0x0326",
+    "hex": "0326",
+    "dec": 806,
+    "page": 36
+  },
+  {
+    "param": "E4-07",
+    "name": "Motor 2Sauturation Coefficient 1",
+    "address": "0x0343",
+    "adddress": "0x0343",
+    "hex": "0343",
+    "dec": 835,
+    "page": 36
+  },
+  {
+    "param": "E4-08",
+    "name": "Motor 2Saturation Coefficient 2",
+    "address": "0x0344",
+    "adddress": "0x0344",
+    "hex": "0344",
+    "dec": 836,
+    "page": 36
+  },
+  {
+    "param": "E4-09",
+    "name": "Motor 2 Mechanical Loss",
+    "address": "0x033F",
+    "adddress": "0x033F",
+    "hex": "033F",
+    "dec": 831,
+    "page": 36
+  },
+  {
+    "param": "E4-10",
+    "name": "Motor 2Iron Loss",
+    "address": "0x0340",
+    "adddress": "0x0340",
+    "hex": "0340",
+    "dec": 832,
+    "page": 36
+  },
+  {
+    "param": "E4-11",
+    "name": "Motor 2Rated Power",
+    "address": "0x0327",
+    "adddress": "0x0327",
+    "hex": "0327",
+    "dec": 807,
+    "page": 36
+  },
+  {
+    "param": "E5-01",
+    "name": "PMMotor Code Selection",
+    "address": "0x0329",
+    "adddress": "0x0329",
+    "hex": "0329",
+    "dec": 809,
+    "page": 37
+  },
+  {
+    "param": "E5-02",
+    "name": "Motor Rated Capacity",
+    "address": "0x032A",
+    "adddress": "0x032A",
+    "hex": "032A",
+    "dec": 810,
+    "page": 37
+  },
+  {
+    "param": "E5-03",
+    "name": "PMMotor Rated Current(FLA)",
+    "address": "0x032B",
+    "adddress": "0x032B",
+    "hex": "032B",
+    "dec": 811,
+    "page": 37
+  },
+  {
+    "param": "E5-04",
+    "name": "PMMotor Pole Count",
+    "address": "0x032C",
+    "adddress": "0x032C",
+    "hex": "032C",
+    "dec": 812,
+    "page": 37
+  },
+  {
+    "param": "E5-05",
+    "name": "PMMotor Resistance(ohms/ phase)",
+    "address": "0x032D",
+    "adddress": "0x032D",
+    "hex": "032D",
+    "dec": 813,
+    "page": 37
+  },
+  {
+    "param": "E5-06",
+    "name": "PMd-axis Inductance(m H/ phase)",
+    "address": "0x032E",
+    "adddress": "0x032E",
+    "hex": "032E",
+    "dec": 814,
+    "page": 37
+  },
+  {
+    "param": "E5-07",
+    "name": "PMq-axis Inductance(m H/ phase)",
+    "address": "0x032F",
+    "adddress": "0x032F",
+    "hex": "032F",
+    "dec": 815,
+    "page": 37
+  },
+  {
+    "param": "E5-09",
+    "name": "PMBack-EMF Vpeak(m V/(rad/ s))",
+    "address": "0x0331",
+    "adddress": "0x0331",
+    "hex": "0331",
+    "dec": 817,
+    "page": 37
+  },
+  {
+    "param": "E5-11",
+    "name": "Encoder Z-Pulse Offset",
+    "address": "0x0333",
+    "adddress": "0x0333",
+    "hex": "0333",
+    "dec": 819,
+    "page": 37
+  },
+  {
+    "param": "E5-24",
+    "name": "PMBack-EMFL- LVrms(m V/rpm)",
+    "address": "0x0353",
+    "adddress": "0x0353",
+    "hex": "0353",
+    "dec": 851,
+    "page": 37
+  },
+  {
+    "param": "E5-25",
+    "name": "Polarity Estimation Reversal",
+    "address": "0x035E",
+    "adddress": "0x035E",
+    "hex": "035E",
+    "dec": 862,
+    "page": 37
+  },
+  {
+    "param": "E9-01",
+    "name": "Motor Type Selection",
+    "address": "0x11E4",
+    "adddress": "0x11E4",
+    "hex": "11E4",
+    "dec": 4580,
+    "page": 37
+  },
+  {
+    "param": "E9-02",
+    "name": "Motor Max Revolutions",
+    "address": "0x11E5",
+    "adddress": "0x11E5",
+    "hex": "11E5",
+    "dec": 4581,
+    "page": 37
+  },
+  {
+    "param": "E9-03",
+    "name": "Rated Speed",
+    "address": "0x11E6",
+    "adddress": "0x11E6",
+    "hex": "11E6",
+    "dec": 4582,
+    "page": 37
+  },
+  {
+    "param": "E9-04",
+    "name": "Base Frequency",
+    "address": "0x11E7",
+    "adddress": "0x11E7",
+    "hex": "11E7",
+    "dec": 4583,
+    "page": 38
+  },
+  {
+    "param": "E9-05",
+    "name": "Base Voltage",
+    "address": "0x11E8",
+    "adddress": "0x11E8",
+    "hex": "11E8",
+    "dec": 4584,
+    "page": 38
+  },
+  {
+    "param": "E9-06",
+    "name": "Motor Rated Current",
+    "address": "0x11E9",
+    "adddress": "0x11E9",
+    "hex": "11E9",
+    "dec": 4585,
+    "page": 38
+  },
+  {
+    "param": "E9-07",
+    "name": "Motor Rated Power (k W)",
+    "address": "0x11EA",
+    "adddress": "0x11EA",
+    "hex": "11EA",
+    "dec": 4586,
+    "page": 38
+  },
+  {
+    "param": "E9-08",
+    "name": "Motor Pole Count",
+    "address": "0x11EB",
+    "adddress": "0x11EB",
+    "hex": "11EB",
+    "dec": 4587,
+    "page": 38
+  },
+  {
+    "param": "E9-09",
+    "name": "Motor Rated Slip",
+    "address": "0x11EC",
+    "adddress": "0x11EC",
+    "hex": "11EC",
+    "dec": 4588,
+    "page": 38
+  },
+  {
+    "param": "E9-10",
+    "name": "Motor Line-to-Line Resistance",
+    "address": "0x11ED",
+    "adddress": "0x11ED",
+    "hex": "11ED",
+    "dec": 4589,
+    "page": 38
+  },
+  {
+    "param": "F1-01",
+    "name": "PG 1Pulses Per Revolution",
+    "address": "0x0380",
+    "adddress": "0x0380",
+    "hex": "0380",
+    "dec": 896,
+    "page": 39
+  },
+  {
+    "param": "F1-02",
+    "name": "PGFeedback Loss Selection",
+    "address": "0x0381",
+    "adddress": "0x0381",
+    "hex": "0381",
+    "dec": 897,
+    "page": 39
+  },
+  {
+    "param": "F1-03",
+    "name": "Operation Selectat Overspeed",
+    "address": "0x0382",
+    "adddress": "0x0382",
+    "hex": "0382",
+    "dec": 898,
+    "page": 39
+  },
+  {
+    "param": "F1-04",
+    "name": "Operation Selectionat Deviation",
+    "address": "0x0383",
+    "adddress": "0x0383",
+    "hex": "0383",
+    "dec": 899,
+    "page": 39
+  },
+  {
+    "param": "F1-05",
+    "name": "PG 1Rotation Selection",
+    "address": "0x0384",
+    "adddress": "0x0384",
+    "hex": "0384",
+    "dec": 900,
+    "page": 39
+  },
+  {
+    "param": "F1-06",
+    "name": "PG 1Division Rate for Pulse Mon",
+    "address": "0x0385",
+    "adddress": "0x0385",
+    "hex": "0385",
+    "dec": 901,
+    "page": 39
+  },
+  {
+    "param": "F1-08",
+    "name": "Overspeed Detection Level",
+    "address": "0x0387",
+    "adddress": "0x0387",
+    "hex": "0387",
+    "dec": 903,
+    "page": 39
+  },
+  {
+    "param": "F1-09",
+    "name": "Overspeed Detection Delay Time",
+    "address": "0x0388",
+    "adddress": "0x0388",
+    "hex": "0388",
+    "dec": 904,
+    "page": 39
+  },
+  {
+    "param": "F1-10",
+    "name": "Speed Deviation Detection Level",
+    "address": "0x0389",
+    "adddress": "0x0389",
+    "hex": "0389",
+    "dec": 905,
+    "page": 39
+  },
+  {
+    "param": "F1-11",
+    "name": "Speed Deviation Detect Delay Time",
+    "address": "0x038A",
+    "adddress": "0x038A",
+    "hex": "038A",
+    "dec": 906,
+    "page": 39
+  },
+  {
+    "param": "F1-12",
+    "name": "PG 1Gear Teeth 1",
+    "address": "0x038B",
+    "adddress": "0x038B",
+    "hex": "038B",
+    "dec": 907,
+    "page": 39
+  },
+  {
+    "param": "F1-13",
+    "name": "PG 1Gear Teeth 2",
+    "address": "0x038C",
+    "adddress": "0x038C",
+    "hex": "038C",
+    "dec": 908,
+    "page": 39
+  },
+  {
+    "param": "F1-14",
+    "name": "PGOpen-Circuit Detection Time",
+    "address": "0x038D",
+    "adddress": "0x038D",
+    "hex": "038D",
+    "dec": 909,
+    "page": 40
+  },
+  {
+    "param": "F1-18",
+    "name": "Deviation 3 Detection Selection",
+    "address": "0x03AD",
+    "adddress": "0x03AD",
+    "hex": "03AD",
+    "dec": 941,
+    "page": 40
+  },
+  {
+    "param": "F1-19",
+    "name": "Deviation 4 Detection Selection",
+    "address": "0x03AE",
+    "adddress": "0x03AE",
+    "hex": "03AE",
+    "dec": 942,
+    "page": 40
+  },
+  {
+    "param": "F1-20",
+    "name": "PGOption PCB Disconnect Detect 1",
+    "address": "0x03B4",
+    "adddress": "0x03B4",
+    "hex": "03B4",
+    "dec": 948,
+    "page": 40
+  },
+  {
+    "param": "F1-21",
+    "name": "PG 1Signal Selection",
+    "address": "0x03BC",
+    "adddress": "0x03BC",
+    "hex": "03BC",
+    "dec": 956,
+    "page": 40
+  },
+  {
+    "param": "F1-30",
+    "name": "Motor 2PGOption Port Selection",
+    "address": "0x03AA",
+    "adddress": "0x03AA",
+    "hex": "03AA",
+    "dec": 938,
+    "page": 40
+  },
+  {
+    "param": "F1-31",
+    "name": "PG 2Pulses Per Revolution",
+    "address": "0x03B0",
+    "adddress": "0x03B0",
+    "hex": "03B0",
+    "dec": 944,
+    "page": 40
+  },
+  {
+    "param": "F1-32",
+    "name": "PG 2Rotation Selection",
+    "address": "0x03B1",
+    "adddress": "0x03B1",
+    "hex": "03B1",
+    "dec": 945,
+    "page": 40
+  },
+  {
+    "param": "F1-33",
+    "name": "PG 2Gear Teeth 1 Set",
+    "address": "0x03B2",
+    "adddress": "0x03B2",
+    "hex": "03B2",
+    "dec": 946,
+    "page": 40
+  },
+  {
+    "param": "F1-34",
+    "name": "PG 2Gear Teeth 2",
+    "address": "0x03B3",
+    "adddress": "0x03B3",
+    "hex": "03B3",
+    "dec": 947,
+    "page": 40
+  },
+  {
+    "param": "F1-35",
+    "name": "PG 2Division Rate for Pulse Mon",
+    "address": "0x03BE",
+    "adddress": "0x03BE",
+    "hex": "03BE",
+    "dec": 958,
+    "page": 40
+  },
+  {
+    "param": "F1-36",
+    "name": "PGOption PCB Disconnect Detect 2",
+    "address": "0x03B5",
+    "adddress": "0x03B5",
+    "hex": "03B5",
+    "dec": 949,
+    "page": 40
+  },
+  {
+    "param": "F1-37",
+    "name": "PG 2Signal Selection",
+    "address": "0x03BD",
+    "adddress": "0x03BD",
+    "hex": "03BD",
+    "dec": 957,
+    "page": 41
+  },
+  {
+    "param": "F1-50",
+    "name": "Encoder Selection",
+    "address": "0x03D2",
+    "adddress": "0x03D2",
+    "hex": "03D2",
+    "dec": 978,
+    "page": 41
+  },
+  {
+    "param": "F1-51",
+    "name": "PGo HDetection Level",
+    "address": "0x03D3",
+    "adddress": "0x03D3",
+    "hex": "03D3",
+    "dec": 979,
+    "page": 41
+  },
+  {
+    "param": "F1-52",
+    "name": "Serial Encoder Communication bps",
+    "address": "0x03D4",
+    "adddress": "0x03D4",
+    "hex": "03D4",
+    "dec": 980,
+    "page": 41
+  },
+  {
+    "param": "F2-01",
+    "name": "Analog Input",
+    "address": "0x038F",
+    "adddress": "0x038F",
+    "hex": "038F",
+    "dec": 911,
+    "page": 41
+  },
+  {
+    "param": "F2-02",
+    "name": "Analog Input Option Card Gain",
+    "address": "0x0368",
+    "adddress": "0x0368",
+    "hex": "0368",
+    "dec": 872,
+    "page": 41
+  },
+  {
+    "param": "F2-03",
+    "name": "Analog Input Option Card Bias",
+    "address": "0x0369",
+    "adddress": "0x0369",
+    "hex": "0369",
+    "dec": 873,
+    "page": 41
+  },
+  {
+    "param": "F3-01",
+    "name": "Digital Input",
+    "address": "0x0390",
+    "adddress": "0x0390",
+    "hex": "0390",
+    "dec": 912,
+    "page": 42
+  },
+  {
+    "param": "F3-03",
+    "name": "DIData Length Selection",
+    "address": "0x03B9",
+    "adddress": "0x03B9",
+    "hex": "03B9",
+    "dec": 953,
+    "page": 42
+  },
+  {
+    "param": "F3-10",
+    "name": "Terminal D 0",
+    "address": "0x0BE3",
+    "adddress": "0x0BE3",
+    "hex": "0BE3",
+    "dec": 3043,
+    "page": 42
+  },
+  {
+    "param": "F3-11",
+    "name": "Terminal D 1",
+    "address": "0x0BE4",
+    "adddress": "0x0BE4",
+    "hex": "0BE4",
+    "dec": 3044,
+    "page": 42
+  },
+  {
+    "param": "F3-12",
+    "name": "Terminal D 2",
+    "address": "0x0BE5",
+    "adddress": "0x0BE5",
+    "hex": "0BE5",
+    "dec": 3045,
+    "page": 42
+  },
+  {
+    "param": "F3-13",
+    "name": "Terminal D 3",
+    "address": "0x0BE6",
+    "adddress": "0x0BE6",
+    "hex": "0BE6",
+    "dec": 3046,
+    "page": 42
+  },
+  {
+    "param": "F3-14",
+    "name": "Terminal D 4",
+    "address": "0x0BE7",
+    "adddress": "0x0BE7",
+    "hex": "0BE7",
+    "dec": 3047,
+    "page": 42
+  },
+  {
+    "param": "F3-15",
+    "name": "Terminal D 5",
+    "address": "0x0BE8",
+    "adddress": "0x0BE8",
+    "hex": "0BE8",
+    "dec": 3048,
+    "page": 42
+  },
+  {
+    "param": "F3-16",
+    "name": "Terminal D 6",
+    "address": "0x0BE9",
+    "adddress": "0x0BE9",
+    "hex": "0BE9",
+    "dec": 3049,
+    "page": 42
+  },
+  {
+    "param": "F3-17",
+    "name": "Terminal D 7",
+    "address": "0x0BEA",
+    "adddress": "0x0BEA",
+    "hex": "0BEA",
+    "dec": 3050,
+    "page": 42
+  },
+  {
+    "param": "F3-18",
+    "name": "Terminal D 8",
+    "address": "0x0BEB",
+    "adddress": "0x0BEB",
+    "hex": "0BEB",
+    "dec": 3051,
+    "page": 42
+  },
+  {
+    "param": "F3-19",
+    "name": "Terminal D 9",
+    "address": "0x0BEC",
+    "adddress": "0x0BEC",
+    "hex": "0BEC",
+    "dec": 3052,
+    "page": 42
+  },
+  {
+    "param": "F3-20",
+    "name": "Terminal DA",
+    "address": "0x0BED",
+    "adddress": "0x0BED",
+    "hex": "0BED",
+    "dec": 3053,
+    "page": 42
+  },
+  {
+    "param": "F3-21",
+    "name": "Terminal DB",
+    "address": "0x0BEE",
+    "adddress": "0x0BEE",
+    "hex": "0BEE",
+    "dec": 3054,
+    "page": 43
+  },
+  {
+    "param": "F3-22",
+    "name": "Terminal DC",
+    "address": "0x0BEF",
+    "adddress": "0x0BEF",
+    "hex": "0BEF",
+    "dec": 3055,
+    "page": 43
+  },
+  {
+    "param": "F3-23",
+    "name": "Terminal DD",
+    "address": "0x0BF0",
+    "adddress": "0x0BF0",
+    "hex": "0BF0",
+    "dec": 3056,
+    "page": 43
+  },
+  {
+    "param": "F3-24",
+    "name": "Terminal DE",
+    "address": "0x0BF1",
+    "adddress": "0x0BF1",
+    "hex": "0BF1",
+    "dec": 3057,
+    "page": 43
+  },
+  {
+    "param": "F3-25",
+    "name": "Terminal DF",
+    "address": "0x0BF2",
+    "adddress": "0x0BF2",
+    "hex": "0BF2",
+    "dec": 3058,
+    "page": 43
+  },
+  {
+    "param": "F4-01",
+    "name": "Terminal V 1",
+    "address": "0x0391",
+    "adddress": "0x0391",
+    "hex": "0391",
+    "dec": 913,
+    "page": 43
+  },
+  {
+    "param": "F4-02",
+    "name": "Terminal V 1 Monitor Gain",
+    "address": "0x0392",
+    "adddress": "0x0392",
+    "hex": "0392",
+    "dec": 914,
+    "page": 43
+  },
+  {
+    "param": "F4-03",
+    "name": "Terminal V 2",
+    "address": "0x0393",
+    "adddress": "0x0393",
+    "hex": "0393",
+    "dec": 915,
+    "page": 43
+  },
+  {
+    "param": "F4-04",
+    "name": "Terminal V 2 Monitor Gain",
+    "address": "0x0394",
+    "adddress": "0x0394",
+    "hex": "0394",
+    "dec": 916,
+    "page": 43
+  },
+  {
+    "param": "F4-05",
+    "name": "Terminal V 1 Monitor Bias",
+    "address": "0x0395",
+    "adddress": "0x0395",
+    "hex": "0395",
+    "dec": 917,
+    "page": 43
+  },
+  {
+    "param": "F4-06",
+    "name": "Terminal V 2 Monitor Bias",
+    "address": "0x0396",
+    "adddress": "0x0396",
+    "hex": "0396",
+    "dec": 918,
+    "page": 43
+  },
+  {
+    "param": "F4-07",
+    "name": "Terminal V 1Signal Level",
+    "address": "0x0397",
+    "adddress": "0x0397",
+    "hex": "0397",
+    "dec": 919,
+    "page": 43
+  },
+  {
+    "param": "F4-08",
+    "name": "Terminal V 2Signal Level",
+    "address": "0x0398",
+    "adddress": "0x0398",
+    "hex": "0398",
+    "dec": 920,
+    "page": 43
+  },
+  {
+    "param": "F5-01",
+    "name": "Terminal P 1-PC",
+    "address": "0x0399",
+    "adddress": "0x0399",
+    "hex": "0399",
+    "dec": 921,
+    "page": 44
+  },
+  {
+    "param": "F5-02",
+    "name": "Terminal P 2-PC",
+    "address": "0x039A",
+    "adddress": "0x039A",
+    "hex": "039A",
+    "dec": 922,
+    "page": 44
+  },
+  {
+    "param": "F5-03",
+    "name": "Terminal P 3-PC",
+    "address": "0x039B",
+    "adddress": "0x039B",
+    "hex": "039B",
+    "dec": 923,
+    "page": 44
+  },
+  {
+    "param": "F5-04",
+    "name": "Terminal P 4-PC",
+    "address": "0x039C",
+    "adddress": "0x039C",
+    "hex": "039C",
+    "dec": 924,
+    "page": 44
+  },
+  {
+    "param": "F5-05",
+    "name": "Terminal P 5-PC",
+    "address": "0x039D",
+    "adddress": "0x039D",
+    "hex": "039D",
+    "dec": 925,
+    "page": 44
+  },
+  {
+    "param": "F5-06",
+    "name": "Terminal P 6-PC",
+    "address": "0x039E",
+    "adddress": "0x039E",
+    "hex": "039E",
+    "dec": 926,
+    "page": 44
+  },
+  {
+    "param": "F5-07",
+    "name": "Terminal M 1-M 2",
+    "address": "0x039F",
+    "adddress": "0x039F",
+    "hex": "039F",
+    "dec": 927,
+    "page": 44
+  },
+  {
+    "param": "F5-08",
+    "name": "Terminal M 3-M 4",
+    "address": "0x03A0",
+    "adddress": "0x03A0",
+    "hex": "03A0",
+    "dec": 928,
+    "page": 44
+  },
+  {
+    "param": "F5-09",
+    "name": "DO-A 3Output Mode Selection",
+    "address": "0x03A1",
+    "adddress": "0x03A1",
+    "hex": "03A1",
+    "dec": 929,
+    "page": 44
+  },
+  {
+    "param": "F6-01",
+    "name": "Communication Error Selection",
+    "address": "0x03A2",
+    "adddress": "0x03A2",
+    "hex": "03A2",
+    "dec": 930,
+    "page": 45
+  },
+  {
+    "param": "F6-02",
+    "name": "Comm External Fault(EF 0)Detect",
+    "address": "0x03A3",
+    "adddress": "0x03A3",
+    "hex": "03A3",
+    "dec": 931,
+    "page": 45
+  },
+  {
+    "param": "F6-03",
+    "name": "Comm External Fault(EF 0)Select",
+    "address": "0x03A4",
+    "adddress": "0x03A4",
+    "hex": "03A4",
+    "dec": 932,
+    "page": 45
+  },
+  {
+    "param": "F6-04",
+    "name": "b USError Detection Time",
+    "address": "0x03A5",
+    "adddress": "0x03A5",
+    "hex": "03A5",
+    "dec": 933,
+    "page": 45
+  },
+  {
+    "param": "F6-06",
+    "name": "Torque Reference/ Limitby Comm",
+    "address": "0x03A7",
+    "adddress": "0x03A7",
+    "hex": "03A7",
+    "dec": 935,
+    "page": 45
+  },
+  {
+    "param": "F6-07",
+    "name": "Multi Step Ref Priority Select",
+    "address": "0x03A8",
+    "adddress": "0x03A8",
+    "hex": "03A8",
+    "dec": 936,
+    "page": 45
+  },
+  {
+    "param": "F6-08",
+    "name": "Comm Parameter Reset@Initialize",
+    "address": "0x036A",
+    "adddress": "0x036A",
+    "hex": "036A",
+    "dec": 874,
+    "page": 45
+  },
+  {
+    "param": "F6-10",
+    "name": "CC-Link Node Address",
+    "address": "0x03B6",
+    "adddress": "0x03B6",
+    "hex": "03B6",
+    "dec": 950,
+    "page": 45
+  },
+  {
+    "param": "F6-11",
+    "name": "CC-Link Communication Speed",
+    "address": "0x03B7",
+    "adddress": "0x03B7",
+    "hex": "03B7",
+    "dec": 951,
+    "page": 46
+  },
+  {
+    "param": "F6-14",
+    "name": "CC-Linkb US Error Auto Reset",
+    "address": "0x03BB",
+    "adddress": "0x03BB",
+    "hex": "03BB",
+    "dec": 955,
+    "page": 46
+  },
+  {
+    "param": "F6-16",
+    "name": "Gateway Mode",
+    "address": "0x0B8A",
+    "adddress": "0x0B8A",
+    "hex": "0B8A",
+    "dec": 2954,
+    "page": 46
+  },
+  {
+    "param": "F6-20",
+    "name": "MECHATROLINK Station Address",
+    "address": "0x036B",
+    "adddress": "0x036B",
+    "hex": "036B",
+    "dec": 875,
+    "page": 46
+  },
+  {
+    "param": "F6-21",
+    "name": "MECHATROLINK Frame Size",
+    "address": "0x036C",
+    "adddress": "0x036C",
+    "hex": "036C",
+    "dec": 876,
+    "page": 46
+  },
+  {
+    "param": "F6-22",
+    "name": "MECHATROLINK Link Speed",
+    "address": "0x036D",
+    "adddress": "0x036D",
+    "hex": "036D",
+    "dec": 877,
+    "page": 46
+  },
+  {
+    "param": "F6-23",
+    "name": "MECHATROLINK",
+    "address": "0x036E",
+    "adddress": "0x036E",
+    "hex": "036E",
+    "dec": 878,
+    "page": 46
+  },
+  {
+    "param": "F6-24",
+    "name": "MECHATROLINK",
+    "address": "0x036F",
+    "adddress": "0x036F",
+    "hex": "036F",
+    "dec": 879,
+    "page": 46
+  },
+  {
+    "param": "F6-25",
+    "name": "MECHATROLINK Watchdog Error Sel",
+    "address": "0x03C9",
+    "adddress": "0x03C9",
+    "hex": "03C9",
+    "dec": 969,
+    "page": 47
+  },
+  {
+    "param": "F6-26",
+    "name": "MECHATROLINK b USErrors Detected",
+    "address": "0x03CA",
+    "adddress": "0x03CA",
+    "hex": "03CA",
+    "dec": 970,
+    "page": 47
+  },
+  {
+    "param": "F6-30",
+    "name": "PROFIBUS-DP Node Address",
+    "address": "0x03CB",
+    "adddress": "0x03CB",
+    "hex": "03CB",
+    "dec": 971,
+    "page": 47
+  },
+  {
+    "param": "F6-31",
+    "name": "PROFIBUS-DP Clear Mode selection",
+    "address": "0x03CC",
+    "adddress": "0x03CC",
+    "hex": "03CC",
+    "dec": 972,
+    "page": 47
+  },
+  {
+    "param": "F6-32",
+    "name": "PROFIBUS-DP Data Format Select",
+    "address": "0x03CD",
+    "adddress": "0x03CD",
+    "hex": "03CD",
+    "dec": 973,
+    "page": 47
+  },
+  {
+    "param": "F6-35",
+    "name": "CANopen Node ID Selection",
+    "address": "0x03D0",
+    "adddress": "0x03D0",
+    "hex": "03D0",
+    "dec": 976,
+    "page": 47
+  },
+  {
+    "param": "F6-36",
+    "name": "CANopen Communication Speed",
+    "address": "0x03D1",
+    "adddress": "0x03D1",
+    "hex": "03D1",
+    "dec": 977,
+    "page": 47
+  },
+  {
+    "param": "F6-45",
+    "name": "BACnet Node Address",
+    "address": "0x02FB",
+    "adddress": "0x02FB",
+    "hex": "02FB",
+    "dec": 763,
+    "page": 47
+  },
+  {
+    "param": "F6-46",
+    "name": "BACnet Baud Rate",
+    "address": "0x02FC",
+    "adddress": "0x02FC",
+    "hex": "02FC",
+    "dec": 764,
+    "page": 48
+  },
+  {
+    "param": "F6-47",
+    "name": "Rxto Tx Wait Time",
+    "address": "0x02FD",
+    "adddress": "0x02FD",
+    "hex": "02FD",
+    "dec": 765,
+    "page": 48
+  },
+  {
+    "param": "F6-48",
+    "name": "BACnet Device Object Identifier 0",
+    "address": "0x02FE",
+    "adddress": "0x02FE",
+    "hex": "02FE",
+    "dec": 766,
+    "page": 48
+  },
+  {
+    "param": "F6-49",
+    "name": "BACnet Device Object Identifier 1",
+    "address": "0x02FF",
+    "adddress": "0x02FF",
+    "hex": "02FF",
+    "dec": 767,
+    "page": 48
+  },
+  {
+    "param": "F6-50",
+    "name": "DNMACAddress",
+    "address": "0x03C1",
+    "adddress": "0x03C1",
+    "hex": "03C1",
+    "dec": 961,
+    "page": 48
+  },
+  {
+    "param": "F6-51",
+    "name": "DNBaud Rate",
+    "address": "0x03C2",
+    "adddress": "0x03C2",
+    "hex": "03C2",
+    "dec": 962,
+    "page": 48
+  },
+  {
+    "param": "F6-52",
+    "name": "Device Net PCA Setting",
+    "address": "0x03C3",
+    "adddress": "0x03C3",
+    "hex": "03C3",
+    "dec": 963,
+    "page": 48
+  },
+  {
+    "param": "F6-53",
+    "name": "Device Net PPA Setting",
+    "address": "0x03C4",
+    "adddress": "0x03C4",
+    "hex": "03C4",
+    "dec": 964,
+    "page": 48
+  },
+  {
+    "param": "F6-54",
+    "name": "DNIdle Flt Det",
+    "address": "0x03C5",
+    "adddress": "0x03C5",
+    "hex": "03C5",
+    "dec": 965,
+    "page": 48
+  },
+  {
+    "param": "F6-55",
+    "name": "DNBAUDRATE MEM",
+    "address": "0x03C6",
+    "adddress": "0x03C6",
+    "hex": "03C6",
+    "dec": 966,
+    "page": 48
+  },
+  {
+    "param": "F6-56",
+    "name": "Device Net Speed Scaling",
+    "address": "0x03D7",
+    "adddress": "0x03D7",
+    "hex": "03D7",
+    "dec": 983,
+    "page": 48
+  },
+  {
+    "param": "F6-57",
+    "name": "Device Net Current Scaling",
+    "address": "0x03D8",
+    "adddress": "0x03D8",
+    "hex": "03D8",
+    "dec": 984,
+    "page": 48
+  },
+  {
+    "param": "F6-58",
+    "name": "Device Net Torque Scaling",
+    "address": "0x03D9",
+    "adddress": "0x03D9",
+    "hex": "03D9",
+    "dec": 985,
+    "page": 49
+  },
+  {
+    "param": "F6-59",
+    "name": "Device Net Power Scaling",
+    "address": "0x03DA",
+    "adddress": "0x03DA",
+    "hex": "03DA",
+    "dec": 986,
+    "page": 49
+  },
+  {
+    "param": "F6-60",
+    "name": "Device Net Voltage Scaling",
+    "address": "0x03DB",
+    "adddress": "0x03DB",
+    "hex": "03DB",
+    "dec": 987,
+    "page": 49
+  },
+  {
+    "param": "F6-61",
+    "name": "Device Net Time Scaling",
+    "address": "0x03DC",
+    "adddress": "0x03DC",
+    "hex": "03DC",
+    "dec": 988,
+    "page": 49
+  },
+  {
+    "param": "F6-62",
+    "name": "Device Net Heartbeat Interval",
+    "address": "0x03DD",
+    "adddress": "0x03DD",
+    "hex": "03DD",
+    "dec": 989,
+    "page": 49
+  },
+  {
+    "param": "F6-63",
+    "name": "Device Net Network MACID",
+    "address": "0x03DE",
+    "adddress": "0x03DE",
+    "hex": "03DE",
+    "dec": 990,
+    "page": 49
+  },
+  {
+    "param": "F6-72",
+    "name": "Power Link Node Address",
+    "address": "0x081B",
+    "adddress": "0x081B",
+    "hex": "081B",
+    "dec": 2075,
+    "page": 49
+  },
+  {
+    "param": "F7-01",
+    "name": "IPAddress 1",
+    "address": "0x03E5",
+    "adddress": "0x03E5",
+    "hex": "03E5",
+    "dec": 997,
+    "page": 49
+  },
+  {
+    "param": "F7-02",
+    "name": "IPAddress 2",
+    "address": "0x03E6",
+    "adddress": "0x03E6",
+    "hex": "03E6",
+    "dec": 998,
+    "page": 49
+  },
+  {
+    "param": "F7-03",
+    "name": "IPAddress 3",
+    "address": "0x03E7",
+    "adddress": "0x03E7",
+    "hex": "03E7",
+    "dec": 999,
+    "page": 50
+  },
+  {
+    "param": "F7-04",
+    "name": "IPAddress 4",
+    "address": "0x03E8",
+    "adddress": "0x03E8",
+    "hex": "03E8",
+    "dec": 1000,
+    "page": 50
+  },
+  {
+    "param": "F7-05",
+    "name": "Subnet Mask 1",
+    "address": "0x03E9",
+    "adddress": "0x03E9",
+    "hex": "03E9",
+    "dec": 1001,
+    "page": 50
+  },
+  {
+    "param": "F7-06",
+    "name": "Subnet Mask 2",
+    "address": "0x03EA",
+    "adddress": "0x03EA",
+    "hex": "03EA",
+    "dec": 1002,
+    "page": 50
+  },
+  {
+    "param": "F7-07",
+    "name": "Subnet Mask 3",
+    "address": "0x03EB",
+    "adddress": "0x03EB",
+    "hex": "03EB",
+    "dec": 1003,
+    "page": 50
+  },
+  {
+    "param": "F7-08",
+    "name": "Subnet Mask 4",
+    "address": "0x03EC",
+    "adddress": "0x03EC",
+    "hex": "03EC",
+    "dec": 1004,
+    "page": 50
+  },
+  {
+    "param": "F7-09",
+    "name": "Gateway Address 1",
+    "address": "0x03ED",
+    "adddress": "0x03ED",
+    "hex": "03ED",
+    "dec": 1005,
+    "page": 50
+  },
+  {
+    "param": "F7-10",
+    "name": "Gateway Address 2",
+    "address": "0x03EE",
+    "adddress": "0x03EE",
+    "hex": "03EE",
+    "dec": 1006,
+    "page": 50
+  },
+  {
+    "param": "F7-11",
+    "name": "Gateway Address 3",
+    "address": "0x03EF",
+    "adddress": "0x03EF",
+    "hex": "03EF",
+    "dec": 1007,
+    "page": 50
+  },
+  {
+    "param": "F7-12",
+    "name": "Gateway Address 4",
+    "address": "0x03F0",
+    "adddress": "0x03F0",
+    "hex": "03F0",
+    "dec": 1008,
+    "page": 51
+  },
+  {
+    "param": "F7-13",
+    "name": "Address Modeat Startup",
+    "address": "0x03F1",
+    "adddress": "0x03F1",
+    "hex": "03F1",
+    "dec": 1009,
+    "page": 51
+  },
+  {
+    "param": "F7-14",
+    "name": "Duplex Mode Selection",
+    "address": "0x03F2",
+    "adddress": "0x03F2",
+    "hex": "03F2",
+    "dec": 1010,
+    "page": 51
+  },
+  {
+    "param": "F7-15",
+    "name": "Communication Speed Selection",
+    "address": "0x03F3",
+    "adddress": "0x03F3",
+    "hex": "03F3",
+    "dec": 1011,
+    "page": 51
+  },
+  {
+    "param": "F7-16",
+    "name": "Timeout Value",
+    "address": "0x03F4",
+    "adddress": "0x03F4",
+    "hex": "03F4",
+    "dec": 1012,
+    "page": 51
+  },
+  {
+    "param": "F7-17",
+    "name": "E",
+    "address": "0x03F5",
+    "adddress": "0x03F5",
+    "hex": "03F5",
+    "dec": 1013,
+    "page": 51
+  },
+  {
+    "param": "F7-18",
+    "name": "E",
+    "address": "0x03F6",
+    "adddress": "0x03F6",
+    "hex": "03F6",
+    "dec": 1014,
+    "page": 51
+  },
+  {
+    "param": "F7-19",
+    "name": "E",
+    "address": "0x03F7",
+    "adddress": "0x03F7",
+    "hex": "03F7",
+    "dec": 1015,
+    "page": 51
+  },
+  {
+    "param": "F7-20",
+    "name": "E",
+    "address": "0x03F8",
+    "adddress": "0x03F8",
+    "hex": "03F8",
+    "dec": 1016,
+    "page": 51
+  },
+  {
+    "param": "F7-21",
+    "name": "E",
+    "address": "0x03F9",
+    "adddress": "0x03F9",
+    "hex": "03F9",
+    "dec": 1017,
+    "page": 51
+  },
+  {
+    "param": "F7-22",
+    "name": "E",
+    "address": "0x03FA",
+    "adddress": "0x03FA",
+    "hex": "03FA",
+    "dec": 1018,
+    "page": 51
+  },
+  {
+    "param": "F7-60",
+    "name": "PZD 1Write",
+    "address": "0x0780",
+    "adddress": "0x0780",
+    "hex": "0780",
+    "dec": 1920,
+    "page": 52
+  },
+  {
+    "param": "F7-61",
+    "name": "PZD 2Write",
+    "address": "0x0781",
+    "adddress": "0x0781",
+    "hex": "0781",
+    "dec": 1921,
+    "page": 52
+  },
+  {
+    "param": "F7-62",
+    "name": "PZD 3Write",
+    "address": "0x0782",
+    "adddress": "0x0782",
+    "hex": "0782",
+    "dec": 1922,
+    "page": 52
+  },
+  {
+    "param": "F7-63",
+    "name": "PZD 4Write",
+    "address": "0x0783",
+    "adddress": "0x0783",
+    "hex": "0783",
+    "dec": 1923,
+    "page": 52
+  },
+  {
+    "param": "F7-64",
+    "name": "PZD 5Write",
+    "address": "0x0784",
+    "adddress": "0x0784",
+    "hex": "0784",
+    "dec": 1924,
+    "page": 52
+  },
+  {
+    "param": "F7-65",
+    "name": "PZD 6Write",
+    "address": "0x0785",
+    "adddress": "0x0785",
+    "hex": "0785",
+    "dec": 1925,
+    "page": 52
+  },
+  {
+    "param": "F7-66",
+    "name": "PZD 7Write",
+    "address": "0x0786",
+    "adddress": "0x0786",
+    "hex": "0786",
+    "dec": 1926,
+    "page": 52
+  },
+  {
+    "param": "F7-67",
+    "name": "PZD 8Write",
+    "address": "0x0787",
+    "adddress": "0x0787",
+    "hex": "0787",
+    "dec": 1927,
+    "page": 52
+  },
+  {
+    "param": "F7-68",
+    "name": "PZD 9Write",
+    "address": "0x0788",
+    "adddress": "0x0788",
+    "hex": "0788",
+    "dec": 1928,
+    "page": 52
+  },
+  {
+    "param": "F7-69",
+    "name": "PZD 10Write",
+    "address": "0x0789",
+    "adddress": "0x0789",
+    "hex": "0789",
+    "dec": 1929,
+    "page": 52
+  },
+  {
+    "param": "F7-70",
+    "name": "PZD 1Read",
+    "address": "0x078A",
+    "adddress": "0x078A",
+    "hex": "078A",
+    "dec": 1930,
+    "page": 52
+  },
+  {
+    "param": "F7-71",
+    "name": "PZD 2Read",
+    "address": "0x078B",
+    "adddress": "0x078B",
+    "hex": "078B",
+    "dec": 1931,
+    "page": 52
+  },
+  {
+    "param": "F7-72",
+    "name": "PZD 3Read",
+    "address": "0x078C",
+    "adddress": "0x078C",
+    "hex": "078C",
+    "dec": 1932,
+    "page": 52
+  },
+  {
+    "param": "F7-73",
+    "name": "PZD 4Read",
+    "address": "0x078D",
+    "adddress": "0x078D",
+    "hex": "078D",
+    "dec": 1933,
+    "page": 53
+  },
+  {
+    "param": "F7-74",
+    "name": "PZD 5Read",
+    "address": "0x078E",
+    "adddress": "0x078E",
+    "hex": "078E",
+    "dec": 1934,
+    "page": 53
+  },
+  {
+    "param": "F7-75",
+    "name": "PZD 6Read",
+    "address": "0x078F",
+    "adddress": "0x078F",
+    "hex": "078F",
+    "dec": 1935,
+    "page": 53
+  },
+  {
+    "param": "F7-76",
+    "name": "PZD 7Read",
+    "address": "0x0790",
+    "adddress": "0x0790",
+    "hex": "0790",
+    "dec": 1936,
+    "page": 53
+  },
+  {
+    "param": "F7-77",
+    "name": "PZD 8Read",
+    "address": "0x0791",
+    "adddress": "0x0791",
+    "hex": "0791",
+    "dec": 1937,
+    "page": 53
+  },
+  {
+    "param": "F7-78",
+    "name": "PZD 9Read",
+    "address": "0x0792",
+    "adddress": "0x0792",
+    "hex": "0792",
+    "dec": 1938,
+    "page": 53
+  },
+  {
+    "param": "F7-79",
+    "name": "PZD 10Read",
+    "address": "0x0793",
+    "adddress": "0x0793",
+    "hex": "0793",
+    "dec": 1939,
+    "page": 53
+  },
+  {
+    "param": "H1-01",
+    "name": "Terminal S 1",
+    "address": "0x0438",
+    "adddress": "0x0438",
+    "hex": "0438",
+    "dec": 1080,
+    "page": 54
+  },
+  {
+    "param": "H1-02",
+    "name": "Terminal S 2",
+    "address": "0x0439",
+    "adddress": "0x0439",
+    "hex": "0439",
+    "dec": 1081,
+    "page": 54
+  },
+  {
+    "param": "H1-03",
+    "name": "Terminal S 3",
+    "address": "0x0400",
+    "adddress": "0x0400",
+    "hex": "0400",
+    "dec": 1024,
+    "page": 54
+  },
+  {
+    "param": "H1-04",
+    "name": "Terminal S 4",
+    "address": "0x0401",
+    "adddress": "0x0401",
+    "hex": "0401",
+    "dec": 1025,
+    "page": 54
+  },
+  {
+    "param": "H1-05",
+    "name": "Terminal S 5",
+    "address": "0x0402",
+    "adddress": "0x0402",
+    "hex": "0402",
+    "dec": 1026,
+    "page": 54
+  },
+  {
+    "param": "H1-06",
+    "name": "Terminal S 6",
+    "address": "0x0403",
+    "adddress": "0x0403",
+    "hex": "0403",
+    "dec": 1027,
+    "page": 54
+  },
+  {
+    "param": "H1-07",
+    "name": "Terminal S 7",
+    "address": "0x0404",
+    "adddress": "0x0404",
+    "hex": "0404",
+    "dec": 1028,
+    "page": 54
+  },
+  {
+    "param": "H1-08",
+    "name": "Terminal S 8",
+    "address": "0x0405",
+    "adddress": "0x0405",
+    "hex": "0405",
+    "dec": 1029,
+    "page": 54
+  },
+  {
+    "param": "H1-21",
+    "name": "Terminal S 1",
+    "address": "0x0B70",
+    "adddress": "0x0B70",
+    "hex": "0B70",
+    "dec": 2928,
+    "page": 54
+  },
+  {
+    "param": "H1-22",
+    "name": "Terminal S 2",
+    "address": "0x0B71",
+    "adddress": "0x0B71",
+    "hex": "0B71",
+    "dec": 2929,
+    "page": 54
+  },
+  {
+    "param": "H1-23",
+    "name": "Terminal S 3",
+    "address": "0x0B72",
+    "adddress": "0x0B72",
+    "hex": "0B72",
+    "dec": 2930,
+    "page": 54
+  },
+  {
+    "param": "H1-24",
+    "name": "Terminal S 4",
+    "address": "0x0B73",
+    "adddress": "0x0B73",
+    "hex": "0B73",
+    "dec": 2931,
+    "page": 54
+  },
+  {
+    "param": "H1-25",
+    "name": "Terminal S 5",
+    "address": "0x0B74",
+    "adddress": "0x0B74",
+    "hex": "0B74",
+    "dec": 2932,
+    "page": 54
+  },
+  {
+    "param": "H1-26",
+    "name": "Terminal S 6",
+    "address": "0x0B75",
+    "adddress": "0x0B75",
+    "hex": "0B75",
+    "dec": 2933,
+    "page": 54
+  },
+  {
+    "param": "H1-27",
+    "name": "Terminal S 7",
+    "address": "0x0B76",
+    "adddress": "0x0B76",
+    "hex": "0B76",
+    "dec": 2934,
+    "page": 54
+  },
+  {
+    "param": "H1-28",
+    "name": "Terminal S 8",
+    "address": "0x0B77",
+    "adddress": "0x0B77",
+    "hex": "0B77",
+    "dec": 2935,
+    "page": 54
+  },
+  {
+    "param": "H1-40",
+    "name": "Extend MFDI 1",
+    "address": "0x0B54",
+    "adddress": "0x0B54",
+    "hex": "0B54",
+    "dec": 2900,
+    "page": 54
+  },
+  {
+    "param": "H1-41",
+    "name": "Extend MFDI 2",
+    "address": "0x0B55",
+    "adddress": "0x0B55",
+    "hex": "0B55",
+    "dec": 2901,
+    "page": 55
+  },
+  {
+    "param": "H1-42",
+    "name": "Extend MFDI 3",
+    "address": "0x0B56",
+    "adddress": "0x0B56",
+    "hex": "0B56",
+    "dec": 2902,
+    "page": 55
+  },
+  {
+    "param": "H2-01",
+    "name": "Term M 1-M 2",
+    "address": "0x040B",
+    "adddress": "0x040B",
+    "hex": "040B",
+    "dec": 1035,
+    "page": 60
+  },
+  {
+    "param": "H2-02",
+    "name": "Term M 3-M 4",
+    "address": "0x040C",
+    "adddress": "0x040C",
+    "hex": "040C",
+    "dec": 1036,
+    "page": 60
+  },
+  {
+    "param": "H2-03",
+    "name": "Term M 5-M 6",
+    "address": "0x040D",
+    "adddress": "0x040D",
+    "hex": "040D",
+    "dec": 1037,
+    "page": 60
+  },
+  {
+    "param": "H2-06",
+    "name": "Watt Hour Output Unit Selection",
+    "address": "0x0437",
+    "adddress": "0x0437",
+    "hex": "0437",
+    "dec": 1079,
+    "page": 60
+  },
+  {
+    "param": "H2-07",
+    "name": "MEMOBUS Register 1Address Select",
+    "address": "0x0B3A",
+    "adddress": "0x0B3A",
+    "hex": "0B3A",
+    "dec": 2874,
+    "page": 60
+  },
+  {
+    "param": "H2-08",
+    "name": "MEMOBUS Register 1Bit Select",
+    "address": "0x0B3B",
+    "adddress": "0x0B3B",
+    "hex": "0B3B",
+    "dec": 2875,
+    "page": 60
+  },
+  {
+    "param": "H2-09",
+    "name": "MEMOBUS Register 2Address Select",
+    "address": "0x0B3C",
+    "adddress": "0x0B3C",
+    "hex": "0B3C",
+    "dec": 2876,
+    "page": 60
+  },
+  {
+    "param": "H2-10",
+    "name": "MEMOBUS Register 2Bit Select",
+    "address": "0x0B3D",
+    "adddress": "0x0B3D",
+    "hex": "0B3D",
+    "dec": 2877,
+    "page": 61
+  },
+  {
+    "param": "H2-20",
+    "name": "Comparator 1",
+    "address": "0x1540",
+    "adddress": "0x1540",
+    "hex": "1540",
+    "dec": 5440,
+    "page": 61
+  },
+  {
+    "param": "H2-21",
+    "name": "Comparator 1 Lower Limit",
+    "address": "0x1541",
+    "adddress": "0x1541",
+    "hex": "1541",
+    "dec": 5441,
+    "page": 61
+  },
+  {
+    "param": "H2-22",
+    "name": "Comparator 1 Upper Limit",
+    "address": "0x1542",
+    "adddress": "0x1542",
+    "hex": "1542",
+    "dec": 5442,
+    "page": 61
+  },
+  {
+    "param": "H2-23",
+    "name": "Comparator 1 Hysteresis",
+    "address": "0x1543",
+    "adddress": "0x1543",
+    "hex": "1543",
+    "dec": 5443,
+    "page": 61
+  },
+  {
+    "param": "H2-24",
+    "name": "Comparator 1On- Delay Time",
+    "address": "0x1544",
+    "adddress": "0x1544",
+    "hex": "1544",
+    "dec": 5444,
+    "page": 61
+  },
+  {
+    "param": "H2-25",
+    "name": "Comparator 1Off- Delay Time",
+    "address": "0x1545",
+    "adddress": "0x1545",
+    "hex": "1545",
+    "dec": 5445,
+    "page": 61
+  },
+  {
+    "param": "H2-26",
+    "name": "Comparator 2",
+    "address": "0x1546",
+    "adddress": "0x1546",
+    "hex": "1546",
+    "dec": 5446,
+    "page": 61
+  },
+  {
+    "param": "H2-27",
+    "name": "Comparator 2 Lower Limit",
+    "address": "0x1547",
+    "adddress": "0x1547",
+    "hex": "1547",
+    "dec": 5447,
+    "page": 61
+  },
+  {
+    "param": "H2-28",
+    "name": "Comparator 2 Upper Limit",
+    "address": "0x1548",
+    "adddress": "0x1548",
+    "hex": "1548",
+    "dec": 5448,
+    "page": 61
+  },
+  {
+    "param": "H2-29",
+    "name": "Comparator 2 Hysteresis",
+    "address": "0x1549",
+    "adddress": "0x1549",
+    "hex": "1549",
+    "dec": 5449,
+    "page": 61
+  },
+  {
+    "param": "H2-30",
+    "name": "Comparator 2On- Delay Time",
+    "address": "0x154A",
+    "adddress": "0x154A",
+    "hex": "154A",
+    "dec": 5450,
+    "page": 61
+  },
+  {
+    "param": "H2-31",
+    "name": "Comparator 2Off- Delay Time",
+    "address": "0x154B",
+    "adddress": "0x154B",
+    "hex": "154B",
+    "dec": 5451,
+    "page": 61
+  },
+  {
+    "param": "H2-40",
+    "name": "Extend MFDI 1",
+    "address": "0x0B58",
+    "adddress": "0x0B58",
+    "hex": "0B58",
+    "dec": 2904,
+    "page": 61
+  },
+  {
+    "param": "H2-41",
+    "name": "Extend MFDI 2",
+    "address": "0x0B59",
+    "adddress": "0x0B59",
+    "hex": "0B59",
+    "dec": 2905,
+    "page": 61
+  },
+  {
+    "param": "H2-42",
+    "name": "Extend MFDI 3",
+    "address": "0x0B5A",
+    "adddress": "0x0B5A",
+    "hex": "0B5A",
+    "dec": 2906,
+    "page": 61
+  },
+  {
+    "param": "H2-60",
+    "name": "Terminal M 1-M 2",
+    "address": "0x1B46",
+    "adddress": "0x1B46",
+    "hex": "1B46",
+    "dec": 6982,
+    "page": 62
+  },
+  {
+    "param": "H2-61",
+    "name": "Terminal M 1-M 2 Logical Operation",
+    "address": "0x1B47",
+    "adddress": "0x1B47",
+    "hex": "1B47",
+    "dec": 6983,
+    "page": 62
+  },
+  {
+    "param": "H2-62",
+    "name": "Terminal M 1-M 2 Delay Time",
+    "address": "0x1B48",
+    "adddress": "0x1B48",
+    "hex": "1B48",
+    "dec": 6984,
+    "page": 62
+  },
+  {
+    "param": "H2-63",
+    "name": "Terminal M 3-M 4",
+    "address": "0x1B49",
+    "adddress": "0x1B49",
+    "hex": "1B49",
+    "dec": 6985,
+    "page": 62
+  },
+  {
+    "param": "H2-64",
+    "name": "Terminal M 3-M 4 Logical Operation",
+    "address": "0x1B4A",
+    "adddress": "0x1B4A",
+    "hex": "1B4A",
+    "dec": 6986,
+    "page": 62
+  },
+  {
+    "param": "H2-65",
+    "name": "Terminal M 3-M 4 Delay Time",
+    "address": "0x1B4B",
+    "adddress": "0x1B4B",
+    "hex": "1B4B",
+    "dec": 6987,
+    "page": 62
+  },
+  {
+    "param": "H2-66",
+    "name": "Terminal M 5-M 6",
+    "address": "0x1B4C",
+    "adddress": "0x1B4C",
+    "hex": "1B4C",
+    "dec": 6988,
+    "page": 62
+  },
+  {
+    "param": "H2-67",
+    "name": "Terminal M 5-M 6 Logical Operation",
+    "address": "0x1B4D",
+    "adddress": "0x1B4D",
+    "hex": "1B4D",
+    "dec": 6989,
+    "page": 62
+  },
+  {
+    "param": "H2-68",
+    "name": "Terminal M 5-M 6 Delay Time",
+    "address": "0x1B4E",
+    "adddress": "0x1B4E",
+    "hex": "1B4E",
+    "dec": 6990,
+    "page": 62
+  },
+  {
+    "param": "H3-01",
+    "name": "Terminal A 1Signal Level Select",
+    "address": "0x0410",
+    "adddress": "0x0410",
+    "hex": "0410",
+    "dec": 1040,
+    "page": 68
+  },
+  {
+    "param": "H3-02",
+    "name": "Terminal A 1",
+    "address": "0x0434",
+    "adddress": "0x0434",
+    "hex": "0434",
+    "dec": 1076,
+    "page": 68
+  },
+  {
+    "param": "H3-03",
+    "name": "Terminal A 1Gain Setting",
+    "address": "0x0411",
+    "adddress": "0x0411",
+    "hex": "0411",
+    "dec": 1041,
+    "page": 68
+  },
+  {
+    "param": "H3-04",
+    "name": "Terminal A 1Bias Setting",
+    "address": "0x0412",
+    "adddress": "0x0412",
+    "hex": "0412",
+    "dec": 1042,
+    "page": 68
+  },
+  {
+    "param": "H3-05",
+    "name": "Terminal A 3Signal Level Select",
+    "address": "0x0413",
+    "adddress": "0x0413",
+    "hex": "0413",
+    "dec": 1043,
+    "page": 68
+  },
+  {
+    "param": "H3-06",
+    "name": "Terminal A 3",
+    "address": "0x0414",
+    "adddress": "0x0414",
+    "hex": "0414",
+    "dec": 1044,
+    "page": 68
+  },
+  {
+    "param": "H3-07",
+    "name": "Terminal A 3Gain Setting",
+    "address": "0x0415",
+    "adddress": "0x0415",
+    "hex": "0415",
+    "dec": 1045,
+    "page": 68
+  },
+  {
+    "param": "H3-08",
+    "name": "Terminal A 3Bias Setting",
+    "address": "0x0416",
+    "adddress": "0x0416",
+    "hex": "0416",
+    "dec": 1046,
+    "page": 68
+  },
+  {
+    "param": "H3-09",
+    "name": "Terminal A 2Signal Level Select",
+    "address": "0x0417",
+    "adddress": "0x0417",
+    "hex": "0417",
+    "dec": 1047,
+    "page": 68
+  },
+  {
+    "param": "H3-10",
+    "name": "Terminal A 2",
+    "address": "0x0418",
+    "adddress": "0x0418",
+    "hex": "0418",
+    "dec": 1048,
+    "page": 68
+  },
+  {
+    "param": "H3-11",
+    "name": "Terminal A 2Gain Setting",
+    "address": "0x0419",
+    "adddress": "0x0419",
+    "hex": "0419",
+    "dec": 1049,
+    "page": 68
+  },
+  {
+    "param": "H3-12",
+    "name": "Terminal A 2Bias Setting",
+    "address": "0x041A",
+    "adddress": "0x041A",
+    "hex": "041A",
+    "dec": 1050,
+    "page": 68
+  },
+  {
+    "param": "H3-13",
+    "name": "Analog Input Filter Time Constant",
+    "address": "0x041B",
+    "adddress": "0x041B",
+    "hex": "041B",
+    "dec": 1051,
+    "page": 69
+  },
+  {
+    "param": "H3-14",
+    "name": "Analog Input Terminal Enable Sel",
+    "address": "0x041C",
+    "adddress": "0x041C",
+    "hex": "041C",
+    "dec": 1052,
+    "page": 69
+  },
+  {
+    "param": "H3-16",
+    "name": "Terminal A 1Offset",
+    "address": "0x02F0",
+    "adddress": "0x02F0",
+    "hex": "02F0",
+    "dec": 752,
+    "page": 69
+  },
+  {
+    "param": "H3-17",
+    "name": "Terminal A 2Offset",
+    "address": "0x02F1",
+    "adddress": "0x02F1",
+    "hex": "02F1",
+    "dec": 753,
+    "page": 69
+  },
+  {
+    "param": "H3-18",
+    "name": "Terminal A 3Offset",
+    "address": "0x02F2",
+    "adddress": "0x02F2",
+    "hex": "02F2",
+    "dec": 754,
+    "page": 69
+  },
+  {
+    "param": "H3-40",
+    "name": "Extend MFAI 1",
+    "address": "0x0B5C",
+    "adddress": "0x0B5C",
+    "hex": "0B5C",
+    "dec": 2908,
+    "page": 69
+  },
+  {
+    "param": "H3-41",
+    "name": "Extend MFAI 2",
+    "address": "0x0B5F",
+    "adddress": "0x0B5F",
+    "hex": "0B5F",
+    "dec": 2911,
+    "page": 69
+  },
+  {
+    "param": "H3-42",
+    "name": "Extend MFAI 3",
+    "address": "0x0B62",
+    "adddress": "0x0B62",
+    "hex": "0B62",
+    "dec": 2914,
+    "page": 69
+  },
+  {
+    "param": "H3-43",
+    "name": "Filter Timefor MFAI",
+    "address": "0x117F",
+    "adddress": "0x117F",
+    "hex": "117F",
+    "dec": 4479,
+    "page": 69
+  },
+  {
+    "param": "H4-01",
+    "name": "Terminal FM Analog Output Select",
+    "address": "0x041D",
+    "adddress": "0x041D",
+    "hex": "041D",
+    "dec": 1053,
+    "page": 71
+  },
+  {
+    "param": "H4-02",
+    "name": "Terminal FM Analog Output Gain",
+    "address": "0x041E",
+    "adddress": "0x041E",
+    "hex": "041E",
+    "dec": 1054,
+    "page": 71
+  },
+  {
+    "param": "H4-03",
+    "name": "Terminal FM Analog Output Bias",
+    "address": "0x041F",
+    "adddress": "0x041F",
+    "hex": "041F",
+    "dec": 1055,
+    "page": 71
+  },
+  {
+    "param": "H4-04",
+    "name": "Terminal AM Analog Output Select",
+    "address": "0x0420",
+    "adddress": "0x0420",
+    "hex": "0420",
+    "dec": 1056,
+    "page": 71
+  },
+  {
+    "param": "H4-05",
+    "name": "Terminal AM Analog Output Gain",
+    "address": "0x0421",
+    "adddress": "0x0421",
+    "hex": "0421",
+    "dec": 1057,
+    "page": 71
+  },
+  {
+    "param": "H4-06",
+    "name": "Terminal AM Analog Output Bias",
+    "address": "0x0422",
+    "adddress": "0x0422",
+    "hex": "0422",
+    "dec": 1058,
+    "page": 71
+  },
+  {
+    "param": "H4-07",
+    "name": "Terminal FM Signal Level Select",
+    "address": "0x0423",
+    "adddress": "0x0423",
+    "hex": "0423",
+    "dec": 1059,
+    "page": 71
+  },
+  {
+    "param": "H4-08",
+    "name": "Terminal AM Signal Level Select",
+    "address": "0x0424",
+    "adddress": "0x0424",
+    "hex": "0424",
+    "dec": 1060,
+    "page": 71
+  },
+  {
+    "param": "H4-20",
+    "name": "Outputpower monitorlevel",
+    "address": "0x0B53",
+    "adddress": "0x0B53",
+    "hex": "0B53",
+    "dec": 2899,
+    "page": 71
+  },
+  {
+    "param": "H5-01",
+    "name": "Drive Node Address",
+    "address": "0x0425",
+    "adddress": "0x0425",
+    "hex": "0425",
+    "dec": 1061,
+    "page": 72
+  },
+  {
+    "param": "H5-02",
+    "name": "Communication Speed Selection",
+    "address": "0x0426",
+    "adddress": "0x0426",
+    "hex": "0426",
+    "dec": 1062,
+    "page": 72
+  },
+  {
+    "param": "H5-03",
+    "name": "Communication Parity Selection",
+    "address": "0x0427",
+    "adddress": "0x0427",
+    "hex": "0427",
+    "dec": 1063,
+    "page": 72
+  },
+  {
+    "param": "H5-04",
+    "name": "Stopping Method after Com Error",
+    "address": "0x0428",
+    "adddress": "0x0428",
+    "hex": "0428",
+    "dec": 1064,
+    "page": 72
+  },
+  {
+    "param": "H5-05",
+    "name": "Comm Fault Detection Select",
+    "address": "0x0429",
+    "adddress": "0x0429",
+    "hex": "0429",
+    "dec": 1065,
+    "page": 72
+  },
+  {
+    "param": "H5-06",
+    "name": "Drive Transmit Wait Time",
+    "address": "0x042A",
+    "adddress": "0x042A",
+    "hex": "042A",
+    "dec": 1066,
+    "page": 72
+  },
+  {
+    "param": "H5-09",
+    "name": "CEDetection Time",
+    "address": "0x0435",
+    "adddress": "0x0435",
+    "hex": "0435",
+    "dec": 1077,
+    "page": 72
+  },
+  {
+    "param": "H5-10",
+    "name": "Unit Sel for MEMOBUS/ Modbus 0025H",
+    "address": "0x0436",
+    "adddress": "0x0436",
+    "hex": "0436",
+    "dec": 1078,
+    "page": 72
+  },
+  {
+    "param": "H5-11",
+    "name": "Communications",
+    "address": "0x043C",
+    "adddress": "0x043C",
+    "hex": "043C",
+    "dec": 1084,
+    "page": 73
+  },
+  {
+    "param": "H5-12",
+    "name": "Run Command Method Selection",
+    "address": "0x043D",
+    "adddress": "0x043D",
+    "hex": "043D",
+    "dec": 1085,
+    "page": 73
+  },
+  {
+    "param": "H5-17",
+    "name": "Busy",
+    "address": "0x11A1",
+    "adddress": "0x11A1",
+    "hex": "11A1",
+    "dec": 4513,
+    "page": 73
+  },
+  {
+    "param": "H5-18",
+    "name": "Mtr Spd Monitor T",
+    "address": "0x11A2",
+    "adddress": "0x11A2",
+    "hex": "11A2",
+    "dec": 4514,
+    "page": 73
+  },
+  {
+    "param": "H5-20",
+    "name": "Comm.Parameters Activation Sel Updated MEMOBUS/Modbuscommunicationsparameterscantake effectimmediatelyafter",
+    "address": "0x0B57",
+    "adddress": "0x0B57",
+    "hex": "0B57",
+    "dec": 2903,
+    "page": 73
+  },
+  {
+    "param": "H6-01",
+    "name": "Pulse Train In Term RPFunc Select",
+    "address": "0x042C",
+    "adddress": "0x042C",
+    "hex": "042C",
+    "dec": 1068,
+    "page": 73
+  },
+  {
+    "param": "H6-02",
+    "name": "Pulse Train Input Scaling",
+    "address": "0x042D",
+    "adddress": "0x042D",
+    "hex": "042D",
+    "dec": 1069,
+    "page": 73
+  },
+  {
+    "param": "H6-03",
+    "name": "Pulse Train Input Gain",
+    "address": "0x042E",
+    "adddress": "0x042E",
+    "hex": "042E",
+    "dec": 1070,
+    "page": 73
+  },
+  {
+    "param": "H6-04",
+    "name": "Pulse Train Input Bias",
+    "address": "0x042F",
+    "adddress": "0x042F",
+    "hex": "042F",
+    "dec": 1071,
+    "page": 73
+  },
+  {
+    "param": "H6-05",
+    "name": "Pulse Train Input Filter Time",
+    "address": "0x0430",
+    "adddress": "0x0430",
+    "hex": "0430",
+    "dec": 1072,
+    "page": 73
+  },
+  {
+    "param": "H6-06",
+    "name": "Pulse Train",
+    "address": "0x0431",
+    "adddress": "0x0431",
+    "hex": "0431",
+    "dec": 1073,
+    "page": 73
+  },
+  {
+    "param": "H6-07",
+    "name": "Pulse Train",
+    "address": "0x0432",
+    "adddress": "0x0432",
+    "hex": "0432",
+    "dec": 1074,
+    "page": 74
+  },
+  {
+    "param": "H6-08",
+    "name": "Pulse Train Input Min Frequency",
+    "address": "0x043F",
+    "adddress": "0x043F",
+    "hex": "043F",
+    "dec": 1087,
+    "page": 74
+  },
+  {
+    "param": "H7-00",
+    "name": "Virtual MFIO selection",
+    "address": "0x116F",
+    "adddress": "0x116F",
+    "hex": "116F",
+    "dec": 4463,
+    "page": 74
+  },
+  {
+    "param": "H7-01",
+    "name": "Virtual Multi-",
+    "address": "0x1185",
+    "adddress": "0x1185",
+    "hex": "1185",
+    "dec": 4485,
+    "page": 74
+  },
+  {
+    "param": "H7-02",
+    "name": "Virtual Multi-",
+    "address": "0x1186",
+    "adddress": "0x1186",
+    "hex": "1186",
+    "dec": 4486,
+    "page": 74
+  },
+  {
+    "param": "H7-03",
+    "name": "Virtual Multi-",
+    "address": "0x1187",
+    "adddress": "0x1187",
+    "hex": "1187",
+    "dec": 4487,
+    "page": 74
+  },
+  {
+    "param": "H7-04",
+    "name": "Virtual Multi-",
+    "address": "0x1188",
+    "adddress": "0x1188",
+    "hex": "1188",
+    "dec": 4488,
+    "page": 74
+  },
+  {
+    "param": "H7-10",
+    "name": "Virtual Multi-",
+    "address": "0x11A4",
+    "adddress": "0x11A4",
+    "hex": "11A4",
+    "dec": 4516,
+    "page": 74
+  },
+  {
+    "param": "H7-11",
+    "name": "Virtual Output 1 Delay Time",
+    "address": "0x11A5",
+    "adddress": "0x11A5",
+    "hex": "11A5",
+    "dec": 4517,
+    "page": 74
+  },
+  {
+    "param": "H7-12",
+    "name": "Virtual Multi-",
+    "address": "0x11A6",
+    "adddress": "0x11A6",
+    "hex": "11A6",
+    "dec": 4518,
+    "page": 74
+  },
+  {
+    "param": "H7-13",
+    "name": "Virtual Output 2 Delay Time",
+    "address": "0x11A7",
+    "adddress": "0x11A7",
+    "hex": "11A7",
+    "dec": 4519,
+    "page": 74
+  },
+  {
+    "param": "H7-14",
+    "name": "Virtual Multi-",
+    "address": "0x11A8",
+    "adddress": "0x11A8",
+    "hex": "11A8",
+    "dec": 4520,
+    "page": 74
+  },
+  {
+    "param": "H7-15",
+    "name": "Virtual Output 3 Delay Time",
+    "address": "0x11A9",
+    "adddress": "0x11A9",
+    "hex": "11A9",
+    "dec": 4521,
+    "page": 74
+  },
+  {
+    "param": "H7-16",
+    "name": "Virtual Multi-",
+    "address": "0x11AA",
+    "adddress": "0x11AA",
+    "hex": "11AA",
+    "dec": 4522,
+    "page": 74
+  },
+  {
+    "param": "H7-17",
+    "name": "Virtual Output 4 Delay Time",
+    "address": "0x11AB",
+    "adddress": "0x11AB",
+    "hex": "11AB",
+    "dec": 4523,
+    "page": 74
+  },
+  {
+    "param": "H7-30",
+    "name": "Virtual Analog",
+    "address": "0x1177",
+    "adddress": "0x1177",
+    "hex": "1177",
+    "dec": 4471,
+    "page": 74
+  },
+  {
+    "param": "H7-31",
+    "name": "Virtual Analog Input Gain",
+    "address": "0x1178",
+    "adddress": "0x1178",
+    "hex": "1178",
+    "dec": 4472,
+    "page": 74
+  },
+  {
+    "param": "H7-32",
+    "name": "Virtual Analog Input Bias",
+    "address": "0x1179",
+    "adddress": "0x1179",
+    "hex": "1179",
+    "dec": 4473,
+    "page": 74
+  },
+  {
+    "param": "H7-40",
+    "name": "Virtual Analog Out Signal Select",
+    "address": "0x1163",
+    "adddress": "0x1163",
+    "hex": "1163",
+    "dec": 4451,
+    "page": 75
+  },
+  {
+    "param": "H7-41",
+    "name": "Virtual Analog Output",
+    "address": "0x1164",
+    "adddress": "0x1164",
+    "hex": "1164",
+    "dec": 4452,
+    "page": 75
+  },
+  {
+    "param": "H7-42",
+    "name": "Virtual Analog Output Filter Time",
+    "address": "0x1165",
+    "adddress": "0x1165",
+    "hex": "1165",
+    "dec": 4453,
+    "page": 75
+  },
+  {
+    "param": "L1-01",
+    "name": "Motor Overload (o L 1)Protection",
+    "address": "0x0480",
+    "adddress": "0x0480",
+    "hex": "0480",
+    "dec": 1152,
+    "page": 76
+  },
+  {
+    "param": "L1-02",
+    "name": "Motor Overload (o L 1)Protection",
+    "address": "0x0481",
+    "adddress": "0x0481",
+    "hex": "0481",
+    "dec": 1153,
+    "page": 76
+  },
+  {
+    "param": "L1-03",
+    "name": "Motor OHAlarm Operation Select",
+    "address": "0x0482",
+    "adddress": "0x0482",
+    "hex": "0482",
+    "dec": 1154,
+    "page": 76
+  },
+  {
+    "param": "L1-04",
+    "name": "Motor OHFault Operation Select",
+    "address": "0x0483",
+    "adddress": "0x0483",
+    "hex": "0483",
+    "dec": 1155,
+    "page": 76
+  },
+  {
+    "param": "L1-05",
+    "name": "Motor Temp Input Filter Time",
+    "address": "0x0484",
+    "adddress": "0x0484",
+    "hex": "0484",
+    "dec": 1156,
+    "page": 76
+  },
+  {
+    "param": "L1-08",
+    "name": "o L 1Current Level",
+    "address": "0x1103",
+    "adddress": "0x1103",
+    "hex": "1103",
+    "dec": 4355,
+    "page": 76
+  },
+  {
+    "param": "L1-09",
+    "name": "o L 1Current Level for Motor 2",
+    "address": "0x1104",
+    "adddress": "0x1104",
+    "hex": "1104",
+    "dec": 4356,
+    "page": 76
+  },
+  {
+    "param": "L1-13",
+    "name": "Cont Electro",
+    "address": "0x046D",
+    "adddress": "0x046D",
+    "hex": "046D",
+    "dec": 1133,
+    "page": 76
+  },
+  {
+    "param": "L2-01",
+    "name": "Momentary Power Loss Ope Select",
+    "address": "0x0485",
+    "adddress": "0x0485",
+    "hex": "0485",
+    "dec": 1157,
+    "page": 77
+  },
+  {
+    "param": "L2-02",
+    "name": "Momentary Power Loss Ride-Thru Time",
+    "address": "0x0486",
+    "adddress": "0x0486",
+    "hex": "0486",
+    "dec": 1158,
+    "page": 77
+  },
+  {
+    "param": "L2-03",
+    "name": "Momentary Power Loss Min BBTime",
+    "address": "0x0487",
+    "adddress": "0x0487",
+    "hex": "0487",
+    "dec": 1159,
+    "page": 77
+  },
+  {
+    "param": "L2-04",
+    "name": "Moment Pow Loss Vol Recovery Ramp Time",
+    "address": "0x0488",
+    "adddress": "0x0488",
+    "hex": "0488",
+    "dec": 1160,
+    "page": 77
+  },
+  {
+    "param": "L2-05",
+    "name": "Undervoltage Detect Level(Uv 1)",
+    "address": "0x0489",
+    "adddress": "0x0489",
+    "hex": "0489",
+    "dec": 1161,
+    "page": 77
+  },
+  {
+    "param": "L2-06",
+    "name": "KEBDeceleration Time",
+    "address": "0x048A",
+    "adddress": "0x048A",
+    "hex": "048A",
+    "dec": 1162,
+    "page": 77
+  },
+  {
+    "param": "L2-07",
+    "name": "KEBAcceleration Time",
+    "address": "0x048B",
+    "adddress": "0x048B",
+    "hex": "048B",
+    "dec": 1163,
+    "page": 77
+  },
+  {
+    "param": "L2-08",
+    "name": "Frequency Gainat KEBStart",
+    "address": "0x048C",
+    "adddress": "0x048C",
+    "hex": "048C",
+    "dec": 1164,
+    "page": 77
+  },
+  {
+    "param": "L2-09",
+    "name": "KEBMinimum Freqency Level",
+    "address": "0x048D",
+    "adddress": "0x048D",
+    "hex": "048D",
+    "dec": 1165,
+    "page": 77
+  },
+  {
+    "param": "L2-10",
+    "name": "KEBDetect Time (Min KEBTime)",
+    "address": "0x048E",
+    "adddress": "0x048E",
+    "hex": "048E",
+    "dec": 1166,
+    "page": 77
+  },
+  {
+    "param": "L2-11",
+    "name": "DCBus Vol Setpointduring KEB",
+    "address": "0x0461",
+    "adddress": "0x0461",
+    "hex": "0461",
+    "dec": 1121,
+    "page": 77
+  },
+  {
+    "param": "L2-29",
+    "name": "KEBMethod Selection",
+    "address": "0x0475",
+    "adddress": "0x0475",
+    "hex": "0475",
+    "dec": 1141,
+    "page": 77
+  },
+  {
+    "param": "L2-30",
+    "name": "KEBZero Speed Operation",
+    "address": "0x045E",
+    "adddress": "0x045E",
+    "hex": "045E",
+    "dec": 1118,
+    "page": 78
+  },
+  {
+    "param": "L2-31",
+    "name": "KEBStart Voltage Offset Level",
+    "address": "0x045D",
+    "adddress": "0x045D",
+    "hex": "045D",
+    "dec": 1117,
+    "page": 78
+  },
+  {
+    "param": "L3-01",
+    "name": "Stall Prevent Select during Accel",
+    "address": "0x048F",
+    "adddress": "0x048F",
+    "hex": "048F",
+    "dec": 1167,
+    "page": 78
+  },
+  {
+    "param": "L3-02",
+    "name": "Stall Prevent Level during Accel",
+    "address": "0x0490",
+    "adddress": "0x0490",
+    "hex": "0490",
+    "dec": 1168,
+    "page": 78
+  },
+  {
+    "param": "L3-03",
+    "name": "Stall Prevent Limit during Accel",
+    "address": "0x0491",
+    "adddress": "0x0491",
+    "hex": "0491",
+    "dec": 1169,
+    "page": 78
+  },
+  {
+    "param": "L3-04",
+    "name": "Stall Prevention during Decel",
+    "address": "0x0492",
+    "adddress": "0x0492",
+    "hex": "0492",
+    "dec": 1170,
+    "page": 78
+  },
+  {
+    "param": "L3-05",
+    "name": "Stall Prevent Select during Run",
+    "address": "0x0493",
+    "adddress": "0x0493",
+    "hex": "0493",
+    "dec": 1171,
+    "page": 78
+  },
+  {
+    "param": "L3-06",
+    "name": "Stall Prevent Level during Run",
+    "address": "0x0494",
+    "adddress": "0x0494",
+    "hex": "0494",
+    "dec": 1172,
+    "page": 79
+  },
+  {
+    "param": "L3-11",
+    "name": "OVSuppression",
+    "address": "0x04C7",
+    "adddress": "0x04C7",
+    "hex": "04C7",
+    "dec": 1223,
+    "page": 79
+  },
+  {
+    "param": "L3-17",
+    "name": "DCBus Reg Level Set",
+    "address": "0x0462",
+    "adddress": "0x0462",
+    "hex": "0462",
+    "dec": 1122,
+    "page": 79
+  },
+  {
+    "param": "L3-20",
+    "name": "DCBus Voltage Adjustment Gain",
+    "address": "0x0465",
+    "adddress": "0x0465",
+    "hex": "0465",
+    "dec": 1125,
+    "page": 79
+  },
+  {
+    "param": "L3-21",
+    "name": "Accel/Decel Rate Calculate Gain",
+    "address": "0x0466",
+    "adddress": "0x0466",
+    "hex": "0466",
+    "dec": 1126,
+    "page": 79
+  },
+  {
+    "param": "L3-22",
+    "name": "Dec Time at Stall Prevent during Acc",
+    "address": "0x04F9",
+    "adddress": "0x04F9",
+    "hex": "04F9",
+    "dec": 1273,
+    "page": 79
+  },
+  {
+    "param": "L3-23",
+    "name": "CHPStall P Selection",
+    "address": "0x04FD",
+    "adddress": "0x04FD",
+    "hex": "04FD",
+    "dec": 1277,
+    "page": 79
+  },
+  {
+    "param": "L3-24",
+    "name": "Motor Accel Time for Inertia Cal",
+    "address": "0x046E",
+    "adddress": "0x046E",
+    "hex": "046E",
+    "dec": 1134,
+    "page": 79
+  },
+  {
+    "param": "L3-25",
+    "name": "Load Inertia Ratio",
+    "address": "0x046F",
+    "adddress": "0x046F",
+    "hex": "046F",
+    "dec": 1135,
+    "page": 79
+  },
+  {
+    "param": "L3-26",
+    "name": "Additional DCBus Capacitors",
+    "address": "0x0455",
+    "adddress": "0x0455",
+    "hex": "0455",
+    "dec": 1109,
+    "page": 79
+  },
+  {
+    "param": "L3-27",
+    "name": "Stall Prevention Detection Time",
+    "address": "0x0456",
+    "adddress": "0x0456",
+    "hex": "0456",
+    "dec": 1110,
+    "page": 79
+  },
+  {
+    "param": "L3-34",
+    "name": "Torque Limit Delay Time",
+    "address": "0x016F",
+    "adddress": "0x016F",
+    "hex": "016F",
+    "dec": 367,
+    "page": 79
+  },
+  {
+    "param": "L3-35",
+    "name": "Int Dec Sp d Agr Wdth",
+    "address": "0x0747",
+    "adddress": "0x0747",
+    "hex": "0747",
+    "dec": 1863,
+    "page": 79
+  },
+  {
+    "param": "L3-36",
+    "name": "Vibra Suppression Gainduring Accel",
+    "address": "0x11D0",
+    "adddress": "0x11D0",
+    "hex": "11D0",
+    "dec": 4560,
+    "page": 79
+  },
+  {
+    "param": "L3-37",
+    "name": "Current Limit P Gainduring Accel Suppressescurrenthuntingduringacceleration.Normally",
+    "address": "0x11D1",
+    "adddress": "0x11D1",
+    "hex": "11D1",
+    "dec": 4561,
+    "page": 80
+  },
+  {
+    "param": "L3-38",
+    "name": "Current Limit I Timeduring Accel Suppresses",
+    "address": "0x11D2",
+    "adddress": "0x11D2",
+    "hex": "11D2",
+    "dec": 4562,
+    "page": 80
+  },
+  {
+    "param": "L3-39",
+    "name": "Curlim Integ Time Conduring Acc/ Dec",
+    "address": "0x11D3",
+    "adddress": "0x11D3",
+    "hex": "11D3",
+    "dec": 4563,
+    "page": 80
+  },
+  {
+    "param": "L3-40",
+    "name": "Curlim Max Scurve Selduring Acc/Dec",
+    "address": "0x11D4",
+    "adddress": "0x11D4",
+    "hex": "11D4",
+    "dec": 4564,
+    "page": 80
+  },
+  {
+    "param": "L4-01",
+    "name": "Speed Agree Detection Level",
+    "address": "0x0499",
+    "adddress": "0x0499",
+    "hex": "0499",
+    "dec": 1177,
+    "page": 80
+  },
+  {
+    "param": "L4-02",
+    "name": "Speed Agree Detection Width",
+    "address": "0x049A",
+    "adddress": "0x049A",
+    "hex": "049A",
+    "dec": 1178,
+    "page": 80
+  },
+  {
+    "param": "L4-03",
+    "name": "Speed Agree Detect Level(+/-)",
+    "address": "0x049B",
+    "adddress": "0x049B",
+    "hex": "049B",
+    "dec": 1179,
+    "page": 80
+  },
+  {
+    "param": "L4-04",
+    "name": "Speed Agree Detect Width(+/-)",
+    "address": "0x049C",
+    "adddress": "0x049C",
+    "hex": "049C",
+    "dec": 1180,
+    "page": 80
+  },
+  {
+    "param": "L4-05",
+    "name": "Freq Reference Loss Detect Select",
+    "address": "0x049D",
+    "adddress": "0x049D",
+    "hex": "049D",
+    "dec": 1181,
+    "page": 80
+  },
+  {
+    "param": "L4-06",
+    "name": "Freq Referenceat Reference Loss",
+    "address": "0x04C2",
+    "adddress": "0x04C2",
+    "hex": "04C2",
+    "dec": 1218,
+    "page": 80
+  },
+  {
+    "param": "L4-07",
+    "name": "Speed Agree Detection Selection",
+    "address": "0x0470",
+    "adddress": "0x0470",
+    "hex": "0470",
+    "dec": 1136,
+    "page": 80
+  },
+  {
+    "param": "L5-01",
+    "name": "Numberof Auto Restart Attempts",
+    "address": "0x049E",
+    "adddress": "0x049E",
+    "hex": "049E",
+    "dec": 1182,
+    "page": 81
+  },
+  {
+    "param": "L5-02",
+    "name": "Auto Restart Faul t Output Ope Select",
+    "address": "0x049F",
+    "adddress": "0x049F",
+    "hex": "049F",
+    "dec": 1183,
+    "page": 81
+  },
+  {
+    "param": "L5-04",
+    "name": "Auto Restart Interval Time",
+    "address": "0x046C",
+    "adddress": "0x046C",
+    "hex": "046C",
+    "dec": 1132,
+    "page": 81
+  },
+  {
+    "param": "L5-05",
+    "name": "Auto Restart Operation Selection",
+    "address": "0x0467",
+    "adddress": "0x0467",
+    "hex": "0467",
+    "dec": 1127,
+    "page": 81
+  },
+  {
+    "param": "L6-01",
+    "name": "Torque Detection Selection 1",
+    "address": "0x04A1",
+    "adddress": "0x04A1",
+    "hex": "04A1",
+    "dec": 1185,
+    "page": 81
+  },
+  {
+    "param": "L6-02",
+    "name": "Torque Detection Level 1",
+    "address": "0x04A2",
+    "adddress": "0x04A2",
+    "hex": "04A2",
+    "dec": 1186,
+    "page": 81
+  },
+  {
+    "param": "L6-03",
+    "name": "Torque Detection Time 1",
+    "address": "0x04A3",
+    "adddress": "0x04A3",
+    "hex": "04A3",
+    "dec": 1187,
+    "page": 81
+  },
+  {
+    "param": "L6-04",
+    "name": "Torque Detection Selection 2",
+    "address": "0x04A4",
+    "adddress": "0x04A4",
+    "hex": "04A4",
+    "dec": 1188,
+    "page": 81
+  },
+  {
+    "param": "L6-05",
+    "name": "Torque Detection Level 2",
+    "address": "0x04A5",
+    "adddress": "0x04A5",
+    "hex": "04A5",
+    "dec": 1189,
+    "page": 82
+  },
+  {
+    "param": "L6-06",
+    "name": "Torque Detection Time 2",
+    "address": "0x04A6",
+    "adddress": "0x04A6",
+    "hex": "04A6",
+    "dec": 1190,
+    "page": 82
+  },
+  {
+    "param": "L6-08",
+    "name": "Mechanical Weakening Detect Ope",
+    "address": "0x0468",
+    "adddress": "0x0468",
+    "hex": "0468",
+    "dec": 1128,
+    "page": 82
+  },
+  {
+    "param": "L6-09",
+    "name": "Mechanical Weake ning Detect Spd Lvl On",
+    "address": "0x0469",
+    "adddress": "0x0469",
+    "hex": "0469",
+    "dec": 1129,
+    "page": 82
+  },
+  {
+    "param": "L6-10",
+    "name": "Mechanical Weakening Detect Time",
+    "address": "0x046A",
+    "adddress": "0x046A",
+    "hex": "046A",
+    "dec": 1130,
+    "page": 82
+  },
+  {
+    "param": "L6-11",
+    "name": "Mechanical Weake ning Detect Srt Time",
+    "address": "0x046B",
+    "adddress": "0x046B",
+    "hex": "046B",
+    "dec": 1131,
+    "page": 82
+  },
+  {
+    "param": "L7-01",
+    "name": "Forward Torque Limit On",
+    "address": "0x04A7",
+    "adddress": "0x04A7",
+    "hex": "04A7",
+    "dec": 1191,
+    "page": 82
+  },
+  {
+    "param": "L7-02",
+    "name": "Reverse Torque Limit",
+    "address": "0x04A8",
+    "adddress": "0x04A8",
+    "hex": "04A8",
+    "dec": 1192,
+    "page": 82
+  },
+  {
+    "param": "L7-03",
+    "name": "Forward Regenerative Torque Limit",
+    "address": "0x04A9",
+    "adddress": "0x04A9",
+    "hex": "04A9",
+    "dec": 1193,
+    "page": 82
+  },
+  {
+    "param": "L7-04",
+    "name": "Reverse Regenerative Torque Limit",
+    "address": "0x04AA",
+    "adddress": "0x04AA",
+    "hex": "04AA",
+    "dec": 1194,
+    "page": 82
+  },
+  {
+    "param": "L7-06",
+    "name": "Torque Limit Inte gral Time Constant",
+    "address": "0x04AC",
+    "adddress": "0x04AC",
+    "hex": "04AC",
+    "dec": 1196,
+    "page": 82
+  },
+  {
+    "param": "L7-07",
+    "name": "Trq Lim Cont Me thod Selduring Acc/ Dec",
+    "address": "0x04C9",
+    "adddress": "0x04C9",
+    "hex": "04C9",
+    "dec": 1225,
+    "page": 82
+  },
+  {
+    "param": "L7-16",
+    "name": "Torque Limit Processat Start Assignsatimefiltertoallow",
+    "address": "0x044D",
+    "adddress": "0x044D",
+    "hex": "044D",
+    "dec": 1101,
+    "page": 83
+  },
+  {
+    "param": "L7-35",
+    "name": "Derating Trq Lim For Low Freq&Re gratn",
+    "address": "0x1B57",
+    "adddress": "0x1B57",
+    "hex": "1B57",
+    "dec": 6999,
+    "page": 83
+  },
+  {
+    "param": "L7-36",
+    "name": "Ope Freqbandfor derating Trq Lim",
+    "address": "0x1B58",
+    "adddress": "0x1B58",
+    "hex": "1B58",
+    "dec": 7000,
+    "page": 83
+  },
+  {
+    "param": "L8-01",
+    "name": "Internal DB Resistor",
+    "address": "0x04AD",
+    "adddress": "0x04AD",
+    "hex": "04AD",
+    "dec": 1197,
+    "page": 83
+  },
+  {
+    "param": "L8-02",
+    "name": "Overheat Alarm Level",
+    "address": "0x04AE",
+    "adddress": "0x04AE",
+    "hex": "04AE",
+    "dec": 1198,
+    "page": 83
+  },
+  {
+    "param": "L8-03",
+    "name": "Overheat Pre- Alarm Ope Selection",
+    "address": "0x04AF",
+    "adddress": "0x04AF",
+    "hex": "04AF",
+    "dec": 1199,
+    "page": 83
+  },
+  {
+    "param": "L8-05",
+    "name": "Input Phase Loss",
+    "address": "0x04B1",
+    "adddress": "0x04B1",
+    "hex": "04B1",
+    "dec": 1201,
+    "page": 83
+  },
+  {
+    "param": "L8-07",
+    "name": "Output Phase Loss",
+    "address": "0x04B3",
+    "adddress": "0x04B3",
+    "hex": "04B3",
+    "dec": 1203,
+    "page": 83
+  },
+  {
+    "param": "L8-09",
+    "name": "Output Ground Fault Detect Select",
+    "address": "0x04B5",
+    "adddress": "0x04B5",
+    "hex": "04B5",
+    "dec": 1205,
+    "page": 83
+  },
+  {
+    "param": "L8-10",
+    "name": "Heatsink Cooling Fan Ope Select",
+    "address": "0x04B6",
+    "adddress": "0x04B6",
+    "hex": "04B6",
+    "dec": 1206,
+    "page": 83
+  },
+  {
+    "param": "L8-11",
+    "name": "Heatsink Cooling Fan Off Delay Time",
+    "address": "0x04B7",
+    "adddress": "0x04B7",
+    "hex": "04B7",
+    "dec": 1207,
+    "page": 84
+  },
+  {
+    "param": "L8-12",
+    "name": "Ambient Temperature Setting",
+    "address": "0x04B8",
+    "adddress": "0x04B8",
+    "hex": "04B8",
+    "dec": 1208,
+    "page": 84
+  },
+  {
+    "param": "L8-15",
+    "name": "o L 2Characteristics Selat Low Spd",
+    "address": "0x04BB",
+    "adddress": "0x04BB",
+    "hex": "04BB",
+    "dec": 1211,
+    "page": 84
+  },
+  {
+    "param": "L8-18",
+    "name": "Software Current",
+    "address": "0x04BE",
+    "adddress": "0x04BE",
+    "hex": "04BE",
+    "dec": 1214,
+    "page": 84
+  },
+  {
+    "param": "L8-19",
+    "name": "Freq Reduct Rate During OHPre- Alarm",
+    "address": "0x04BF",
+    "adddress": "0x04BF",
+    "hex": "04BF",
+    "dec": 1215,
+    "page": 84
+  },
+  {
+    "param": "L8-20",
+    "name": "CFSELECT",
+    "address": "0x04C0",
+    "adddress": "0x04C0",
+    "hex": "04C0",
+    "dec": 1216,
+    "page": 84
+  },
+  {
+    "param": "L8-27",
+    "name": "Overcurrent Detection Gain",
+    "address": "0x04DD",
+    "adddress": "0x04DD",
+    "hex": "04DD",
+    "dec": 1245,
+    "page": 84
+  },
+  {
+    "param": "L8-29",
+    "name": "Current Unbalance Detect(LF 2)",
+    "address": "0x04DF",
+    "adddress": "0x04DF",
+    "hex": "04DF",
+    "dec": 1247,
+    "page": 84
+  },
+  {
+    "param": "L8-31",
+    "name": "LF 2Detection Time",
+    "address": "0x04E1",
+    "adddress": "0x04E1",
+    "hex": "04E1",
+    "dec": 1249,
+    "page": 84
+  },
+  {
+    "param": "L8-32",
+    "name": "Cooling Fan Failure Selection",
+    "address": "0x04E2",
+    "adddress": "0x04E2",
+    "hex": "04E2",
+    "dec": 1250,
+    "page": 84
+  },
+  {
+    "param": "L8-35",
+    "name": "Installation Method Selection",
+    "address": "0x04EC",
+    "adddress": "0x04EC",
+    "hex": "04EC",
+    "dec": 1260,
+    "page": 84
+  },
+  {
+    "param": "L8-38",
+    "name": "Carrier Frequency Reduction",
+    "address": "0x04EF",
+    "adddress": "0x04EF",
+    "hex": "04EF",
+    "dec": 1263,
+    "page": 85
+  },
+  {
+    "param": "L8-40",
+    "name": "Carrier Freq Reduct Off Delay Time",
+    "address": "0x04F1",
+    "adddress": "0x04F1",
+    "hex": "04F1",
+    "dec": 1265,
+    "page": 85
+  },
+  {
+    "param": "L8-41",
+    "name": "High Current Alarm Selection Triggersan HCA[Current Alarm]",
+    "address": "0x04F2",
+    "adddress": "0x04F2",
+    "hex": "04F2",
+    "dec": 1266,
+    "page": 85
+  },
+  {
+    "param": "L8-51",
+    "name": "STPo IDetection Level",
+    "address": "0x0471",
+    "adddress": "0x0471",
+    "hex": "0471",
+    "dec": 1137,
+    "page": 85
+  },
+  {
+    "param": "L8-52",
+    "name": "STPo Integration Level",
+    "address": "0x0472",
+    "adddress": "0x0472",
+    "hex": "0472",
+    "dec": 1138,
+    "page": 85
+  },
+  {
+    "param": "L8-53",
+    "name": "STPo Integration Time",
+    "address": "0x0473",
+    "adddress": "0x0473",
+    "hex": "0473",
+    "dec": 1139,
+    "page": 85
+  },
+  {
+    "param": "L8-54",
+    "name": "STPo Id Diff Detection",
+    "address": "0x0474",
+    "adddress": "0x0474",
+    "hex": "0474",
+    "dec": 1140,
+    "page": 85
+  },
+  {
+    "param": "L8-55",
+    "name": "Internal Braking Transistor Protect",
+    "address": "0x045F",
+    "adddress": "0x045F",
+    "hex": "045F",
+    "dec": 1119,
+    "page": 85
+  },
+  {
+    "param": "L8-56",
+    "name": "Stl Act Time",
+    "address": "0x047D",
+    "adddress": "0x047D",
+    "hex": "047D",
+    "dec": 1149,
+    "page": 85
+  },
+  {
+    "param": "L8-57",
+    "name": "Stl Retry Count",
+    "address": "0x047E",
+    "adddress": "0x047E",
+    "hex": "047E",
+    "dec": 1150,
+    "page": 85
+  },
+  {
+    "param": "L8-90",
+    "name": "STPo Detection Level STPo[Desynchronization Error]isdetected",
+    "address": "0x0175",
+    "adddress": "0x0175",
+    "hex": "0175",
+    "dec": 373,
+    "page": 85
+  },
+  {
+    "param": "L8-93",
+    "name": "LSo Detection Timeat Low Speed",
+    "address": "0x073C",
+    "adddress": "0x073C",
+    "hex": "073C",
+    "dec": 1852,
+    "page": 85
+  },
+  {
+    "param": "L8-94",
+    "name": "LSo Detection Levelat Low Speed",
+    "address": "0x073D",
+    "adddress": "0x073D",
+    "hex": "073D",
+    "dec": 1853,
+    "page": 85
+  },
+  {
+    "param": "L8-95",
+    "name": "Average LSo Freq at Low Speed",
+    "address": "0x077F",
+    "adddress": "0x077F",
+    "hex": "077F",
+    "dec": 1919,
+    "page": 85
+  },
+  {
+    "param": "L9-16",
+    "name": "FAn 1Detection Time",
+    "address": "0x11DC",
+    "adddress": "0x11DC",
+    "hex": "11DC",
+    "dec": 4572,
+    "page": 86
+  },
+  {
+    "param": "n1-01",
+    "name": "Hunting Prevention Selection",
+    "address": "0x0580",
+    "adddress": "0x0580",
+    "hex": "0580",
+    "dec": 1408,
+    "page": 87
+  },
+  {
+    "param": "n1-02",
+    "name": "Hunting Prevention Gain Setting",
+    "address": "0x0581",
+    "adddress": "0x0581",
+    "hex": "0581",
+    "dec": 1409,
+    "page": 87
+  },
+  {
+    "param": "n1-03",
+    "name": "Hunting Prevention Time Constant",
+    "address": "0x0582",
+    "adddress": "0x0582",
+    "hex": "0582",
+    "dec": 1410,
+    "page": 87
+  },
+  {
+    "param": "n1-05",
+    "name": "Hunting Prevention Gainwhilein Rev",
+    "address": "0x0530",
+    "adddress": "0x0530",
+    "hex": "0530",
+    "dec": 1328,
+    "page": 87
+  },
+  {
+    "param": "n1-08",
+    "name": "Leakcurantivib",
+    "address": "0x1105",
+    "adddress": "0x1105",
+    "hex": "1105",
+    "dec": 4357,
+    "page": 87
+  },
+  {
+    "param": "n1-13",
+    "name": "DCBus Stabilization Control",
+    "address": "0x1B59",
+    "adddress": "0x1B59",
+    "hex": "1B59",
+    "dec": 7001,
+    "page": 87
+  },
+  {
+    "param": "n1-14",
+    "name": "DCBus Stabilization Time Withasettingofn 1-13=1[DCBus Stabilization Control= Enabled],adjustmentsthataddressalackofoscillationsuppression",
+    "address": "0x1B5A",
+    "adddress": "0x1B5A",
+    "hex": "1B5A",
+    "dec": 7002,
+    "page": 87
+  },
+  {
+    "param": "n1-15",
+    "name": "Voltage Calibration Select",
+    "address": "0x0BF8",
+    "adddress": "0x0BF8",
+    "hex": "0BF8",
+    "dec": 3064,
+    "page": 87
+  },
+  {
+    "param": "n1-16",
+    "name": "Highcarry Hunt Prev Gain",
+    "address": "0x0BFB",
+    "adddress": "0x0BFB",
+    "hex": "0BFB",
+    "dec": 3067,
+    "page": 87
+  },
+  {
+    "param": "n1-17",
+    "name": "Hunt Prev Time",
+    "address": "0x0BFC",
+    "adddress": "0x0BFC",
+    "hex": "0BFC",
+    "dec": 3068,
+    "page": 87
+  },
+  {
+    "param": "n2-01",
+    "name": "Spd Feedback De tect Ctr(AFR)Gain",
+    "address": "0x0584",
+    "adddress": "0x0584",
+    "hex": "0584",
+    "dec": 1412,
+    "page": 88
+  },
+  {
+    "param": "n2-02",
+    "name": "Spd Feedback Det Ctr(AFR) Time Const 1",
+    "address": "0x0585",
+    "adddress": "0x0585",
+    "hex": "0585",
+    "dec": 1413,
+    "page": 88
+  },
+  {
+    "param": "n2-03",
+    "name": "Spd Feedback Det Ctr(AFR) Time Const 2",
+    "address": "0x0586",
+    "adddress": "0x0586",
+    "hex": "0586",
+    "dec": 1414,
+    "page": 88
+  },
+  {
+    "param": "n3-01",
+    "name": "HSBDeceleration Frequency Width",
+    "address": "0x0588",
+    "adddress": "0x0588",
+    "hex": "0588",
+    "dec": 1416,
+    "page": 88
+  },
+  {
+    "param": "n3-02",
+    "name": "High-Slip Braking Current Limit",
+    "address": "0x0589",
+    "adddress": "0x0589",
+    "hex": "0589",
+    "dec": 1417,
+    "page": 88
+  },
+  {
+    "param": "n3-03",
+    "name": "HSBDwell Time at Stop This",
+    "address": "0x058A",
+    "adddress": "0x058A",
+    "hex": "058A",
+    "dec": 1418,
+    "page": 88
+  },
+  {
+    "param": "n3-04",
+    "name": "High-Slip Braking Overload Time",
+    "address": "0x058B",
+    "adddress": "0x058B",
+    "hex": "058B",
+    "dec": 1419,
+    "page": 88
+  },
+  {
+    "param": "n3-13",
+    "name": "Overexcitation Deceleration Gain",
+    "address": "0x0531",
+    "adddress": "0x0531",
+    "hex": "0531",
+    "dec": 1329,
+    "page": 88
+  },
+  {
+    "param": "n3-14",
+    "name": "Harm Inj@ Hi Flx Brk",
+    "address": "0x0532",
+    "adddress": "0x0532",
+    "hex": "0532",
+    "dec": 1330,
+    "page": 88
+  },
+  {
+    "param": "n3-21",
+    "name": "High- Slip Suppression Current Lvl",
+    "address": "0x0579",
+    "adddress": "0x0579",
+    "hex": "0579",
+    "dec": 1401,
+    "page": 88
+  },
+  {
+    "param": "n3-23",
+    "name": "Overexcitation Operation Select",
+    "address": "0x057B",
+    "adddress": "0x057B",
+    "hex": "057B",
+    "dec": 1403,
+    "page": 88
+  },
+  {
+    "param": "n4-60",
+    "name": "Motoring Low Speed Comp Gain Thiscompensationgainimproves",
+    "address": "0x1B80",
+    "adddress": "0x1B80",
+    "hex": "1B80",
+    "dec": 7040,
+    "page": 89
+  },
+  {
+    "param": "n4-61",
+    "name": "Low Speed Comp Frequency Level Setafrequencythat",
+    "address": "0x1B81",
+    "adddress": "0x1B81",
+    "hex": "1B81",
+    "dec": 7041,
+    "page": 89
+  },
+  {
+    "param": "n4-62",
+    "name": "Regen Low Speed Comp Gain Thiscompensationgainimproves",
+    "address": "0x1B82",
+    "adddress": "0x1B82",
+    "hex": "1B82",
+    "dec": 7042,
+    "page": 89
+  },
+  {
+    "param": "n4-63",
+    "name": "Spd Estimation Res ponse For High Freq Inhighspeedranges,where",
+    "address": "0x1B83",
+    "adddress": "0x1B83",
+    "hex": "1B83",
+    "dec": 7043,
+    "page": 89
+  },
+  {
+    "param": "n4-64",
+    "name": "Spd Estimation Res ponsefor Low Freq Inlowspeedranges,where 0≤",
+    "address": "0x1B84",
+    "adddress": "0x1B84",
+    "hex": "1B84",
+    "dec": 7044,
+    "page": 89
+  },
+  {
+    "param": "n4-65",
+    "name": "Flux Estimation Res ponse For High Frq Inhighspeedranges,where",
+    "address": "0x1B85",
+    "adddress": "0x1B85",
+    "hex": "1B85",
+    "dec": 7045,
+    "page": 89
+  },
+  {
+    "param": "n4-66",
+    "name": "Flux Estimation Res ponse For Low Freq Inlowspeedranges,where 0≤",
+    "address": "0x1B86",
+    "adddress": "0x1B86",
+    "hex": "1B86",
+    "dec": 7046,
+    "page": 89
+  },
+  {
+    "param": "n4-67",
+    "name": "Switching Freq for Estimationgain Set",
+    "address": "0x1B87",
+    "adddress": "0x1B87",
+    "hex": "1B87",
+    "dec": 7047,
+    "page": 89
+  },
+  {
+    "param": "n4-68",
+    "name": "Filter Time Const for Spd Estimation",
+    "address": "0x1B88",
+    "adddress": "0x1B88",
+    "hex": "1B88",
+    "dec": 7048,
+    "page": 89
+  },
+  {
+    "param": "n4-69",
+    "name": "Responseof Flux loop Stabilizesmotorvibrationsthroughunifiedcontrolofmagneticflux. 1.00",
+    "address": "0x1B89",
+    "adddress": "0x1B89",
+    "hex": "1B89",
+    "dec": 7049,
+    "page": 89
+  },
+  {
+    "param": "n4-70",
+    "name": "Speed Command Comp@Low Freq Adjustthistoimprovestability",
+    "address": "0x1B8A",
+    "adddress": "0x1B8A",
+    "hex": "1B8A",
+    "dec": 7050,
+    "page": 89
+  },
+  {
+    "param": "n4-72",
+    "name": "PGMode Selectwhe",
+    "address": "0x1B8C",
+    "adddress": "0x1B8C",
+    "hex": "1B8C",
+    "dec": 7052,
+    "page": 89
+  },
+  {
+    "param": "n4-73",
+    "name": "PGOretope If",
+    "address": "0x1B8D",
+    "adddress": "0x1B8D",
+    "hex": "1B8D",
+    "dec": 7053,
+    "page": 89
+  },
+  {
+    "param": "n4-74",
+    "name": "Limitof Fluxloop",
+    "address": "0x1B8E",
+    "adddress": "0x1B8E",
+    "hex": "1B8E",
+    "dec": 7054,
+    "page": 89
+  },
+  {
+    "param": "n5-01",
+    "name": "Feedforward",
+    "address": "0x05B0",
+    "adddress": "0x05B0",
+    "hex": "05B0",
+    "dec": 1456,
+    "page": 90
+  },
+  {
+    "param": "n5-02",
+    "name": "Motor Acceleration Time Set",
+    "address": "0x05B1",
+    "adddress": "0x05B1",
+    "hex": "05B1",
+    "dec": 1457,
+    "page": 90
+  },
+  {
+    "param": "n5-03",
+    "name": "Feedforward Control Gain",
+    "address": "0x05B2",
+    "adddress": "0x05B2",
+    "hex": "05B2",
+    "dec": 1458,
+    "page": 90
+  },
+  {
+    "param": "n5-04",
+    "name": "Spd Response F",
+    "address": "0x05B3",
+    "adddress": "0x05B3",
+    "hex": "05B3",
+    "dec": 1459,
+    "page": 90
+  },
+  {
+    "param": "n6-01",
+    "name": "Online Tuning Selection",
+    "address": "0x0570",
+    "adddress": "0x0570",
+    "hex": "0570",
+    "dec": 1392,
+    "page": 90
+  },
+  {
+    "param": "n6-05",
+    "name": "Online Tuning Gain",
+    "address": "0x05C7",
+    "adddress": "0x05C7",
+    "hex": "05C7",
+    "dec": 1479,
+    "page": 90
+  },
+  {
+    "param": "n6-11",
+    "name": "onlineresister tuning",
+    "address": "0x1B56",
+    "adddress": "0x1B56",
+    "hex": "1B56",
+    "dec": 6998,
+    "page": 90
+  },
+  {
+    "param": "n7-01",
+    "name": "Flux Estimation Cut-off Freq",
+    "address": "0x3111",
+    "adddress": "0x3111",
+    "hex": "3111",
+    "dec": 12561,
+    "page": 90
+  },
+  {
+    "param": "n7-05",
+    "name": "Torque Control Response Gain",
+    "address": "0x3115",
+    "adddress": "0x3115",
+    "hex": "3115",
+    "dec": 12565,
+    "page": 90
+  },
+  {
+    "param": "n7-07",
+    "name": "PLLresponse 1",
+    "address": "0x3117",
+    "adddress": "0x3117",
+    "hex": "3117",
+    "dec": 12567,
+    "page": 90
+  },
+  {
+    "param": "n7-08",
+    "name": "PLLresponse 2",
+    "address": "0x3118",
+    "adddress": "0x3118",
+    "hex": "3118",
+    "dec": 12568,
+    "page": 90
+  },
+  {
+    "param": "n7-10",
+    "name": "Sensorless Switchover",
+    "address": "0x311A",
+    "adddress": "0x311A",
+    "hex": "311A",
+    "dec": 12570,
+    "page": 91
+  },
+  {
+    "param": "n7-17",
+    "name": "Resistance Temperature Correc tion",
+    "address": "0x3122",
+    "adddress": "0x3122",
+    "hex": "3122",
+    "dec": 12578,
+    "page": 91
+  },
+  {
+    "param": "n8-01",
+    "name": "Init Rotor Position Est Current",
+    "address": "0x0540",
+    "adddress": "0x0540",
+    "hex": "0540",
+    "dec": 1344,
+    "page": 91
+  },
+  {
+    "param": "n8-02",
+    "name": "Pole Attraction Current",
+    "address": "0x0541",
+    "adddress": "0x0541",
+    "hex": "0541",
+    "dec": 1345,
+    "page": 91
+  },
+  {
+    "param": "n8-03",
+    "name": "Current Starting Time",
+    "address": "0x0542",
+    "adddress": "0x0542",
+    "hex": "0542",
+    "dec": 1346,
+    "page": 91
+  },
+  {
+    "param": "n8-04",
+    "name": "Polar Attraction Time",
+    "address": "0x0543",
+    "adddress": "0x0543",
+    "hex": "0543",
+    "dec": 1347,
+    "page": 91
+  },
+  {
+    "param": "n8-11",
+    "name": "Induction Volt Estimation Gain 2",
+    "address": "0x054A",
+    "adddress": "0x054A",
+    "hex": "054A",
+    "dec": 1354,
+    "page": 91
+  },
+  {
+    "param": "n8-14",
+    "name": "Polarity Compensation Gain 3",
+    "address": "0x054D",
+    "adddress": "0x054D",
+    "hex": "054D",
+    "dec": 1357,
+    "page": 91
+  },
+  {
+    "param": "n8-15",
+    "name": "Polarity Compensation Gain 4",
+    "address": "0x054E",
+    "adddress": "0x054E",
+    "hex": "054E",
+    "dec": 1358,
+    "page": 91
+  },
+  {
+    "param": "n8-21",
+    "name": "Motor Ke Gain",
+    "address": "0x0554",
+    "adddress": "0x0554",
+    "hex": "0554",
+    "dec": 1364,
+    "page": 91
+  },
+  {
+    "param": "n8-35",
+    "name": "Init Rotor Position Detect Select",
+    "address": "0x0562",
+    "adddress": "0x0562",
+    "hex": "0562",
+    "dec": 1378,
+    "page": 91
+  },
+  {
+    "param": "n8-36",
+    "name": "Injection Signal Freq For Induct Turn",
+    "address": "0x0563",
+    "adddress": "0x0563",
+    "hex": "0563",
+    "dec": 1379,
+    "page": 91
+  },
+  {
+    "param": "n8-37",
+    "name": "High Freq Injection Amplitude Considering 200Vtobe",
+    "address": "0x0564",
+    "adddress": "0x0564",
+    "hex": "0564",
+    "dec": 1380,
+    "page": 91
+  },
+  {
+    "param": "n8-41",
+    "name": "HFIOverlap Pole Detection Pgain",
+    "address": "0x0568",
+    "adddress": "0x0568",
+    "hex": "0568",
+    "dec": 1384,
+    "page": 91
+  },
+  {
+    "param": "n8-42",
+    "name": "HFIOverlap Pole Detectioni Time",
+    "address": "0x0569",
+    "adddress": "0x0569",
+    "hex": "0569",
+    "dec": 1385,
+    "page": 92
+  },
+  {
+    "param": "n8-45",
+    "name": "Spd Feedback Detect Control Gain",
+    "address": "0x0538",
+    "adddress": "0x0538",
+    "hex": "0538",
+    "dec": 1336,
+    "page": 92
+  },
+  {
+    "param": "n8-47",
+    "name": "Pull- In Cur Compensa tion Time Const",
+    "address": "0x053A",
+    "adddress": "0x053A",
+    "hex": "053A",
+    "dec": 1338,
+    "page": 92
+  },
+  {
+    "param": "n8-48",
+    "name": "Pull-In Current(for PMMotors) On",
+    "address": "0x053B",
+    "adddress": "0x053B",
+    "hex": "053B",
+    "dec": 1339,
+    "page": 92
+  },
+  {
+    "param": "n8-49",
+    "name": "d-Axis Cur for High Efficiency Cont",
+    "address": "0x053C",
+    "adddress": "0x053C",
+    "hex": "053C",
+    "dec": 1340,
+    "page": 92
+  },
+  {
+    "param": "n8-51",
+    "name": "Accel/Decel Pull- In Current",
+    "address": "0x053E",
+    "adddress": "0x053E",
+    "hex": "053E",
+    "dec": 1342,
+    "page": 92
+  },
+  {
+    "param": "n8-54",
+    "name": "Volt Error Compen sation Time Const",
+    "address": "0x056D",
+    "adddress": "0x056D",
+    "hex": "056D",
+    "dec": 1389,
+    "page": 92
+  },
+  {
+    "param": "n8-55",
+    "name": "Load Inertia",
+    "address": "0x056E",
+    "adddress": "0x056E",
+    "hex": "056E",
+    "dec": 1390,
+    "page": 92
+  },
+  {
+    "param": "n8-57",
+    "name": "High Frequency Injection",
+    "address": "0x0574",
+    "adddress": "0x0574",
+    "hex": "0574",
+    "dec": 1396,
+    "page": 92
+  },
+  {
+    "param": "n8-62",
+    "name": "Output Voltage Limit(for PM) Topreventsaturationof",
+    "address": "0x057D",
+    "adddress": "0x057D",
+    "hex": "057D",
+    "dec": 1405,
+    "page": 92
+  },
+  {
+    "param": "n8-65",
+    "name": "Spd Fdbk Detect Ctrl Gainduring OVSup",
+    "address": "0x065C",
+    "adddress": "0x065C",
+    "hex": "065C",
+    "dec": 1628,
+    "page": 92
+  },
+  {
+    "param": "n8-69",
+    "name": "Speed Calculation Gain",
+    "address": "0x065D",
+    "adddress": "0x065D",
+    "hex": "065D",
+    "dec": 1629,
+    "page": 92
+  },
+  {
+    "param": "n8-72",
+    "name": "Speed Estimation Method Select",
+    "address": "0x0655",
+    "adddress": "0x0655",
+    "hex": "0655",
+    "dec": 1621,
+    "page": 92
+  },
+  {
+    "param": "n8-74",
+    "name": "Lght Load Cur Lvl 1 Setn 8-48[Pull-In Current(for PMMotors)]to",
+    "address": "0x05C3",
+    "adddress": "0x05C3",
+    "hex": "05C3",
+    "dec": 1475,
+    "page": 92
+  },
+  {
+    "param": "n8-75",
+    "name": "Lght Load Cur Lvl 2 Setn 8-78[Med Load Id Level]to",
+    "address": "0x05C4",
+    "adddress": "0x05C4",
+    "hex": "05C4",
+    "dec": 1476,
+    "page": 93
+  },
+  {
+    "param": "n8-77",
+    "name": "IPMHi Eff Ctr Lev 2 Setn 8-49[d-Axis Curfor High Efficiency Cont]to",
+    "address": "0x05CE",
+    "adddress": "0x05CE",
+    "hex": "05CE",
+    "dec": 1486,
+    "page": 93
+  },
+  {
+    "param": "n8-78",
+    "name": "Med Load Id Level",
+    "address": "0x05F4",
+    "adddress": "0x05F4",
+    "hex": "05F4",
+    "dec": 1524,
+    "page": 93
+  },
+  {
+    "param": "n8-84",
+    "name": "Init Polarity Estima tion Timeout Cur",
+    "address": "0x02D3",
+    "adddress": "0x02D3",
+    "hex": "02D3",
+    "dec": 723,
+    "page": 93
+  },
+  {
+    "param": "n8-94",
+    "name": "Selectionof Recognition Criteria",
+    "address": "0x012D",
+    "adddress": "0x012D",
+    "hex": "012D",
+    "dec": 301,
+    "page": 93
+  },
+  {
+    "param": "n8-95",
+    "name": "Observer Estimation Time Constant",
+    "address": "0x012E",
+    "adddress": "0x012E",
+    "hex": "012E",
+    "dec": 302,
+    "page": 93
+  },
+  {
+    "param": "o1-01",
+    "name": "Drive Mode Unit",
+    "address": "0x0500",
+    "adddress": "0x0500",
+    "hex": "0500",
+    "dec": 1280,
+    "page": 94
+  },
+  {
+    "param": "o1-02",
+    "name": "User Monitor Select after Power Up",
+    "address": "0x0501",
+    "adddress": "0x0501",
+    "hex": "0501",
+    "dec": 1281,
+    "page": 94
+  },
+  {
+    "param": "o1-03",
+    "name": "Keypad Display Selection",
+    "address": "0x0502",
+    "adddress": "0x0502",
+    "hex": "0502",
+    "dec": 1282,
+    "page": 94
+  },
+  {
+    "param": "o1-04",
+    "name": "V/f Pattern Display Unit Select",
+    "address": "0x0503",
+    "adddress": "0x0503",
+    "hex": "0503",
+    "dec": 1283,
+    "page": 94
+  },
+  {
+    "param": "o1-05",
+    "name": "LCDContrast adjustment",
+    "address": "0x0504",
+    "adddress": "0x0504",
+    "hex": "0504",
+    "dec": 1284,
+    "page": 94
+  },
+  {
+    "param": "o1-10",
+    "name": "User-Set Display Units Max Value",
+    "address": "0x0520",
+    "adddress": "0x0520",
+    "hex": "0520",
+    "dec": 1312,
+    "page": 94
+  },
+  {
+    "param": "o1-11",
+    "name": "User- Set Display Units Dec Display",
+    "address": "0x0521",
+    "adddress": "0x0521",
+    "hex": "0521",
+    "dec": 1313,
+    "page": 94
+  },
+  {
+    "param": "o1-36",
+    "name": "LCDbacklight adjustment",
+    "address": "0x11B9",
+    "adddress": "0x11B9",
+    "hex": "11B9",
+    "dec": 4537,
+    "page": 94
+  },
+  {
+    "param": "o1-37",
+    "name": "LCDbacklight ON/OFFSelection",
+    "address": "0x11BA",
+    "adddress": "0x11BA",
+    "hex": "11BA",
+    "dec": 4538,
+    "page": 95
+  },
+  {
+    "param": "o1-38",
+    "name": "Timetoturnoff LCDbacklight",
+    "address": "0x11BB",
+    "adddress": "0x11BB",
+    "hex": "11BB",
+    "dec": 4539,
+    "page": 95
+  },
+  {
+    "param": "o1-39",
+    "name": "Initialsetupdisplay selection",
+    "address": "0x11BC",
+    "adddress": "0x11BC",
+    "hex": "11BC",
+    "dec": 4540,
+    "page": 95
+  },
+  {
+    "param": "o1-40",
+    "name": "Homedisplay selection",
+    "address": "0x11BD",
+    "adddress": "0x11BD",
+    "hex": "11BD",
+    "dec": 4541,
+    "page": 95
+  },
+  {
+    "param": "o1-41",
+    "name": "1st Monitor Min Setting",
+    "address": "0x11C1",
+    "adddress": "0x11C1",
+    "hex": "11C1",
+    "dec": 4545,
+    "page": 95
+  },
+  {
+    "param": "o1-42",
+    "name": "1st Monitor Max Setting",
+    "address": "0x11C2",
+    "adddress": "0x11C2",
+    "hex": "11C2",
+    "dec": 4546,
+    "page": 95
+  },
+  {
+    "param": "o1-43",
+    "name": "2nd Monitor Min Setting",
+    "address": "0x1131",
+    "adddress": "0x1131",
+    "hex": "1131",
+    "dec": 4401,
+    "page": 95
+  },
+  {
+    "param": "o1-44",
+    "name": "2nd Monitor Max Setting",
+    "address": "0x11C4",
+    "adddress": "0x11C4",
+    "hex": "11C4",
+    "dec": 4548,
+    "page": 95
+  },
+  {
+    "param": "o1-45",
+    "name": "3rd Monitor Min Setting",
+    "address": "0x11C5",
+    "adddress": "0x11C5",
+    "hex": "11C5",
+    "dec": 4549,
+    "page": 95
+  },
+  {
+    "param": "o1-46",
+    "name": "3rd Monitor Max Setting",
+    "address": "0x11C6",
+    "adddress": "0x11C6",
+    "hex": "11C6",
+    "dec": 4550,
+    "page": 95
+  },
+  {
+    "param": "o1-55",
+    "name": "Analog Gauge Min Setting",
+    "address": "0x11EE",
+    "adddress": "0x11EE",
+    "hex": "11EE",
+    "dec": 4590,
+    "page": 95
+  },
+  {
+    "param": "o1-56",
+    "name": "Analog Gauge Area Setting",
+    "address": "0x11EF",
+    "adddress": "0x11EF",
+    "hex": "11EF",
+    "dec": 4591,
+    "page": 95
+  },
+  {
+    "param": "o2-01",
+    "name": "LO/REKey",
+    "address": "0x0505",
+    "adddress": "0x0505",
+    "hex": "0505",
+    "dec": 1285,
+    "page": 96
+  },
+  {
+    "param": "o2-02",
+    "name": "STOPKey",
+    "address": "0x0506",
+    "adddress": "0x0506",
+    "hex": "0506",
+    "dec": 1286,
+    "page": 96
+  },
+  {
+    "param": "o2-03",
+    "name": "User Parameter Default Value Changedparametersettingvaluesarestoredas",
+    "address": "0x0507",
+    "adddress": "0x0507",
+    "hex": "0507",
+    "dec": 1287,
+    "page": 96
+  },
+  {
+    "param": "o2-04",
+    "name": "Drive Model Selection",
+    "address": "0x0508",
+    "adddress": "0x0508",
+    "hex": "0508",
+    "dec": 1288,
+    "page": 96
+  },
+  {
+    "param": "o2-05",
+    "name": "Freq Ref Setting Method Select",
+    "address": "0x0509",
+    "adddress": "0x0509",
+    "hex": "0509",
+    "dec": 1289,
+    "page": 96
+  },
+  {
+    "param": "o2-06",
+    "name": "Ope Select @Keypadis Disconnect",
+    "address": "0x050A",
+    "adddress": "0x050A",
+    "hex": "050A",
+    "dec": 1290,
+    "page": 96
+  },
+  {
+    "param": "o2-07",
+    "name": "Motor Direct@Po w Up",
+    "address": "0x0527",
+    "adddress": "0x0527",
+    "hex": "0527",
+    "dec": 1319,
+    "page": 96
+  },
+  {
+    "param": "o2-09",
+    "name": "Factoryuse - - -",
+    "address": "0x050D",
+    "adddress": "0x050D",
+    "hex": "050D",
+    "dec": 1293,
+    "page": 96
+  },
+  {
+    "param": "o2-23",
+    "name": "Lost Detectionof Ext.Power 24V",
+    "address": "0x11F8",
+    "adddress": "0x11F8",
+    "hex": "11F8",
+    "dec": 4600,
+    "page": 96
+  },
+  {
+    "param": "o2-24",
+    "name": "LEDLight",
+    "address": "0x11FE",
+    "adddress": "0x11FE",
+    "hex": "11FE",
+    "dec": 4606,
+    "page": 96
+  },
+  {
+    "param": "o3-01",
+    "name": "Copy",
+    "address": "0x0515",
+    "adddress": "0x0515",
+    "hex": "0515",
+    "dec": 1301,
+    "page": 97
+  },
+  {
+    "param": "o3-02",
+    "name": "Copy Allowed Selection",
+    "address": "0x0516",
+    "adddress": "0x0516",
+    "hex": "0516",
+    "dec": 1302,
+    "page": 97
+  },
+  {
+    "param": "o3-04",
+    "name": "Select Backup/ Restore Location",
+    "address": "0x0B3E",
+    "adddress": "0x0B3E",
+    "hex": "0B3E",
+    "dec": 2878,
+    "page": 97
+  },
+  {
+    "param": "o3-05",
+    "name": "Selectitemsto Backup/Restore",
+    "address": "0x0BDA",
+    "adddress": "0x0BDA",
+    "hex": "0BDA",
+    "dec": 3034,
+    "page": 97
+  },
+  {
+    "param": "o3-06",
+    "name": "Auto Parameter Backup Selection",
+    "address": "0x0BDE",
+    "adddress": "0x0BDE",
+    "hex": "0BDE",
+    "dec": 3038,
+    "page": 97
+  },
+  {
+    "param": "o3-07",
+    "name": "Periodsettingof autobackup",
+    "address": "0x0BDF",
+    "adddress": "0x0BDF",
+    "hex": "0BDF",
+    "dec": 3039,
+    "page": 97
+  },
+  {
+    "param": "o4-01",
+    "name": "Cumulative Operation Time Setting",
+    "address": "0x050B",
+    "adddress": "0x050B",
+    "hex": "050B",
+    "dec": 1291,
+    "page": 97
+  },
+  {
+    "param": "o4-02",
+    "name": "Cumulative Operation Time Select",
+    "address": "0x050C",
+    "adddress": "0x050C",
+    "hex": "050C",
+    "dec": 1292,
+    "page": 97
+  },
+  {
+    "param": "o4-03",
+    "name": "Cooling Fan Operation Time Setting",
+    "address": "0x050E",
+    "adddress": "0x050E",
+    "hex": "050E",
+    "dec": 1294,
+    "page": 97
+  },
+  {
+    "param": "o4-05",
+    "name": "Capacitor Maintenance Setting",
+    "address": "0x051D",
+    "adddress": "0x051D",
+    "hex": "051D",
+    "dec": 1309,
+    "page": 97
+  },
+  {
+    "param": "o4-07",
+    "name": "DCBus Pre Charge R elay Mainte Setting U 4-06[SChg Bypass Relay Maint]monitorvaluescanbeoverwritten. 0%",
+    "address": "0x0523",
+    "adddress": "0x0523",
+    "hex": "0523",
+    "dec": 1315,
+    "page": 98
+  },
+  {
+    "param": "o4-09",
+    "name": "IGBTMaintenance Setting U 4-07[IGBTMaintenance]monitorvaluescanbeoverwritten. 0%",
+    "address": "0x0525",
+    "adddress": "0x0525",
+    "hex": "0525",
+    "dec": 1317,
+    "page": 98
+  },
+  {
+    "param": "o4-11",
+    "name": "U 2,U 3 Initialization",
+    "address": "0x0510",
+    "adddress": "0x0510",
+    "hex": "0510",
+    "dec": 1296,
+    "page": 98
+  },
+  {
+    "param": "o4-12",
+    "name": "k Wh Monitor Initialization",
+    "address": "0x0512",
+    "adddress": "0x0512",
+    "hex": "0512",
+    "dec": 1298,
+    "page": 98
+  },
+  {
+    "param": "o4-13",
+    "name": "Num Of Run Com mands Counter Initial",
+    "address": "0x0528",
+    "adddress": "0x0528",
+    "hex": "0528",
+    "dec": 1320,
+    "page": 98
+  },
+  {
+    "param": "o4-22",
+    "name": "Time Format",
+    "address": "0x154F",
+    "adddress": "0x154F",
+    "hex": "154F",
+    "dec": 5455,
+    "page": 98
+  },
+  {
+    "param": "o4-23",
+    "name": "Date Format",
+    "address": "0x1550",
+    "adddress": "0x1550",
+    "hex": "1550",
+    "dec": 5456,
+    "page": 98
+  },
+  {
+    "param": "o4-24",
+    "name": "b ATDetection Operation Selection",
+    "address": "0x310F",
+    "adddress": "0x310F",
+    "hex": "310F",
+    "dec": 12559,
+    "page": 98
+  },
+  {
+    "param": "o5-01",
+    "name": "Log Start/Stop Selection",
+    "address": "0x1551",
+    "adddress": "0x1551",
+    "hex": "1551",
+    "dec": 5457,
+    "page": 98
+  },
+  {
+    "param": "o5-02",
+    "name": "Log Sampling Interval",
+    "address": "0x1552",
+    "adddress": "0x1552",
+    "hex": "1552",
+    "dec": 5458,
+    "page": 98
+  },
+  {
+    "param": "o5-03",
+    "name": "Log Monitor Data 1",
+    "address": "0x1553",
+    "adddress": "0x1553",
+    "hex": "1553",
+    "dec": 5459,
+    "page": 98
+  },
+  {
+    "param": "o5-04",
+    "name": "Log Monitor Data 2",
+    "address": "0x1554",
+    "adddress": "0x1554",
+    "hex": "1554",
+    "dec": 5460,
+    "page": 98
+  },
+  {
+    "param": "o5-05",
+    "name": "Log Monitor Data 3",
+    "address": "0x1555",
+    "adddress": "0x1555",
+    "hex": "1555",
+    "dec": 5461,
+    "page": 99
+  },
+  {
+    "param": "o5-06",
+    "name": "Log Monitor Data 4",
+    "address": "0x1556",
+    "adddress": "0x1556",
+    "hex": "1556",
+    "dec": 5462,
+    "page": 99
+  },
+  {
+    "param": "o5-07",
+    "name": "Log Monitor Data 5",
+    "address": "0x1557",
+    "adddress": "0x1557",
+    "hex": "1557",
+    "dec": 5463,
+    "page": 99
+  },
+  {
+    "param": "o5-08",
+    "name": "Log Monitor Data 6",
+    "address": "0x1558",
+    "adddress": "0x1558",
+    "hex": "1558",
+    "dec": 5464,
+    "page": 99
+  },
+  {
+    "param": "o5-09",
+    "name": "Log Monitor Data 7",
+    "address": "0x1559",
+    "adddress": "0x1559",
+    "hex": "1559",
+    "dec": 5465,
+    "page": 99
+  },
+  {
+    "param": "o5-10",
+    "name": "Log Monitor Data 8",
+    "address": "0x155A",
+    "adddress": "0x155A",
+    "hex": "155A",
+    "dec": 5466,
+    "page": 99
+  },
+  {
+    "param": "o5-11",
+    "name": "Log Monitor Data 9",
+    "address": "0x155B",
+    "adddress": "0x155B",
+    "hex": "155B",
+    "dec": 5467,
+    "page": 99
+  },
+  {
+    "param": "o5-12",
+    "name": "Log Monitor Data 10",
+    "address": "0x155C",
+    "adddress": "0x155C",
+    "hex": "155C",
+    "dec": 5468,
+    "page": 99
+  },
+  {
+    "param": "T0-00",
+    "name": "Tuning Mode Selection",
+    "address": "0x1197",
+    "adddress": "0x1197",
+    "hex": "1197",
+    "dec": 4503,
+    "page": 102
+  },
+  {
+    "param": "T1-00",
+    "name": "Motor 1/Motor 2 Selection",
+    "address": "0x0700",
+    "adddress": "0x0700",
+    "hex": "0700",
+    "dec": 1792,
+    "page": 102
+  },
+  {
+    "param": "T1-01",
+    "name": "Auto-Tuning Mode Selection",
+    "address": "0x0701",
+    "adddress": "0x0701",
+    "hex": "0701",
+    "dec": 1793,
+    "page": 102
+  },
+  {
+    "param": "T1-02",
+    "name": "Motor Rated Power",
+    "address": "0x0702",
+    "adddress": "0x0702",
+    "hex": "0702",
+    "dec": 1794,
+    "page": 102
+  },
+  {
+    "param": "T1-03",
+    "name": "Motor Rated Voltage",
+    "address": "0x0703",
+    "adddress": "0x0703",
+    "hex": "0703",
+    "dec": 1795,
+    "page": 102
+  },
+  {
+    "param": "T1-04",
+    "name": "Motor Rated Current",
+    "address": "0x0704",
+    "adddress": "0x0704",
+    "hex": "0704",
+    "dec": 1796,
+    "page": 102
+  },
+  {
+    "param": "T1-05",
+    "name": "Motor Base Frequency",
+    "address": "0x0705",
+    "adddress": "0x0705",
+    "hex": "0705",
+    "dec": 1797,
+    "page": 102
+  },
+  {
+    "param": "T1-06",
+    "name": "Numberof Motor Poles",
+    "address": "0x0706",
+    "adddress": "0x0706",
+    "hex": "0706",
+    "dec": 1798,
+    "page": 102
+  },
+  {
+    "param": "T1-07",
+    "name": "Motor Base Speed",
+    "address": "0x0707",
+    "adddress": "0x0707",
+    "hex": "0707",
+    "dec": 1799,
+    "page": 102
+  },
+  {
+    "param": "T1-08",
+    "name": "PGNumberof Pulses Per Revolu tion",
+    "address": "0x0708",
+    "adddress": "0x0708",
+    "hex": "0708",
+    "dec": 1800,
+    "page": 102
+  },
+  {
+    "param": "T1-09",
+    "name": "Motor No-Load Current",
+    "address": "0x0709",
+    "adddress": "0x0709",
+    "hex": "0709",
+    "dec": 1801,
+    "page": 102
+  },
+  {
+    "param": "T1-10",
+    "name": "Motor Rated Slip",
+    "address": "0x070A",
+    "adddress": "0x070A",
+    "hex": "070A",
+    "dec": 1802,
+    "page": 103
+  },
+  {
+    "param": "T1-11",
+    "name": "Motor Iron Loss",
+    "address": "0x070B",
+    "adddress": "0x070B",
+    "hex": "070B",
+    "dec": 1803,
+    "page": 103
+  },
+  {
+    "param": "T2-01",
+    "name": "PMMotor Auto- Tuning Mode Select",
+    "address": "0x0750",
+    "adddress": "0x0750",
+    "hex": "0750",
+    "dec": 1872,
+    "page": 103
+  },
+  {
+    "param": "T2-02",
+    "name": "PMMotor Code Selection If",
+    "address": "0x0751",
+    "adddress": "0x0751",
+    "hex": "0751",
+    "dec": 1873,
+    "page": 103
+  },
+  {
+    "param": "T2-03",
+    "name": "PMMotor Type",
+    "address": "0x0752",
+    "adddress": "0x0752",
+    "hex": "0752",
+    "dec": 1874,
+    "page": 103
+  },
+  {
+    "param": "T2-04",
+    "name": "PMMotor Rated Power",
+    "address": "0x0730",
+    "adddress": "0x0730",
+    "hex": "0730",
+    "dec": 1840,
+    "page": 103
+  },
+  {
+    "param": "T2-05",
+    "name": "PMMotor Rated Voltage",
+    "address": "0x0732",
+    "adddress": "0x0732",
+    "hex": "0732",
+    "dec": 1842,
+    "page": 103
+  },
+  {
+    "param": "T2-06",
+    "name": "PMMotor Rated Current",
+    "address": "0x0733",
+    "adddress": "0x0733",
+    "hex": "0733",
+    "dec": 1843,
+    "page": 103
+  },
+  {
+    "param": "T2-07",
+    "name": "PMMotor Base Frequency",
+    "address": "0x0753",
+    "adddress": "0x0753",
+    "hex": "0753",
+    "dec": 1875,
+    "page": 103
+  },
+  {
+    "param": "T2-08",
+    "name": "Numberof PM Motor Poles",
+    "address": "0x0734",
+    "adddress": "0x0734",
+    "hex": "0734",
+    "dec": 1844,
+    "page": 103
+  },
+  {
+    "param": "T2-09",
+    "name": "PMMotor Base Speed",
+    "address": "0x0731",
+    "adddress": "0x0731",
+    "hex": "0731",
+    "dec": 1841,
+    "page": 103
+  },
+  {
+    "param": "T2-10",
+    "name": "PMMotor Stator Resistance",
+    "address": "0x0754",
+    "adddress": "0x0754",
+    "hex": "0754",
+    "dec": 1876,
+    "page": 103
+  },
+  {
+    "param": "T2-11",
+    "name": "PMMotord-Axis Inductance",
+    "address": "0x0735",
+    "adddress": "0x0735",
+    "hex": "0735",
+    "dec": 1845,
+    "page": 103
+  },
+  {
+    "param": "T2-12",
+    "name": "PMMotorq-Axis Inductance",
+    "address": "0x0736",
+    "adddress": "0x0736",
+    "hex": "0736",
+    "dec": 1846,
+    "page": 103
+  },
+  {
+    "param": "T2-13",
+    "name": "Induced Voltage Const Unit Select",
+    "address": "0x0755",
+    "adddress": "0x0755",
+    "hex": "0755",
+    "dec": 1877,
+    "page": 104
+  },
+  {
+    "param": "T2-14",
+    "name": "PMMotor Induced Voltage Const",
+    "address": "0x0737",
+    "adddress": "0x0737",
+    "hex": "0737",
+    "dec": 1847,
+    "page": 104
+  },
+  {
+    "param": "T2-15",
+    "name": "Pull-In Current Lv for PMMotor Tun",
+    "address": "0x0756",
+    "adddress": "0x0756",
+    "hex": "0756",
+    "dec": 1878,
+    "page": 104
+  },
+  {
+    "param": "T2-16",
+    "name": "PGNum Of Pulses/ Revfor PMMotor Tun",
+    "address": "0x0738",
+    "adddress": "0x0738",
+    "hex": "0738",
+    "dec": 1848,
+    "page": 104
+  },
+  {
+    "param": "T2-17",
+    "name": "Encoder Z-Pulse Offset If",
+    "address": "0x0757",
+    "adddress": "0x0757",
+    "hex": "0757",
+    "dec": 1879,
+    "page": 104
+  },
+  {
+    "param": "T3-00",
+    "name": "Control Loop Tuning Selection",
+    "address": "0x1198",
+    "adddress": "0x1198",
+    "hex": "1198",
+    "dec": 4504,
+    "page": 104
+  },
+  {
+    "param": "T3-01",
+    "name": "Test Signal Frequency Normally",
+    "address": "0x0760",
+    "adddress": "0x0760",
+    "hex": "0760",
+    "dec": 1888,
+    "page": 104
+  },
+  {
+    "param": "T3-02",
+    "name": "Test Signal Amplitude",
+    "address": "0x0761",
+    "adddress": "0x0761",
+    "hex": "0761",
+    "dec": 1889,
+    "page": 104
+  },
+  {
+    "param": "T3-03",
+    "name": "Motor Inertia",
+    "address": "0x0762",
+    "adddress": "0x0762",
+    "hex": "0762",
+    "dec": 1890,
+    "page": 104
+  },
+  {
+    "param": "T3-04",
+    "name": "System Response Frequency C 5-01[ASRProportional Gain 1]is",
+    "address": "0x0763",
+    "adddress": "0x0763",
+    "hex": "0763",
+    "dec": 1891,
+    "page": 104
+  },
+  {
+    "param": "T4-01",
+    "name": "EZTuning Mode Selection",
+    "address": "0x3130",
+    "adddress": "0x3130",
+    "hex": "3130",
+    "dec": 12592,
+    "page": 104
+  },
+  {
+    "param": "T4-02",
+    "name": "Motor Type Selection",
+    "address": "0x3131",
+    "adddress": "0x3131",
+    "hex": "3131",
+    "dec": 12593,
+    "page": 104
+  },
+  {
+    "param": "T4-03",
+    "name": "Motor Max Revolutions",
+    "address": "0x3132",
+    "adddress": "0x3132",
+    "hex": "3132",
+    "dec": 12594,
+    "page": 105
+  },
+  {
+    "param": "T4-04",
+    "name": "Motor Rated Revolutions",
+    "address": "0x3133",
+    "adddress": "0x3133",
+    "hex": "3133",
+    "dec": 12595,
+    "page": 105
+  },
+  {
+    "param": "T4-05",
+    "name": "Motor Rated Frequency",
+    "address": "0x3134",
+    "adddress": "0x3134",
+    "hex": "3134",
+    "dec": 12596,
+    "page": 105
+  },
+  {
+    "param": "T4-06",
+    "name": "Motor Rated Voltage",
+    "address": "0x3135",
+    "adddress": "0x3135",
+    "hex": "3135",
+    "dec": 12597,
+    "page": 105
+  },
+  {
+    "param": "T4-07",
+    "name": "Motor Rated Current",
+    "address": "0x3136",
+    "adddress": "0x3136",
+    "hex": "3136",
+    "dec": 12598,
+    "page": 105
+  },
+  {
+    "param": "T4-08",
+    "name": "Motor Rated Capacity",
+    "address": "0x3137",
+    "adddress": "0x3137",
+    "hex": "3137",
+    "dec": 12599,
+    "page": 105
+  },
+  {
+    "param": "T4-09",
+    "name": "Numberof Motor Poles",
+    "address": "0x3138",
+    "adddress": "0x3138",
+    "hex": "3138",
+    "dec": 12600,
+    "page": 105
+  },
+  {
+    "param": "T4-10",
+    "name": "Motor Rated Slip",
+    "address": "0x3139",
+    "adddress": "0x3139",
+    "hex": "3139",
+    "dec": 12601,
+    "page": 105
+  },
+  {
+    "param": "T4-11",
+    "name": "Motor Line Resistance",
+    "address": "0x313A",
+    "adddress": "0x313A",
+    "hex": "313A",
+    "dec": 12602,
+    "page": 105
+  },
+  {
+    "param": "U1-01",
+    "name": "Frequency reference",
+    "address": "0x0040",
+    "adddress": "0x0040",
+    "hex": "0040",
+    "dec": 64,
+    "page": 106
+  },
+  {
+    "param": "U1-02",
+    "name": "Outputfrequency",
+    "address": "0x0041",
+    "adddress": "0x0041",
+    "hex": "0041",
+    "dec": 65,
+    "page": 106
+  },
+  {
+    "param": "U1-03",
+    "name": "Outputcurrent",
+    "address": "0x0042",
+    "adddress": "0x0042",
+    "hex": "0042",
+    "dec": 66,
+    "page": 106
+  },
+  {
+    "param": "U1-04",
+    "name": "Controlmethod",
+    "address": "0x0043",
+    "adddress": "0x0043",
+    "hex": "0043",
+    "dec": 67,
+    "page": 106
+  },
+  {
+    "param": "U1-05",
+    "name": "Motorspeed",
+    "address": "0x0044",
+    "adddress": "0x0044",
+    "hex": "0044",
+    "dec": 68,
+    "page": 106
+  },
+  {
+    "param": "U1-06",
+    "name": "Out Voltage Reference",
+    "address": "0x0045",
+    "adddress": "0x0045",
+    "hex": "0045",
+    "dec": 69,
+    "page": 106
+  },
+  {
+    "param": "U1-07",
+    "name": "DCbusvoltage",
+    "address": "0x0046",
+    "adddress": "0x0046",
+    "hex": "0046",
+    "dec": 70,
+    "page": 106
+  },
+  {
+    "param": "U1-08",
+    "name": "Output Power",
+    "address": "0x0047",
+    "adddress": "0x0047",
+    "hex": "0047",
+    "dec": 71,
+    "page": 106
+  },
+  {
+    "param": "U1-09",
+    "name": "Torque Reference",
+    "address": "0x0048",
+    "adddress": "0x0048",
+    "hex": "0048",
+    "dec": 72,
+    "page": 107
+  },
+  {
+    "param": "U1-10",
+    "name": "Input Terminal Status",
+    "address": "0x0049",
+    "adddress": "0x0049",
+    "hex": "0049",
+    "dec": 73,
+    "page": 107
+  },
+  {
+    "param": "U1-11",
+    "name": "Output Terminal Status",
+    "address": "0x004A",
+    "adddress": "0x004A",
+    "hex": "004A",
+    "dec": 74,
+    "page": 107
+  },
+  {
+    "param": "U1-12",
+    "name": "Drive Status",
+    "address": "0x004B",
+    "adddress": "0x004B",
+    "hex": "004B",
+    "dec": 75,
+    "page": 107
+  },
+  {
+    "param": "U1-13",
+    "name": "Terminal A 1Input Lv",
+    "address": "0x004E",
+    "adddress": "0x004E",
+    "hex": "004E",
+    "dec": 78,
+    "page": 107
+  },
+  {
+    "param": "U1-14",
+    "name": "Terminal A 2Input Lv",
+    "address": "0x004F",
+    "adddress": "0x004F",
+    "hex": "004F",
+    "dec": 79,
+    "page": 107
+  },
+  {
+    "param": "U1-15",
+    "name": "Terminal A 3Input Lv",
+    "address": "0x0050",
+    "adddress": "0x0050",
+    "hex": "0050",
+    "dec": 80,
+    "page": 107
+  },
+  {
+    "param": "U1-16",
+    "name": "Output Freq after SFS",
+    "address": "0x0053",
+    "adddress": "0x0053",
+    "hex": "0053",
+    "dec": 83,
+    "page": 107
+  },
+  {
+    "param": "U1-17",
+    "name": "DI-A 3",
+    "address": "0x0058",
+    "adddress": "0x0058",
+    "hex": "0058",
+    "dec": 88,
+    "page": 108
+  },
+  {
+    "param": "U1-18",
+    "name": "o PEFault Parameter",
+    "address": "0x0061",
+    "adddress": "0x0061",
+    "hex": "0061",
+    "dec": 97,
+    "page": 108
+  },
+  {
+    "param": "U1-19",
+    "name": "MEMOBUS/ Modbus Error Code",
+    "address": "0x0066",
+    "adddress": "0x0066",
+    "hex": "0066",
+    "dec": 102,
+    "page": 108
+  },
+  {
+    "param": "U1-21",
+    "name": "AI-A 3Term V 1Monitor",
+    "address": "0x0077",
+    "adddress": "0x0077",
+    "hex": "0077",
+    "dec": 119,
+    "page": 108
+  },
+  {
+    "param": "U1-22",
+    "name": "AI-A 3Term V 2 Monitor",
+    "address": "0x072A",
+    "adddress": "0x072A",
+    "hex": "072A",
+    "dec": 1834,
+    "page": 108
+  },
+  {
+    "param": "U1-23",
+    "name": "AI-A 3Term V 3 Monitor",
+    "address": "0x072B",
+    "adddress": "0x072B",
+    "hex": "072B",
+    "dec": 1835,
+    "page": 108
+  },
+  {
+    "param": "U1-24",
+    "name": "Input Pulse Monitor",
+    "address": "0x007D",
+    "adddress": "0x007D",
+    "hex": "007D",
+    "dec": 125,
+    "page": 108
+  },
+  {
+    "param": "U1-25",
+    "name": "Software Number Flash",
+    "address": "0x004D",
+    "adddress": "0x004D",
+    "hex": "004D",
+    "dec": 77,
+    "page": 108
+  },
+  {
+    "param": "U1-26",
+    "name": "Software Number ROM",
+    "address": "0x005B",
+    "adddress": "0x005B",
+    "hex": "005B",
+    "dec": 91,
+    "page": 108
+  },
+  {
+    "param": "U1-50",
+    "name": "Virtual Ai",
+    "address": "0x1199",
+    "adddress": "0x1199",
+    "hex": "1199",
+    "dec": 4505,
+    "page": 108
+  },
+  {
+    "param": "U1-91",
+    "name": "Output Voltage",
+    "address": "0x154E",
+    "adddress": "0x154E",
+    "hex": "154E",
+    "dec": 5454,
+    "page": 108
+  },
+  {
+    "param": "U2-01",
+    "name": "Current Fault",
+    "address": "0x0080",
+    "adddress": "0x0080",
+    "hex": "0080",
+    "dec": 128,
+    "page": 108
+  },
+  {
+    "param": "U2-02",
+    "name": "Previous Fault",
+    "address": "0x0081",
+    "adddress": "0x0081",
+    "hex": "0081",
+    "dec": 129,
+    "page": 108
+  },
+  {
+    "param": "U2-03",
+    "name": "Freq Refat Pre Fault",
+    "address": "0x0082",
+    "adddress": "0x0082",
+    "hex": "0082",
+    "dec": 130,
+    "page": 109
+  },
+  {
+    "param": "U2-04",
+    "name": "Out Freqat Pre Fault",
+    "address": "0x0083",
+    "adddress": "0x0083",
+    "hex": "0083",
+    "dec": 131,
+    "page": 109
+  },
+  {
+    "param": "U2-05",
+    "name": "Out Currat Pre Fault",
+    "address": "0x0084",
+    "adddress": "0x0084",
+    "hex": "0084",
+    "dec": 132,
+    "page": 109
+  },
+  {
+    "param": "U2-06",
+    "name": "Motor Spdat Pre Fault",
+    "address": "0x0085",
+    "adddress": "0x0085",
+    "hex": "0085",
+    "dec": 133,
+    "page": 109
+  },
+  {
+    "param": "U2-07",
+    "name": "Out Voltat Pre Fault",
+    "address": "0x0086",
+    "adddress": "0x0086",
+    "hex": "0086",
+    "dec": 134,
+    "page": 109
+  },
+  {
+    "param": "U2-08",
+    "name": "DCBus Volt at Pre Fault",
+    "address": "0x0087",
+    "adddress": "0x0087",
+    "hex": "0087",
+    "dec": 135,
+    "page": 109
+  },
+  {
+    "param": "U2-09",
+    "name": "Out Powat Pre Fault",
+    "address": "0x0088",
+    "adddress": "0x0088",
+    "hex": "0088",
+    "dec": 136,
+    "page": 109
+  },
+  {
+    "param": "U2-10",
+    "name": "Torque Refat Previous Fault",
+    "address": "0x0089",
+    "adddress": "0x0089",
+    "hex": "0089",
+    "dec": 137,
+    "page": 109
+  },
+  {
+    "param": "U2-11",
+    "name": "In Term Statusat Previous Fault",
+    "address": "0x008A",
+    "adddress": "0x008A",
+    "hex": "008A",
+    "dec": 138,
+    "page": 110
+  },
+  {
+    "param": "U2-12",
+    "name": "Out Term Statusat Previous Fault",
+    "address": "0x008B",
+    "adddress": "0x008B",
+    "hex": "008B",
+    "dec": 139,
+    "page": 110
+  },
+  {
+    "param": "U2-13",
+    "name": "Drive Ope Statusat Previous Fault",
+    "address": "0x008C",
+    "adddress": "0x008C",
+    "hex": "008C",
+    "dec": 140,
+    "page": 110
+  },
+  {
+    "param": "U2-14",
+    "name": "Cum Ope Timeat Pre Fault",
+    "address": "0x008D",
+    "adddress": "0x008D",
+    "hex": "008D",
+    "dec": 141,
+    "page": 110
+  },
+  {
+    "param": "U2-15",
+    "name": "Run Spd SFS at Pre Falt",
+    "address": "0x07E0",
+    "adddress": "0x07E0",
+    "hex": "07E0",
+    "dec": 2016,
+    "page": 110
+  },
+  {
+    "param": "U2-16",
+    "name": "Motorq Cur at Pre Falt",
+    "address": "0x07E1",
+    "adddress": "0x07E1",
+    "hex": "07E1",
+    "dec": 2017,
+    "page": 110
+  },
+  {
+    "param": "U2-17",
+    "name": "Motord Cur at Pre Falt",
+    "address": "0x07E2",
+    "adddress": "0x07E2",
+    "hex": "07E2",
+    "dec": 2018,
+    "page": 111
+  },
+  {
+    "param": "U2-19",
+    "name": "Rotor Devat Pre Fault",
+    "address": "0x07EC",
+    "adddress": "0x07EC",
+    "hex": "07EC",
+    "dec": 2028,
+    "page": 111
+  },
+  {
+    "param": "U2-20",
+    "name": "Heatsink Tmpat Pre Falt",
+    "address": "0x008E",
+    "adddress": "0x008E",
+    "hex": "008E",
+    "dec": 142,
+    "page": 111
+  },
+  {
+    "param": "U2-21",
+    "name": "STODet Sts",
+    "address": "0x1166",
+    "adddress": "0x1166",
+    "hex": "1166",
+    "dec": 4454,
+    "page": 111
+  },
+  {
+    "param": "U4-01",
+    "name": "Cumulative Ope Time",
+    "address": "0x004C",
+    "adddress": "0x004C",
+    "hex": "004C",
+    "dec": 76,
+    "page": 112
+  },
+  {
+    "param": "U4-02",
+    "name": "Numof Run Commands",
+    "address": "0x0075",
+    "adddress": "0x0075",
+    "hex": "0075",
+    "dec": 117,
+    "page": 112
+  },
+  {
+    "param": "U4-03",
+    "name": "Cooling Fan Ope Time",
+    "address": "0x0067",
+    "adddress": "0x0067",
+    "hex": "0067",
+    "dec": 103,
+    "page": 112
+  },
+  {
+    "param": "U4-04",
+    "name": "Cool Fan Maintenance",
+    "address": "0x007E",
+    "adddress": "0x007E",
+    "hex": "007E",
+    "dec": 126,
+    "page": 112
+  },
+  {
+    "param": "U4-05",
+    "name": "Capacitor Mainte nance",
+    "address": "0x007C",
+    "adddress": "0x007C",
+    "hex": "007C",
+    "dec": 124,
+    "page": 112
+  },
+  {
+    "param": "U4-06",
+    "name": "SChg Bypass Relay Maint",
+    "address": "0x07D6",
+    "adddress": "0x07D6",
+    "hex": "07D6",
+    "dec": 2006,
+    "page": 112
+  },
+  {
+    "param": "U4-07",
+    "name": "IGBTMaintenance",
+    "address": "0x07D7",
+    "adddress": "0x07D7",
+    "hex": "07D7",
+    "dec": 2007,
+    "page": 113
+  },
+  {
+    "param": "U4-08",
+    "name": "Heatsink Temperature",
+    "address": "0x0068",
+    "adddress": "0x0068",
+    "hex": "0068",
+    "dec": 104,
+    "page": 113
+  },
+  {
+    "param": "U4-09",
+    "name": "LEDCheck Lightsallsegmentsof",
+    "address": "0x005E",
+    "adddress": "0x005E",
+    "hex": "005E",
+    "dec": 94,
+    "page": 113
+  },
+  {
+    "param": "U4-10",
+    "name": "k Wh,Lower 4 Digits",
+    "address": "0x005C",
+    "adddress": "0x005C",
+    "hex": "005C",
+    "dec": 92,
+    "page": 113
+  },
+  {
+    "param": "U4-11",
+    "name": "k Wh,Upper 5 Digits",
+    "address": "0x005D",
+    "adddress": "0x005D",
+    "hex": "005D",
+    "dec": 93,
+    "page": 113
+  },
+  {
+    "param": "U4-13",
+    "name": "Peak Hold Current",
+    "address": "0x07CF",
+    "adddress": "0x07CF",
+    "hex": "07CF",
+    "dec": 1999,
+    "page": 113
+  },
+  {
+    "param": "U4-14",
+    "name": "Peak Hold Output Freq",
+    "address": "0x07D0",
+    "adddress": "0x07D0",
+    "hex": "07D0",
+    "dec": 2000,
+    "page": 114
+  },
+  {
+    "param": "U4-16",
+    "name": "Motor OLEstimate (o L 1)",
+    "address": "0x07D8",
+    "adddress": "0x07D8",
+    "hex": "07D8",
+    "dec": 2008,
+    "page": 114
+  },
+  {
+    "param": "U4-18",
+    "name": "Freq Ref Source Sel",
+    "address": "0x07DA",
+    "adddress": "0x07DA",
+    "hex": "07DA",
+    "dec": 2010,
+    "page": 114
+  },
+  {
+    "param": "U4-19",
+    "name": "Freq Reffrom Comm",
+    "address": "0x07DB",
+    "adddress": "0x07DB",
+    "hex": "07DB",
+    "dec": 2011,
+    "page": 114
+  },
+  {
+    "param": "U4-20",
+    "name": "Option Freq Reference",
+    "address": "0x07DC",
+    "adddress": "0x07DC",
+    "hex": "07DC",
+    "dec": 2012,
+    "page": 114
+  },
+  {
+    "param": "U4-21",
+    "name": "Run Com Source Select",
+    "address": "0x07DD",
+    "adddress": "0x07DD",
+    "hex": "07DD",
+    "dec": 2013,
+    "page": 115
+  },
+  {
+    "param": "U4-22",
+    "name": "MEMOBUS Comm Ref",
+    "address": "0x07DE",
+    "adddress": "0x07DE",
+    "hex": "07DE",
+    "dec": 2014,
+    "page": 115
+  },
+  {
+    "param": "U4-23",
+    "name": "Comm Option Card Ref",
+    "address": "0x07DF",
+    "adddress": "0x07DF",
+    "hex": "07DF",
+    "dec": 2015,
+    "page": 116
+  },
+  {
+    "param": "U4-24",
+    "name": "Noof Travels(L)",
+    "address": "0x07E6",
+    "adddress": "0x07E6",
+    "hex": "07E6",
+    "dec": 2022,
+    "page": 116
+  },
+  {
+    "param": "U4-25",
+    "name": "Noof Travels(H)",
+    "address": "0x07E7",
+    "adddress": "0x07E7",
+    "hex": "07E7",
+    "dec": 2023,
+    "page": 116
+  },
+  {
+    "param": "U5-01",
+    "name": "PIDFeedback",
+    "address": "0x0057",
+    "adddress": "0x0057",
+    "hex": "0057",
+    "dec": 87,
+    "page": 116
+  },
+  {
+    "param": "U5-02",
+    "name": "PIDInput",
+    "address": "0x0063",
+    "adddress": "0x0063",
+    "hex": "0063",
+    "dec": 99,
+    "page": 116
+  },
+  {
+    "param": "U5-03",
+    "name": "PIDOutput",
+    "address": "0x0064",
+    "adddress": "0x0064",
+    "hex": "0064",
+    "dec": 100,
+    "page": 116
+  },
+  {
+    "param": "U5-04",
+    "name": "PIDSetpoint",
+    "address": "0x0065",
+    "adddress": "0x0065",
+    "hex": "0065",
+    "dec": 101,
+    "page": 116
+  },
+  {
+    "param": "U5-05",
+    "name": "PID Differential Fdbk",
+    "address": "0x07D2",
+    "adddress": "0x07D2",
+    "hex": "07D2",
+    "dec": 2002,
+    "page": 117
+  },
+  {
+    "param": "U5-06",
+    "name": "PID Adjusted Feedback",
+    "address": "0x07D3",
+    "adddress": "0x07D3",
+    "hex": "07D3",
+    "dec": 2003,
+    "page": 117
+  },
+  {
+    "param": "U5-21",
+    "name": "Auto Cal En Sav Coef Ki",
+    "address": "0x0872",
+    "adddress": "0x0872",
+    "hex": "0872",
+    "dec": 2162,
+    "page": 117
+  },
+  {
+    "param": "U5-22",
+    "name": "Auto Cal En Sav Coef Kt",
+    "address": "0x0873",
+    "adddress": "0x0873",
+    "hex": "0873",
+    "dec": 2163,
+    "page": 117
+  },
+  {
+    "param": "U5-99",
+    "name": "PIDSetpoint Command",
+    "address": "0x1599",
+    "adddress": "0x1599",
+    "hex": "1599",
+    "dec": 5529,
+    "page": 117
+  },
+  {
+    "param": "U6-01",
+    "name": "Motor Secondary Cur Iq",
+    "address": "0x0051",
+    "adddress": "0x0051",
+    "hex": "0051",
+    "dec": 81,
+    "page": 117
+  },
+  {
+    "param": "U6-02",
+    "name": "Motor Excit Cur Id",
+    "address": "0x0052",
+    "adddress": "0x0052",
+    "hex": "0052",
+    "dec": 82,
+    "page": 117
+  },
+  {
+    "param": "U6-03",
+    "name": "ASRInput",
+    "address": "0x0054",
+    "adddress": "0x0054",
+    "hex": "0054",
+    "dec": 84,
+    "page": 117
+  },
+  {
+    "param": "U6-04",
+    "name": "ASROutput",
+    "address": "0x0055",
+    "adddress": "0x0055",
+    "hex": "0055",
+    "dec": 85,
+    "page": 117
+  },
+  {
+    "param": "U6-05",
+    "name": "Out Volt Reference Vq",
+    "address": "0x0059",
+    "adddress": "0x0059",
+    "hex": "0059",
+    "dec": 89,
+    "page": 117
+  },
+  {
+    "param": "U6-06",
+    "name": "Out Volt Reference Vd",
+    "address": "0x005A",
+    "adddress": "0x005A",
+    "hex": "005A",
+    "dec": 90,
+    "page": 117
+  },
+  {
+    "param": "U6-07",
+    "name": "q-Axis ACR Output",
+    "address": "0x005F",
+    "adddress": "0x005F",
+    "hex": "005F",
+    "dec": 95,
+    "page": 118
+  },
+  {
+    "param": "U6-08",
+    "name": "d-Axis ACR Output",
+    "address": "0x0060",
+    "adddress": "0x0060",
+    "hex": "0060",
+    "dec": 96,
+    "page": 118
+  },
+  {
+    "param": "U6-09",
+    "name": "Adv Phase Compen Δθ",
+    "address": "0x07C0",
+    "adddress": "0x07C0",
+    "hex": "07C0",
+    "dec": 1984,
+    "page": 118
+  },
+  {
+    "param": "U6-10",
+    "name": "Cont Axis Deviation Δθ",
+    "address": "0x07C1",
+    "adddress": "0x07C1",
+    "hex": "07C1",
+    "dec": 1985,
+    "page": 118
+  },
+  {
+    "param": "U6-13",
+    "name": "Flux Pos Detect sensor",
+    "address": "0x07CA",
+    "adddress": "0x07CA",
+    "hex": "07CA",
+    "dec": 1994,
+    "page": 118
+  },
+  {
+    "param": "U6-14",
+    "name": "Flux Pos Estim Ob server",
+    "address": "0x07CB",
+    "adddress": "0x07CB",
+    "hex": "07CB",
+    "dec": 1995,
+    "page": 118
+  },
+  {
+    "param": "U6-17",
+    "name": "Total Current Value for Detectionof Directionof Motor",
+    "address": "0x07D1",
+    "adddress": "0x07D1",
+    "hex": "07D1",
+    "dec": 2001,
+    "page": 118
+  },
+  {
+    "param": "U6-18",
+    "name": "Spd Detect PG 1 Counter",
+    "address": "0x07CD",
+    "adddress": "0x07CD",
+    "hex": "07CD",
+    "dec": 1997,
+    "page": 118
+  },
+  {
+    "param": "U6-19",
+    "name": "Spd Detect PG 2 Counter",
+    "address": "0x07E5",
+    "adddress": "0x07E5",
+    "hex": "07E5",
+    "dec": 2021,
+    "page": 118
+  },
+  {
+    "param": "U6-20",
+    "name": "Frequency Ref Bias(Up/Down 2)",
+    "address": "0x07D4",
+    "adddress": "0x07D4",
+    "hex": "07D4",
+    "dec": 2004,
+    "page": 118
+  },
+  {
+    "param": "U6-21",
+    "name": "Offset Frequency",
+    "address": "0x07D5",
+    "adddress": "0x07D5",
+    "hex": "07D5",
+    "dec": 2005,
+    "page": 118
+  },
+  {
+    "param": "U6-22",
+    "name": "Zero Servo Pulse Move",
+    "address": "0x0062",
+    "adddress": "0x0062",
+    "hex": "0062",
+    "dec": 98,
+    "page": 118
+  },
+  {
+    "param": "U6-25",
+    "name": "Fdbk Control Output",
+    "address": "0x006B",
+    "adddress": "0x006B",
+    "hex": "006B",
+    "dec": 107,
+    "page": 118
+  },
+  {
+    "param": "U6-26",
+    "name": "Feed Fwd Cont Output",
+    "address": "0x006C",
+    "adddress": "0x006C",
+    "hex": "006C",
+    "dec": 108,
+    "page": 118
+  },
+  {
+    "param": "U6-27",
+    "name": "FFEstimate SPD",
+    "address": "0x006D",
+    "adddress": "0x006D",
+    "hex": "006D",
+    "dec": 109,
+    "page": 119
+  },
+  {
+    "param": "U6-36",
+    "name": "Comm Errors- HOST Counts",
+    "address": "0x0720",
+    "adddress": "0x0720",
+    "hex": "0720",
+    "dec": 1824,
+    "page": 119
+  },
+  {
+    "param": "U6-37",
+    "name": "Comm Errors- Sensor Counts",
+    "address": "0x0721",
+    "adddress": "0x0721",
+    "hex": "0721",
+    "dec": 1825,
+    "page": 119
+  },
+  {
+    "param": "U6-48",
+    "name": "ASICComm Errors Counts",
+    "address": "0x072E",
+    "adddress": "0x072E",
+    "hex": "072E",
+    "dec": 1838,
+    "page": 119
+  },
+  {
+    "param": "U6-57",
+    "name": "Pole Dis Id Dif Val",
+    "address": "0x07C4",
+    "adddress": "0x07C4",
+    "hex": "07C4",
+    "dec": 1988,
+    "page": 119
+  },
+  {
+    "param": "U6-92",
+    "name": "Online Speed",
+    "address": "0x07F2",
+    "adddress": "0x07F2",
+    "hex": "07F2",
+    "dec": 2034,
+    "page": 119
+  },
+  {
+    "param": "U6-93",
+    "name": "Online Duplex",
+    "address": "0x07F3",
+    "adddress": "0x07F3",
+    "hex": "07F3",
+    "dec": 2035,
+    "page": 119
+  },
+  {
+    "param": "U6-98",
+    "name": "First Fault",
+    "address": "0x07F8",
+    "adddress": "0x07F8",
+    "hex": "07F8",
+    "dec": 2040,
+    "page": 119
+  },
+  {
+    "param": "U6-99",
+    "name": "Current Fault",
+    "address": "0x07F9",
+    "adddress": "0x07F9",
+    "hex": "07F9",
+    "dec": 2041,
+    "page": 119
+  },
+  {
+    "param": "U8-18",
+    "name": "Drive Works EZ Platform Ver",
+    "address": "0x1961",
+    "adddress": "0x1961",
+    "hex": "1961",
+    "dec": 6497,
+    "page": 120
+  }
+]

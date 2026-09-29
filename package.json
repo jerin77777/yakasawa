@@ -5,6 +5,7 @@
   "main": "main/main.c",
   "scripts": {
     "set-target": "idf.py set-target esp32s3",
+    "codegen": "python generate_code.py",
     "build": "cmd /C \"set CMAKE_BUILD_PARALLEL_LEVEL=2&& idf.py build\"",
     "flash": "cmd /C \"set CMAKE_BUILD_PARALLEL_LEVEL=2&& idf.py flash monitor\"",
     "flash:port": "cmd /C \"set CMAKE_BUILD_PARALLEL_LEVEL=2&& idf.py flash monitor -p\"",

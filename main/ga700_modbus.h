@@ -42,7 +42,10 @@ extern "C" {
 #define GA700_REG_OUTPUT_POWER       0x0027   // Output Power (0.1 kW units) (Read)
 #define GA700_REG_DC_BUS_VOLTAGE     0x0028   // DC Bus Voltage (1 V units) (Read)
 #define GA700_REG_OUTPUT_TORQUE      0x002B   // Output Torque (0.1 % units) (Read)
+#define GA700_REG_U1_01_FREQ_REF     0x0040   // Monitor U1-01: Frequency Reference (Read)
+#define GA700_REG_U1_02_OUTPUT_FREQ  0x0041   // Monitor U1-02: Output Frequency (Read)
 #define GA700_REG_U1_03_CURRENT      0x0042   // Monitor U1-03: Output Current (Read)
+#define GA700_REG_D1_01_FREQ_REF     0x0280   // Parameter d1-01: Frequency Reference 1 (Write)
 
 // ============================================================================
 // Bitmasks for GA700 Command Register (0x0001)
@@ -173,6 +176,36 @@ esp_err_t ga700_set_frequency(float freq_hz);
  * @return esp_err_t ESP_OK on success
  */
 esp_err_t ga700_reset_fault(void);
+
+/**
+ * @brief Write Frequency Reference 1 (d1-01 / Register 0x0280)
+ * @param freq_hz Frequency in Hz (e.g. 50.00 Hz)
+ * @return esp_err_t ESP_OK on success
+ */
+esp_err_t ga700_write_frequency_d1_01(float freq_hz);
+
+/**
+ * @brief Write Frequency to Active Frequency Reference register (0x0002)
+ * @param freq_hz Frequency in Hz (e.g. 50.00 Hz)
+ * @return esp_err_t ESP_OK on success
+ */
+esp_err_t ga700_write_frequency_both(float freq_hz);
+
+/**
+ * @brief Read Monitor U1-01: Frequency Reference (Register 0x0040)
+ * @param raw_val Pointer to store raw 16-bit register value
+ * @param freq_hz Pointer to store converted frequency in Hz
+ * @return esp_err_t ESP_OK on success
+ */
+esp_err_t ga700_read_frequency_u1_01(uint16_t *raw_val, float *freq_hz);
+
+/**
+ * @brief Read Monitor U1-02: Output Frequency (Register 0x0041)
+ * @param raw_val Pointer to store raw 16-bit register value
+ * @param freq_hz Pointer to store converted frequency in Hz
+ * @return esp_err_t ESP_OK on success
+ */
+esp_err_t ga700_read_frequency_u1_02(uint16_t *raw_val, float *freq_hz);
 
 /**
  * @brief Read Monitor U1-03: Output Current (Register 0x0042)

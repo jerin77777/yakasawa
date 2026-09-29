@@ -58,6 +58,100 @@ Configure the following parameters on the **GA700 Keypad**:
 
 ---
 
+## 📡 Wi-Fi Communication & Embedded REST API
+
+The ESP32 creates a standalone industrial **Wi-Fi SoftAP** and can optionally connect to your local Wi-Fi router (Station mode):
+
+- **SoftAP SSID**: `ESP32-GA700`
+- **SoftAP Password**: `12345678`
+- **Default SoftAP IP**: `192.168.4.1` (Port 80)
+- **Optional Station Mode**: Enter your router's SSID/password in `main/main.c` (`WIFI_STA_SSID` / `WIFI_STA_PASS`).
+
+Upon boot, the ESP32 prints a prominent banner in the serial console containing its assigned IP address:
+```text
+==================================================================
+             >>> ESP32-S3 WI-FI COMMUNICATION READY <<<           
+==================================================================
+  * SoftAP Network SSID  : ESP32-GA700
+  * SoftAP Password      : 12345678
+  * SoftAP IP Address    : 192.168.4.1
+  * Target URL           : http://192.168.4.1/
+==================================================================
+```
+
+### 📋 REST API Endpoints
+
+| Method | Endpoint | Description | Modbus Register |
+|--------|----------|-------------|-----------------|
+| `GET` | `/api/frequency` | Read Frequency Reference Monitor | **U1-01 (`0x0040`)** |
+| `POST` | `/api/frequency` | Write Target Frequency Reference 1 | **d1-01 (`0x0280`)** |
+| `POST` | `/api/run` | Run Drive (Forward) | Command Reg (`0x0001`) |
+| `POST` | `/api/stop` | Stop Drive | Command Reg (`0x0001`) |
+| `GET` | `/api/status` | Full Telemetry (Freq, Current, Voltage, State) | Registers `0x0020` - `0x0042` |
+| `GET` | `/api/param?addr=0x0100` | Read ANY parameter register by Address / Code | e.g. `A1-00` (`0x0100`) |
+| `POST` | `/api/param` | Write ANY parameter register by Address / Value | e.g. `b1-01` (`0x0180`) |
+| `GET` | `/` | Built-in Diagnostic Web Interface | N/A |
+| `GET` | `/param_browser.html` | Standalone Web Parameter Explorer | 1,003 Parameters |
+
+---
+
+## 🛠️ Code Generation Script (`generate_code.py`)
+
+A fully automated Python code generation script is provided to read `params.json` and generate both frontend and ESP-IDF code with the correct register addresses:
+
+```bash
+# Run code generator
+python generate_code.py
+
+# Or via npm/pnpm shortcut
+pnpm run codegen
+```
+
+### What It Generates:
+1. **Frontend Dart Models** (`frontend/lib/generated_params_data.dart`):
+   - Parsed hierarchy with all 14 outer sections, sub-groups, and 1,003 parameters with exact hex/decimal addresses.
+2. **Flutter Parameter Explorer Screen** (`frontend/lib/param_explorer_screen.dart`):
+   - Interactive UI listing all outer layer sections (10.4 A, 10.5 b, 10.6 C, etc.).
+   - Filter chips for sub-groups, instant live search by code/name/hex address.
+   - **READ** button: fetches live parameter value from ESP32 (`GET /api/param?addr=0x...`).
+   - **EDIT** button: modal dialog with decimal & hex input/preview and confirmation write (`POST /api/param`).
+3. **ESP-IDF C Database** (`main/generated_params.h` & `main/generated_params.c`):
+   - In-flash database of 1,003 parameter metadata items with $O(\log N)$ binary search lookup.
+4. **ESP-IDF REST API Handlers** (`main/param_handlers.h` & `main/param_handlers.c`):
+   - High-performance, non-blocking Modbus read/write endpoints with CORS support.
+5. **Standalone Web Explorer** (`frontend/web/param_browser.html`):
+   - Single-page web application to browse, search, read, and edit parameters in any web browser.
+
+---
+
+## 📱 Flutter Frontend Controller
+
+A complete Flutter application is provided in the `frontend` folder to connect to the ESP32 over Wi-Fi:
+
+### Running the Flutter App:
+```bash
+cd frontend
+
+# Run on Windows Desktop
+flutter run -d windows
+
+# Or run on Chrome Web Browser
+flutter run -d chrome
+
+# Or run on connected Android Device
+flutter run -d android
+```
+
+### Flutter Features:
+1. **IP Connection Bar**: Connect to `192.168.4.1` (or local station IP) with real-time ping latency.
+2. **Frequency Read (U1-01 / `0x0040`)**: Large digital readout, raw register value, auto-polling or manual refresh.
+3. **Frequency Write (d1-01 / `0x0280`)**: Stepper buttons, frequency slider, quick presets (10–60 Hz), direct write button.
+4. **Drive Controls**: RUN (Forward) and STOP buttons with active state glow.
+5. **Live Telemetry**: Current (U1-03 / `0x0042`), Output Frequency (U1-02 / `0x0041`), Voltage.
+6. **Activity Terminal**: Real-time log of TX and RX HTTP/Modbus packets.
+
+---
+
 ## ⚡ Flashing via `pnpm` Shortcuts
 
 You can now use `pnpm` shortcuts to set up, build, flash, and monitor your board:

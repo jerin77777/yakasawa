@@ -7,6 +7,7 @@
 #include "esp_log.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "freertos/semphr.h"
 #include "ga700_modbus.h"
 
 static const char *TAG = "GA700_MODBUS";
@@ -14,6 +15,7 @@ static const char *TAG = "GA700_MODBUS";
 static ga700_config_t g_dev_cfg;
 static bool g_initialized = false;
 static uint16_t g_last_command_val = 0; // State cache for command register 0x0001
+static SemaphoreHandle_t g_modbus_mutex = NULL; // Thread-safe protection for RS-485 bus
 
 // ============================================================================
 // Modbus RTU Helper Functions
@@ -108,13 +110,17 @@ esp_err_t ga700_init(const ga700_config_t *config)
         return err;
     }
 
+    if (g_modbus_mutex == NULL) {
+        g_modbus_mutex = xSemaphoreCreateMutex();
+    }
+
     g_initialized = true;
     ESP_LOGI(TAG, "RS-485 driver successfully initialized for Yaskawa GA700");
     return ESP_OK;
 }
 
-// Read Holding Registers (Function Code 0x03)
-esp_err_t ga700_read_holding_registers(uint16_t start_reg, uint16_t num_regs, uint16_t *out_buf)
+// Internal Unlocked Read Holding Registers (Function Code 0x03)
+static esp_err_t ga700_read_holding_registers_internal(uint16_t start_reg, uint16_t num_regs, uint16_t *out_buf)
 {
     if (!g_initialized) {
         ESP_LOGE(TAG, "Driver not initialized!");
@@ -205,13 +211,31 @@ esp_err_t ga700_read_holding_registers(uint16_t start_reg, uint16_t num_regs, ui
     return ESP_OK;
 }
 
+// Thread-safe Read Holding Registers (Function Code 0x03)
+esp_err_t ga700_read_holding_registers(uint16_t start_reg, uint16_t num_regs, uint16_t *out_buf)
+{
+    if (g_modbus_mutex != NULL) {
+        if (xSemaphoreTake(g_modbus_mutex, pdMS_TO_TICKS(2000)) != pdTRUE) {
+            ESP_LOGE(TAG, "Failed to acquire Modbus mutex for read");
+            return ESP_ERR_TIMEOUT;
+        }
+    }
+
+    esp_err_t ret = ga700_read_holding_registers_internal(start_reg, num_regs, out_buf);
+
+    if (g_modbus_mutex != NULL) {
+        xSemaphoreGive(g_modbus_mutex);
+    }
+    return ret;
+}
+
 esp_err_t ga700_read_holding_register(uint16_t reg_addr, uint16_t *out_val)
 {
     return ga700_read_holding_registers(reg_addr, 1, out_val);
 }
 
-// Write Single Register (Function Code 0x06)
-esp_err_t ga700_write_single_register(uint16_t reg_addr, uint16_t value)
+// Internal Unlocked Write Single Register (Function Code 0x06)
+static esp_err_t ga700_write_single_register_internal(uint16_t reg_addr, uint16_t value)
 {
     if (!g_initialized) {
         ESP_LOGE(TAG, "Driver not initialized!");
@@ -266,6 +290,24 @@ esp_err_t ga700_write_single_register(uint16_t reg_addr, uint16_t value)
     }
 
     return ESP_OK;
+}
+
+// Thread-safe Write Single Register (Function Code 0x06)
+esp_err_t ga700_write_single_register(uint16_t reg_addr, uint16_t value)
+{
+    if (g_modbus_mutex != NULL) {
+        if (xSemaphoreTake(g_modbus_mutex, pdMS_TO_TICKS(2000)) != pdTRUE) {
+            ESP_LOGE(TAG, "Failed to acquire Modbus mutex for write");
+            return ESP_ERR_TIMEOUT;
+        }
+    }
+
+    esp_err_t ret = ga700_write_single_register_internal(reg_addr, value);
+
+    if (g_modbus_mutex != NULL) {
+        xSemaphoreGive(g_modbus_mutex);
+    }
+    return ret;
 }
 
 // ============================================================================
@@ -366,6 +408,69 @@ esp_err_t ga700_read_output_current_u1_03(uint16_t *raw_val, float *current_amps
     if (current_amps != NULL) {
         // Yaskawa GA700 U1-03 standard resolution is 0.01 A (or 0.1 A for large models)
         *current_amps = reg_val / 100.0f;
+    }
+
+    return ESP_OK;
+}
+
+esp_err_t ga700_write_frequency_d1_01(float freq_hz)
+{
+    if (freq_hz < 0.0f || freq_hz > 400.0f) {
+        ESP_LOGE(TAG, "Invalid frequency: %.2f Hz (Allowed: 0 to 400 Hz)", freq_hz);
+        return ESP_ERR_INVALID_ARG;
+    }
+
+    // GA700 Frequency resolution is 0.01 Hz (e.g. 50.00 Hz = 5000 / 0x1388)
+    uint16_t raw_val = (uint16_t)(freq_hz * 100.0f + 0.5f);
+    ESP_LOGI(TAG, "Writing Parameter d1-01 (0x0280): %.2f Hz (Raw: %u / 0x%04X)", freq_hz, raw_val, raw_val);
+    return ga700_write_single_register(GA700_REG_D1_01_FREQ_REF, raw_val);
+}
+
+esp_err_t ga700_write_frequency_both(float freq_hz)
+{
+    // Write only to Active Frequency Reference register (0x0002)
+    return ga700_set_frequency(freq_hz);
+}
+
+esp_err_t ga700_read_frequency_u1_01(uint16_t *raw_val, float *freq_hz)
+{
+    if (raw_val == NULL && freq_hz == NULL) {
+        return ESP_ERR_INVALID_ARG;
+    }
+
+    uint16_t reg_val = 0;
+    esp_err_t err = ga700_read_holding_register(GA700_REG_U1_01_FREQ_REF, &reg_val);
+    if (err != ESP_OK) {
+        return err;
+    }
+
+    if (raw_val != NULL) {
+        *raw_val = reg_val;
+    }
+    if (freq_hz != NULL) {
+        *freq_hz = reg_val / 100.0f;
+    }
+
+    return ESP_OK;
+}
+
+esp_err_t ga700_read_frequency_u1_02(uint16_t *raw_val, float *freq_hz)
+{
+    if (raw_val == NULL && freq_hz == NULL) {
+        return ESP_ERR_INVALID_ARG;
+    }
+
+    uint16_t reg_val = 0;
+    esp_err_t err = ga700_read_holding_register(GA700_REG_U1_02_OUTPUT_FREQ, &reg_val);
+    if (err != ESP_OK) {
+        return err;
+    }
+
+    if (raw_val != NULL) {
+        *raw_val = reg_val;
+    }
+    if (freq_hz != NULL) {
+        *freq_hz = reg_val / 100.0f;
     }
 
     return ESP_OK;

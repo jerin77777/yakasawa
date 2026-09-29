@@ -1,0 +1,406 @@
+{
+    "10.4": {
+        "name": "A: Initialization Parameters",
+        "page": 400,
+        "parameters": {
+            "A1": {
+                "name": "Initialization",
+                "page": 400
+            },
+            "A2": {
+                "name": "User Parameters",
+                "page": 401
+            }
+        }
+    },
+    "10.5": {
+        "name": "b: Application",
+        "page": 402,
+        "parameters": {
+            "b1": {
+                "name": "Operation Mode Selection",
+                "page": 402
+            },
+            "b2": {
+                "name": "DC Injection Braking and Short Circuit Braking",
+                "page": 403
+            },
+            "b3": {
+                "name": "Speed Search",
+                "page": 404
+            },
+            "b4": {
+                "name": "Timer Function",
+                "page": 406
+            },
+            "b5": {
+                "name": "PID Control",
+                "page": 407
+            },
+            "b6": {
+                "name": "Dwell Function",
+                "page": 410
+            },
+            "b7": {
+                "name": "Droop Control",
+                "page": 411
+            },
+            "b8": {
+                "name": "Energy Saving",
+                "page": 411
+            },
+            "b9": {
+                "name": "Zero Servo",
+                "page": 412
+            }
+        }
+    },
+    "10.6": {
+        "name": "C: Tuning",
+        "page": 413,
+        "parameters": {
+            "C1": {
+                "name": "Accel and Decel Times",
+                "page": 413
+            },
+            "C2": {
+                "name": "S-Curve Characteristics",
+                "page": 413
+            },
+            "C3": {
+                "name": "Slip Compensation",
+                "page": 414
+            },
+            "C4": {
+                "name": "Torque Compensation",
+                "page": 415
+            },
+            "C5": {
+                "name": "Automatic Speed Regulator",
+                "page": 416
+            },
+            "C6": {
+                "name": "Carrier Frequency",
+                "page": 418
+            }
+        }
+    },
+    "10.7": {
+        "name": "d: Reference Settings",
+        "page": 419,
+        "parameters": {
+            "d1": {
+                "name": "Frequency Reference",
+                "page": 419
+            },
+            "d2": {
+                "name": "Reference Limits",
+                "page": 421
+            },
+            "d3": {
+                "name": "Jump Frequency",
+                "page": 421
+            },
+            "d4": {
+                "name": "Frequency Reference Hold and Up/Down 2 Function",
+                "page": 422
+            },
+            "d5": {
+                "name": "Torque Control",
+                "page": 423
+            },
+            "d6": {
+                "name": "Field Weakening and Field Forcing",
+                "page": 423
+            },
+            "d7": {
+                "name": "Offset Frequency",
+                "page": 424
+            }
+        }
+    },
+    "10.8": {
+        "name": "E: Motor Parameters",
+        "page": 425,
+        "parameters": {
+            "E1": {
+                "name": "V/f Pattern for Motor 1",
+                "page": 425
+            },
+            "E2": {
+                "name": "Motor Parameters",
+                "page": 426
+            },
+            "E3": {
+                "name": "V/f Pattern for Motor 2",
+                "page": 427
+            },
+            "E4": {
+                "name": "Motor 2 Parameters",
+                "page": 428
+            },
+            "E5": {
+                "name": "PM Motor Settings",
+                "page": 429
+            },
+            "E9": {
+                "name": "Motor Setting",
+                "page": 429
+            }
+        }
+    },
+    "10.9": {
+        "name": "F: Options",
+        "page": 431,
+        "parameters": {
+            "F1": {
+                "name": "PG Speed Control Card (Encoder)",
+                "page": 431
+            },
+            "F2": {
+                "name": "Analog Input Option",
+                "page": 433
+            },
+            "F3": {
+                "name": "Digital Input Option",
+                "page": 434
+            },
+            "F4": {
+                "name": "Analog Monitor Option",
+                "page": 435
+            },
+            "F5": {
+                "name": "Digital Output Option",
+                "page": 436
+            },
+            "F6": {
+                "name": "Communication Option and Ethernet Option",
+                "page": 437
+            },
+            "F7": {
+                "name": "Communication Option and Ethernet Option",
+                "page": 441
+            }
+        }
+    },
+    "10.10": {
+        "name": "H: Terminal Functions",
+        "page": 446,
+        "parameters": {
+            "H1": {
+                "name": "Multi-Function Digital Inputs",
+                "page": 446
+            },
+            "H2": {
+                "name": "Multi-Function Digital Outputs",
+                "page": 452
+            },
+            "H3": {
+                "name": "Multi-Function Analog Inputs",
+                "page": 460
+            },
+            "H4": {
+                "name": "Analog Outputs",
+                "page": 463
+            },
+            "H5": {
+                "name": "MEMOBUS/Modbus Communication",
+                "page": 464
+            },
+            "H6": {
+                "name": "Pulse Train Input/Output",
+                "page": 465
+            },
+            "H7": {
+                "name": "Virtual Multi-Function I/O",
+                "page": 466
+            }
+        }
+    },
+    "10.11": {
+        "name": "L: Protection Function",
+        "page": 468,
+        "parameters": {
+            "L1": {
+                "name": "Motor Protection",
+                "page": 468
+            },
+            "L2": {
+                "name": "Momentary Power Loss Ride-Thru",
+                "page": 469
+            },
+            "L3": {
+                "name": "Stall Prevention",
+                "page": 470
+            },
+            "L4": {
+                "name": "Speed Detection",
+                "page": 472
+            },
+            "L5": {
+                "name": "Fault Restart",
+                "page": 473
+            },
+            "L6": {
+                "name": "Torque Detection",
+                "page": 473
+            },
+            "L7": {
+                "name": "Torque Limit",
+                "page": 474
+            },
+            "L8": {
+                "name": "Hardware Protection",
+                "page": 475
+            },
+            "L9": {
+                "name": "Drive Protection 2",
+                "page": 478
+            }
+        }
+    },
+    "10.12": {
+        "name": "n: Special Adjustment",
+        "page": 479,
+        "parameters": {
+            "n1": {
+                "name": "Hunting Prevention",
+                "page": 479
+            },
+            "n2": {
+                "name": "SpdFeedbackDetectControl(AFR)Tun",
+                "page": 480
+            },
+            "n3": {
+                "name": "High Slip Braking (HSB)",
+                "page": 480
+            },
+            "n4": {
+                "name": "Observer",
+                "page": 481
+            },
+            "n5": {
+                "name": "Feed Forward Control",
+                "page": 482
+            },
+            "n6": {
+                "name": "Online Tuning",
+                "page": 482
+            },
+            "n7": {
+                "name": "EZ Drive",
+                "page": 482
+            },
+            "n8": {
+                "name": "PM Motor Control Tuning",
+                "page": 483
+            }
+        }
+    },
+    "10.13": {
+        "name": "o: Keypad-Related Settings",
+        "page": 486,
+        "parameters": {
+            "o1": {
+                "name": "Keypad Display Selection",
+                "page": 486
+            },
+            "o2": {
+                "name": "Keypad Operation",
+                "page": 488
+            },
+            "o3": {
+                "name": "Copy Function",
+                "page": 489
+            },
+            "o4": {
+                "name": "Maintenance Mon Settings",
+                "page": 489
+            },
+            "o5": {
+                "name": "Log Function",
+                "page": 490
+            }
+        }
+    },
+    "10.14": {
+        "name": "q: DriveWorksEZ Parameters",
+        "page": 492,
+        "parameters": {
+            "q1-01_to_q8-40": {
+                "name": "Reserved for DriveWorksEZ",
+                "page": 492
+            }
+        }
+    },
+    "10.15": {
+        "name": "r: DWEZ Connection 1-20",
+        "page": 493,
+        "parameters": {
+            "r1-01_to_r1-40": {
+                "name": "DriveWorksEZ Connection Parameters 1 to 20 (Upper / Lower)",
+                "page": 493
+            }
+        }
+    },
+    "10.16": {
+        "name": "T: Motor Tuning",
+        "page": 494,
+        "parameters": {
+            "T0": {
+                "name": "Tuning Mode Selection",
+                "page": 494
+            },
+            "T1": {
+                "name": "Induction Motor Auto-Tuning",
+                "page": 494
+            },
+            "T2": {
+                "name": "PM Motor Auto-Tuning",
+                "page": 495
+            },
+            "T3": {
+                "name": "ASR and Inertia Tuning",
+                "page": 496
+            },
+            "T4": {
+                "name": "EZ Tuning",
+                "page": 496
+            }
+        }
+    },
+    "10.17": {
+        "name": "U: Monitors",
+        "page": 498,
+        "parameters": {
+            "U1": {
+                "name": "Operation Status Monitor",
+                "page": 498
+            },
+            "U2": {
+                "name": "Fault Trace",
+                "page": 500
+            },
+            "U3": {
+                "name": "Fault History",
+                "page": 503
+            },
+            "U4": {
+                "name": "Maintenance Monitors",
+                "page": 504
+            },
+            "U5": {
+                "name": "PID Monitors",
+                "page": 508
+            },
+            "U6": {
+                "name": "Operation Status Monitors",
+                "page": 509
+            },
+            "U8": {
+                "name": "DriveWorksEZ Monitors",
+                "page": 512
+            }
+        }
+    }
+}
